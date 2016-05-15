@@ -1,0 +1,1429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		93072CBD4DFB4EA4A32BA8CE /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 010D6B70E0C24F7591AC1FC7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				75BBA5107F764457AFB7BD9C /* CMake Rules */,
+			);
+			dependencies = (
+				DA54AF9C725645BA87ACD974 /* PBXTargetDependency */,
+				6075929FF13C4A91891CED16 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		BF007B14F3AF43C5B0E0AEAA /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C0E34B7FBDD74650BA5EDDE8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				A02F2F2E032A4FF7960E420D /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0099FAB389754DFC9199BF6D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/zutil.c */ = {isa = PBXBuildFile; fileRef = B8D000DE2C934CBBB71EAE95 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/zutil.c */; settings = {COMPILER_FLAGS = ""; }; };
+		05EACDFF1EC64759B31C3367 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/build/XMP_BuildInfo.h */ = {isa = PBXBuildFile; fileRef = 832CACBEED06474D870028B2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/build/XMP_BuildInfo.h */; settings = {COMPILER_FLAGS = ""; }; };
+		09267759FA7340A6899A9F94 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inffixed.h */ = {isa = PBXBuildFile; fileRef = C70BC07D435D4D839582A1A0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inffixed.h */; settings = {COMPILER_FLAGS = ""; }; };
+		0A39F82EE0D8408EB077AA97 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/SWF_Handler.hpp */ = {isa = PBXBuildFile; fileRef = 6DE7C8DAFB5249999F6C140F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/SWF_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0B25428370F642F49CD2FB84 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/Basic_Handler.hpp */ = {isa = PBXBuildFile; fileRef = DCFA51E07AD9465B893F138B /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/Basic_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0B35A14F95B44DCEB11FF194 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/Scanner_Handler.cpp */ = {isa = PBXBuildFile; fileRef = A646B503139F41E8A1EDBB71 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/Scanner_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0B9A51DBA8D9440A92CED585 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/XMPFiles.hpp */ = {isa = PBXBuildFile; fileRef = CC61C5B314CE4AFD85D666C5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/XMPFiles.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0CED073CA56A46E9B7C88665 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/XMPScanner.cpp */ = {isa = PBXBuildFile; fileRef = 665169AC84234FEDA67DAA4E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/XMPScanner.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0D5BC1A6502040B6A24AF717 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/AIFF/AIFFReconcile.cpp */ = {isa = PBXBuildFile; fileRef = 0669219DAF404626B76890D8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/AIFF/AIFFReconcile.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0F521F2E1C0A467EBD2A6F3F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/WXMPFiles.hpp */ = {isa = PBXBuildFile; fileRef = 1C2CFBD09D0F453492064110 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/WXMPFiles.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		12EAF98FD3774E66B6CCB581 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/MOOV_Support.cpp */ = {isa = PBXBuildFile; fileRef = 71AB78C98BB44E20A021082A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/MOOV_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		133087C1FD4B406A9B386843 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/InDesign_Handler.hpp */ = {isa = PBXBuildFile; fileRef = 093A1D37B24146A7B400DD71 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/InDesign_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1386C37B4F0844B2A267A8C4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PNG_Support.hpp */ = {isa = PBXBuildFile; fileRef = 2FAD1229D79D421AA928E0A2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PNG_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		17F5909893B64A0BB35147F4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/Scanner_Handler.hpp */ = {isa = PBXBuildFile; fileRef = 2539378102214325AA467190 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/Scanner_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1D773427F8C54F239628ACBF /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/TXMPFiles.incl_cpp */ = {isa = PBXBuildFile; fileRef = 3DD656A4F1D846109B67D282 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/TXMPFiles.incl_cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1D8771B8C5EC4B0E8B2DF9E1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/MP3_Handler.cpp */ = {isa = PBXBuildFile; fileRef = B5B60269DD9B4FD8A8F6C7B4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/MP3_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1DBACA38F4884AA28855C9FB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/Host_IO.hpp */ = {isa = PBXBuildFile; fileRef = 4A115D226656436AAF860647 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/Host_IO.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1DDDED716D22461D8653B43D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PNG_Support.cpp */ = {isa = PBXBuildFile; fileRef = DC0811DA65CD409DBDE95BC3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PNG_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1EB0EB6312444417A31FD491 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/Cr8rMetadata.h */ = {isa = PBXBuildFile; fileRef = 64A1FF1EE78144B784FA9AC7 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/Cr8rMetadata.h */; settings = {COMPILER_FLAGS = ""; }; };
+		20C23417100C41FAB1F026F9 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/SafeStringAPIs.h */ = {isa = PBXBuildFile; fileRef = D724CE2D3F234E018037E5F6 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/SafeStringAPIs.h */; settings = {COMPILER_FLAGS = ""; }; };
+		223750786A8F4C8BB6DA5CD0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/SonyHDV_Handler.cpp */ = {isa = PBXBuildFile; fileRef = 4E79A2DC44674CB2814F23C3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/SonyHDV_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		24E1EA70F6A648529AE63B16 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/PluginManager.cpp */ = {isa = PBXBuildFile; fileRef = 6D5EC772583544D9BD307860 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/PluginManager.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		29834213DAF74E80888ECB45 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/P2_Handler.hpp */ = {isa = PBXBuildFile; fileRef = 6CAEC68DFED24B9A97818A65 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/P2_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		29934E339B9B4F88917590AE /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/PrmLMetadata.h */ = {isa = PBXBuildFile; fileRef = 0749EDF96229468A8ACAC242 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/PrmLMetadata.h */; settings = {COMPILER_FLAGS = ""; }; };
+		2ABF6860C87B440EA002661C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/XMPFiles.cpp */ = {isa = PBXBuildFile; fileRef = 00FAF2D121F64DE19B0B32AA /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/XMPFiles.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2D0B6D35A64946DF96D93B5F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/P2_Handler.cpp */ = {isa = PBXBuildFile; fileRef = 6034B9AF3C4C45C98FFDF188 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/P2_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2D901F08987C4E05884E3940 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/CartMetadata.cpp */ = {isa = PBXBuildFile; fileRef = 973BA8BA9A2A416397BA9B8E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/CartMetadata.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2F82F9E91211427885625FE8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/XDCAM_Handler.cpp */ = {isa = PBXBuildFile; fileRef = 67BB336DE00B4FC0A7872F9D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/XDCAM_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		303D89F7581940D9BF1BCB94 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/WAVEBehavior.cpp */ = {isa = PBXBuildFile; fileRef = E5A882CBF50747098C6F0C1C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/WAVEBehavior.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		318E409628E749EC871C69A6 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/HandlerRegistry.cpp */ = {isa = PBXBuildFile; fileRef = 58FC3040ACDC4C1394A44639 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/HandlerRegistry.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		31C54EE971E147B9B9AF66C1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ISOBaseMedia_Support.cpp */ = {isa = PBXBuildFile; fileRef = 30BF1144439B43E2A62033E0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ISOBaseMedia_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3316FEADBA3E41E68E991662 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/infback.c */ = {isa = PBXBuildFile; fileRef = 33B9130FD4E0497BBB02B607 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/infback.c */; settings = {COMPILER_FLAGS = ""; }; };
+		3509AF9CBBBA496FBD8EB89F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/IChunkContainer.h */ = {isa = PBXBuildFile; fileRef = 047C0AAB6DBE4B93B98AE760 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/IChunkContainer.h */; settings = {COMPILER_FLAGS = ""; }; };
+		35C16BA53FD84854B5B51AEE /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/deflate.c */ = {isa = PBXBuildFile; fileRef = 7E7D9B0E5ADD44E3A63B2397 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/deflate.c */; settings = {COMPILER_FLAGS = ""; }; };
+		36706BCC58AF4BFC8956DA94 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/PluginManager.h */ = {isa = PBXBuildFile; fileRef = 5EA99ADE710749ADAF616A71 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/PluginManager.h */; settings = {COMPILER_FLAGS = ""; }; };
+		36F9BFFBF55E4E279C612306 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_Version.h */ = {isa = PBXBuildFile; fileRef = 40E9312805C54F4F9FBB4452 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_Version.h */; settings = {COMPILER_FLAGS = ""; }; };
+		377F6BD5A0FD4A49B166D847 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/IChunkBehavior.cpp */ = {isa = PBXBuildFile; fileRef = FFB0FFFF607B4CC2A4B9F4DC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/IChunkBehavior.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		37ABBAAAD65C4F45A2B4F0C8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/crc32.c */ = {isa = PBXBuildFile; fileRef = 512DE82D8E0A433FB99B3675 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/crc32.c */; settings = {COMPILER_FLAGS = ""; }; };
+		37E45576069F40AC98D8CB82 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/INFOMetadata.h */ = {isa = PBXBuildFile; fileRef = 82816A792F6F4FC19F179B9D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/INFOMetadata.h */; settings = {COMPILER_FLAGS = ""; }; };
+		382248587367494497649DA7 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/ChunkController.h */ = {isa = PBXBuildFile; fileRef = 5FEBC979AEF345B3A17CDE3E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/ChunkController.h */; settings = {COMPILER_FLAGS = ""; }; };
+		387EEC1911EA496195FC4292 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP.hpp */ = {isa = PBXBuildFile; fileRef = B92F4F9E04D149E8985283FA /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		398892446E9E43CF99DA0162 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/SafeTypes.h */ = {isa = PBXBuildFile; fileRef = 139B1405BB634C3B84D3DD04 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/SafeTypes.h */; settings = {COMPILER_FLAGS = ""; }; };
+		3A55CB38A88D482696C4B567 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/P2_Support.cpp */ = {isa = PBXBuildFile; fileRef = F84B5B26ABC94261BC8B9A40 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/P2_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3F90EFD2C80346088124F914 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/adler32.c */ = {isa = PBXBuildFile; fileRef = 067CAB9F362E49DF8EF511CE /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/adler32.c */; settings = {COMPILER_FLAGS = ""; }; };
+		40576DB5544F44B4AD8F5F27 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IPTC_Support.cpp */ = {isa = PBXBuildFile; fileRef = 6D8B6A7D8382491B8860C219 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IPTC_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		40DD4C23302141ADA8A8C397 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/XMPScanner.hpp */ = {isa = PBXBuildFile; fileRef = A96F3C1FA5B84631AE821D0C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/XMPScanner.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		40EDA767649A49FA94235BE5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/FLV_Handler.cpp */ = {isa = PBXBuildFile; fileRef = ECB200FAD3E3407FBE02672F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/FLV_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		42AC4A71D5A247FEA7669E72 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/QuickTime_Support.hpp */ = {isa = PBXBuildFile; fileRef = AD8F5FCDE9E2415F8DFE817B /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/QuickTime_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		43DADECB5DDC410AA1461E1A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/NativeMetadataSupport/IMetadata.cpp */ = {isa = PBXBuildFile; fileRef = 2CC99DA2E60B46768809DE87 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/NativeMetadataSupport/IMetadata.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		45B7AB26440E415E99D4ACD1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/RIFF.cpp */ = {isa = PBXBuildFile; fileRef = EF5BD81937EB4EFFB61E917E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/RIFF.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		475FADCA07F04A75AB50CF13 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/P2_Support.hpp */ = {isa = PBXBuildFile; fileRef = F53B104D4C95419BBDFD1253 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/P2_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4944794F52A04A18A0307D15 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/SuppressSAL.h */ = {isa = PBXBuildFile; fileRef = EFD686042F614F69A6B0E9BF /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/SuppressSAL.h */; settings = {COMPILER_FLAGS = ""; }; };
+		4D562E873B93490DB530379E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ReconcileLegacy.hpp */ = {isa = PBXBuildFile; fileRef = EB02A86816994CF6A222DD7F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ReconcileLegacy.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4E25301744724CEE82C935BC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/ModuleUtils.h */ = {isa = PBXBuildFile; fileRef = 06A18A04DEB343A58204B8A3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/ModuleUtils.h */; settings = {COMPILER_FLAGS = ""; }; };
+		4F49D02359134A2E90AFD3FB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ReconcileTIFF.cpp */ = {isa = PBXBuildFile; fileRef = AB642BEDA82541A49C548882 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ReconcileTIFF.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		503E70B3B7874653891C87E9 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/trees.h */ = {isa = PBXBuildFile; fileRef = 62E7012A5F9349FB81A0CCD5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/trees.h */; settings = {COMPILER_FLAGS = ""; }; };
+		505BEBDBB60943F8BA15EE52 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/FileHandlerInstance.cpp */ = {isa = PBXBuildFile; fileRef = 3DC3AE3BFA5444EA91EE8C6D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/FileHandlerInstance.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5072DD4A38F243C5A1AA16AB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/AIFF/AIFFMetadata.h */ = {isa = PBXBuildFile; fileRef = 31463298F5324C7BA3DBC36E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/AIFF/AIFFMetadata.h */; settings = {COMPILER_FLAGS = ""; }; };
+		5593DD7319394E3AA707DE4B /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/NativeMetadataSupport/IReconcile.cpp */ = {isa = PBXBuildFile; fileRef = 4B1FBC302B114009987BC8C1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/NativeMetadataSupport/IReconcile.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5905EE38D7744987B00FA18C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/BEXTMetadata.h */ = {isa = PBXBuildFile; fileRef = 34F4EE3DB5354BE48CBEBE91 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/BEXTMetadata.h */; settings = {COMPILER_FLAGS = ""; }; };
+		5DFE242E96FE411ABA5877D4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/XDCAM_Support.cpp */ = {isa = PBXBuildFile; fileRef = FE65CA52E0B548D89A122410 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/XDCAM_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5E3D754B9D1241E9BC802B33 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/AIFF/AIFFMetadata.cpp */ = {isa = PBXBuildFile; fileRef = AF051C28B4404ACE9F846BD5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/AIFF/AIFFMetadata.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5EC5248BF8BE4EFDB2087B75 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/WAVE_Handler.hpp */ = {isa = PBXBuildFile; fileRef = 34DB0D350FB64583B5EF9FE7 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/WAVE_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6209A81C4DA0458289BFEA1A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/Module.cpp */ = {isa = PBXBuildFile; fileRef = 4D38536243EE4411BB9E99B4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/Module.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		621B0461AAA1440B83CC1DCF /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPMeta.hpp */ = {isa = PBXBuildFile; fileRef = 198EBB5985F14F16BEEA6FD9 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPMeta.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		633265484102459B8900B7E4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/MPEG4_Handler.hpp */ = {isa = PBXBuildFile; fileRef = E56BD528CB3445ECA77EF4BF /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/MPEG4_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		684A41583A324C3F9FAFF3D2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PSIR_FileWriter.cpp */ = {isa = PBXBuildFile; fileRef = 02A22F529F694CE3B9D3D582 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PSIR_FileWriter.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		69AAFE198C2046D9A204D4F3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/RIFF_Handler.hpp */ = {isa = PBXBuildFile; fileRef = 3170EDD56CEB4DF7A0E18C15 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/RIFF_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		69FEA0FFCC344AE5A72AD8BE /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPFiles.hpp */ = {isa = PBXBuildFile; fileRef = E3CA349132604867AB7878BA /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPFiles.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6BA3015967F14BDEB8174501 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/XDCAMEX_Handler.cpp */ = {isa = PBXBuildFile; fileRef = D575576BBE25486D88302767 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/XDCAMEX_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6BC8164E43EF45E5AD8586D3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/WAVE_Handler.cpp */ = {isa = PBXBuildFile; fileRef = EC4B9766FD594CDD92CA3A78 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/WAVE_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6EFC47D5CEC344EEB0606D4D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/HostAPIImpl.cpp */ = {isa = PBXBuildFile; fileRef = 2F9713157B1940B392F4A80E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/HostAPIImpl.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6F64786455704FCABD970F27 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3BC1675228CE40BE8BD4F13C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		6FBD38D7289E41D7BECA022A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/WXMP_Common.hpp */ = {isa = PBXBuildFile; fileRef = CD89BBB8FB724879B6417325 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/WXMP_Common.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6FE2AE301F504036BF79B36F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ID3_Support.cpp */ = {isa = PBXBuildFile; fileRef = F02C7E2454424B09AFE98BD9 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ID3_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		773A33985AB94BDAB408ED88 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/SWF_Handler.cpp */ = {isa = PBXBuildFile; fileRef = D1B07AA8C3C04748A1F47F98 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/SWF_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7762A6BCA9384BDDABA00447 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/SWF_Support.cpp */ = {isa = PBXBuildFile; fileRef = 7059604E77F546568D7DAB9D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/SWF_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		77FAE158946B4977B97B9475 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP.incl_cpp */ = {isa = PBXBuildFile; fileRef = 947BA01152C645D5B93BABCF /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP.incl_cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		787B2B8388EF410CB373554A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/SWF_Support.hpp */ = {isa = PBXBuildFile; fileRef = 9B4FC58252BA48369927774B /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/SWF_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		791DA8F6C85E48F681E7F4FC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/Trivial_Handler.hpp */ = {isa = PBXBuildFile; fileRef = 73AD54597CE24F128CB7656A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/Trivial_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		79953894C214434B96FCF0A1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/DISPMetadata.h */ = {isa = PBXBuildFile; fileRef = 06233ADD5BBD4E498A26D7B0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/DISPMetadata.h */; settings = {COMPILER_FLAGS = ""; }; };
+		7B23A19ACA7E42D9B4858DD4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/Reconcile_Impl.hpp */ = {isa = PBXBuildFile; fileRef = 26C37AE3F07A490FAE81A862 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/Reconcile_Impl.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7DC3E6553A4C4881A8336785 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TimeConversionUtils.cpp */ = {isa = PBXBuildFile; fileRef = 11953A82D389412B801D1BF5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TimeConversionUtils.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7F0B04C87A334CED84E25175 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/PSD_Handler.hpp */ = {isa = PBXBuildFile; fileRef = E1D0038526134B22915D23B3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/PSD_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8066D783A2AA45B0BAEE95EE /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/WAVEReconcile.cpp */ = {isa = PBXBuildFile; fileRef = BF0EFB4C8F7D4027AE3188E9 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/WAVEReconcile.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		81367B235D0F4333A62199FE /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/PNG_Handler.cpp */ = {isa = PBXBuildFile; fileRef = 4D89721E9ED84BD29BF24AB5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/PNG_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		815EFAF3CE3746B7B53399E6 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/WAVEBehavior.h */ = {isa = PBXBuildFile; fileRef = FE2E4BA96B774CFAB508EC2D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/WAVEBehavior.h */; settings = {COMPILER_FLAGS = ""; }; };
+		81F2F47B5E3B42BB8C0ACE2C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/TIFF_Handler.cpp */ = {isa = PBXBuildFile; fileRef = B7AAD4D5408A4FC0AD5D8D94 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/TIFF_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		82CECA390978427B92F4FC18 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/PNG_Handler.hpp */ = {isa = PBXBuildFile; fileRef = 2A64A4B555F34B79A13EB75C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/PNG_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		83F972DC77A349618E143A80 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/iXMLMetadata.cpp */ = {isa = PBXBuildFile; fileRef = A8883317CC764268B5167FEC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/iXMLMetadata.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		86FCE4EC73A047438A790964 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/zlib.h */ = {isa = PBXBuildFile; fileRef = A4B4213505B34916B91645F2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/zlib.h */; settings = {COMPILER_FLAGS = ""; }; };
+		87212A343B3C4D968C984D7A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_IO.hpp */ = {isa = PBXBuildFile; fileRef = 37CDFEC1FFA048C7BDBDEA03 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_IO.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		87370A3F8DDB4CD28221D1F1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/RIFF.hpp */ = {isa = PBXBuildFile; fileRef = 094FD8E45CC5480D856AFBCE /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/RIFF.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		87CBD3A476E4497EBE7BE775 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/trees.c */ = {isa = PBXBuildFile; fileRef = BC7D2724660846568CA753FC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/trees.c */; settings = {COMPILER_FLAGS = ""; }; };
+		8852254E007C4E9DA5B50A12 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/uncompr.c */ = {isa = PBXBuildFile; fileRef = AA142D6BED4A43A1989D2892 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/uncompr.c */; settings = {COMPILER_FLAGS = ""; }; };
+		8860EEC7B69C4097B891ECA2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/PostScript_Handler.hpp */ = {isa = PBXBuildFile; fileRef = 78CEF2A1D74F4CEEA8B590F3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/PostScript_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8E800035FD304D80BE8C5AFB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_Const.h */ = {isa = PBXBuildFile; fileRef = 4ECEDECAA1014182BC99C2D9 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_Const.h */; settings = {COMPILER_FLAGS = ""; }; };
+		8F3DFDA5F6E74104BF71742D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XIO.cpp */ = {isa = PBXBuildFile; fileRef = 4A0AF4E91B2D443FBBEC6D25 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XIO.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8FF68F88E1BF4208A866A9F4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ReconcileLegacy.cpp */ = {isa = PBXBuildFile; fileRef = 633ACFF99DCF45139ED86A94 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ReconcileLegacy.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		905759E0CFD14550BDA1DEC8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XIO.hpp */ = {isa = PBXBuildFile; fileRef = 620FFA8E642D4881B3779052 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XIO.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		90C230C250C24548A3A4E477 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/Chunk.cpp */ = {isa = PBXBuildFile; fileRef = FA3BEEFEE1DF42669B1D82CB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/Chunk.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9314CDF773C24075A8E4EF52 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/IChunkBehavior.h */ = {isa = PBXBuildFile; fileRef = 62BD02E600954220BE46BA7E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/IChunkBehavior.h */; settings = {COMPILER_FLAGS = ""; }; };
+		9452B819E182476FB3799294 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/MPEG2_Handler.hpp */ = {isa = PBXBuildFile; fileRef = A3D9D0031DEF413EB5C55503 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/MPEG2_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		954A60340CB940609232557D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/RIFF_Handler.cpp */ = {isa = PBXBuildFile; fileRef = DE5A3CC1ACF04C0F8C64B178 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/RIFF_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		95A260329E0A4EABBD30740C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/FileHandlerInstance.h */ = {isa = PBXBuildFile; fileRef = C3FFD3AE8DA34F15AEE9C553 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/FileHandlerInstance.h */; settings = {COMPILER_FLAGS = ""; }; };
+		95B34F9E1F284F86BF484EA4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/Reconcile_Impl.cpp */ = {isa = PBXBuildFile; fileRef = D9E0E9EBF4FD490C863ABF5E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/Reconcile_Impl.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		96663C7DE6174E3294638F03 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/MPEG2_Handler.cpp */ = {isa = PBXBuildFile; fileRef = 7D6160B6BB6B4417B5C6B0E0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/MPEG2_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		98A15DC1AE2E4F07A043F9F3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMP_LibUtils.cpp */ = {isa = PBXBuildFile; fileRef = 0B65E3AAEF80430BA671A03E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMP_LibUtils.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9C6919F143EE470DAD3EE51A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/AIFF/AIFFBehavior.h */ = {isa = PBXBuildFile; fileRef = D534EB577D554FD4A94DE530 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/AIFF/AIFFBehavior.h */; settings = {COMPILER_FLAGS = ""; }; };
+		9CC4DC9032AB441ABC9C29F8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/XMPAtoms.h */ = {isa = PBXBuildFile; fileRef = 0FBDC9AA14B54207BBA9869C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/XMPAtoms.h */; settings = {COMPILER_FLAGS = ""; }; };
+		9E25326FB93B4ADD9EFC8E7E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/PSD_Handler.cpp */ = {isa = PBXBuildFile; fileRef = F15D7EDDAE764A3AB73E849D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/PSD_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9FA6B0EF196B46E48DE86832 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PackageFormat_Support.cpp */ = {isa = PBXBuildFile; fileRef = 039965445AA548F780BEAEE6 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PackageFormat_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A0989305252940828D375FD9 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/XMPAtoms.cpp */ = {isa = PBXBuildFile; fileRef = 04A681FE2A3A4D938B6C6BE1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/XMPAtoms.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A3D35EA010604151B56B11BB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/XMPFiles_Impl.hpp */ = {isa = PBXBuildFile; fileRef = E6549CBBE3EF4D1F9044962A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/XMPFiles_Impl.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A417D918817F449680141778 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/ChunkController.cpp */ = {isa = PBXBuildFile; fileRef = CB508361011043169A76A30C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/ChunkController.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A4277723D84D4551954B7649 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PSIR_Support.hpp */ = {isa = PBXBuildFile; fileRef = C41B8FB89A0249D59B860F65 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PSIR_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A474B384B4A44BF095DB39F7 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/WAVEReconcile.h */ = {isa = PBXBuildFile; fileRef = 5F396ED9E78A4432A3E8C88D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/WAVEReconcile.h */; settings = {COMPILER_FLAGS = ""; }; };
+		A50410C4128D414D939191BA /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inffast.h */ = {isa = PBXBuildFile; fileRef = F2CBB0F478C4451DA5A63380 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inffast.h */; settings = {COMPILER_FLAGS = ""; }; };
+		A53E29C29CD042D4B066BB0D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPIterator.hpp */ = {isa = PBXBuildFile; fileRef = 524E88AC20F34A96B9485BF4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPIterator.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A55A090B51E8468493F94D75 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/ASF_Handler.cpp */ = {isa = PBXBuildFile; fileRef = C8EE1647B64544888BB149C8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/ASF_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A70997DD36584E67BCB867BF /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/TIFF_Handler.hpp */ = {isa = PBXBuildFile; fileRef = C6AF853B71E04B459E4206AA /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/TIFF_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A854A5080B884342B69B69D0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMPFiles_IO.hpp */ = {isa = PBXBuildFile; fileRef = C90179307DF942278B8AF7D1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMPFiles_IO.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AB2E3902146E4E298A2247AB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TimeConversionUtils.hpp */ = {isa = PBXBuildFile; fileRef = 0BF48D245ACB4BCA9DF51B16 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TimeConversionUtils.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AD59B9BA8BBE42818897145A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/gzguts.h */ = {isa = PBXBuildFile; fileRef = 41F76E57C18D450C916D4896 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/gzguts.h */; settings = {COMPILER_FLAGS = ""; }; };
+		AF0056D0099142BD8C94B03D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/DISPMetadata.cpp */ = {isa = PBXBuildFile; fileRef = 927CC2E01B9246138F9FCB09 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/DISPMetadata.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AF0126DF8DE14E249FBF1CB4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/JPEG_Handler.cpp */ = {isa = PBXBuildFile; fileRef = 2CB243E747BA41AEB0C65B66 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/JPEG_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AF3FFC234B6E41F195C3DEAD /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/UCF_Handler.hpp */ = {isa = PBXBuildFile; fileRef = A009B6D685E74535BEBF7C31 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/UCF_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AF909544B854438AA4B5E8C5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/UnicodeConversions.cpp */ = {isa = PBXBuildFile; fileRef = B656A4CDB17044B08F0063E2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/UnicodeConversions.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B0296529BD6B4F2DAC58F0F4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/MPEG4_Handler.cpp */ = {isa = PBXBuildFile; fileRef = DCE78C3822694EE9A6645ECB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/MPEG4_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B0ADCAA165634F25838CBD34 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/PostScript_Handler.cpp */ = {isa = PBXBuildFile; fileRef = A5C4EC988A1E47C3BB0B936C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/PostScript_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B43245099E46470E914A4A28 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/XDCAM_Support.hpp */ = {isa = PBXBuildFile; fileRef = 0D19B80EB5B748118B540C54 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/XDCAM_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B4724D752C14424987EFA71B /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/SonyHDV_Handler.hpp */ = {isa = PBXBuildFile; fileRef = 41C497A283AF4530A8F3D8D6 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/SonyHDV_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B5853015F9D64F4992B09052 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TIFF_FileWriter.cpp */ = {isa = PBXBuildFile; fileRef = 75F598AF636746F5A16CD651 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TIFF_FileWriter.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BB77BAE6977C43C19AA39C20 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inffast.c */ = {isa = PBXBuildFile; fileRef = 57264AE9C92E401AAD0F15F2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inffast.c */; settings = {COMPILER_FLAGS = ""; }; };
+		BBB7300BAFC84BE7AAE5B26B /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zuid/interfaces/MD5.cpp */ = {isa = PBXBuildFile; fileRef = FCEDD86B6BA44D4C9AAB94BC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zuid/interfaces/MD5.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BCCFEAA8633E44F0AE769485 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/IChunkData.h */ = {isa = PBXBuildFile; fileRef = 11382351180740DF8E45A90C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/IChunkData.h */; settings = {COMPILER_FLAGS = ""; }; };
+		BD74924593E94E77BA328FE8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/AIFF/AIFFBehavior.cpp */ = {isa = PBXBuildFile; fileRef = 14451AAB0CBA41C3A28964F2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/AIFF/AIFFBehavior.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BDFC47980F2B4D96915618C5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/IOUtils.cpp */ = {isa = PBXBuildFile; fileRef = 9765AA96F5464FBDBF67FA07 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/IOUtils.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BE917701D11F45D09747CE4E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/JPEG_Handler.hpp */ = {isa = PBXBuildFile; fileRef = 4F18B36C5AEC4DBD816A9F0B /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/JPEG_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C09784F1FC2E45AA9E59EE43 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ISOBaseMedia_Support.hpp */ = {isa = PBXBuildFile; fileRef = B05D6B8C355E4A0F9949D078 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ISOBaseMedia_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C0E367CB2F4444F29DF9CDEB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_Environment.h */ = {isa = PBXBuildFile; fileRef = 1A75025CC3864A89ABA56ADA /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_Environment.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C12B74B5AD0D470FA98B2C4A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/XDCAM_Handler.hpp */ = {isa = PBXBuildFile; fileRef = 811E7683BA07417AA3D4C1FD /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/XDCAM_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C142EA840A66407BA5205C72 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/XDCAMEX_Handler.hpp */ = {isa = PBXBuildFile; fileRef = 6F1D7A080C94449A93B92B75 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/XDCAMEX_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C1CD38E22D8A4E6F937F0EC8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/zutil.h */ = {isa = PBXBuildFile; fileRef = 5396BB54C56C4086AC4DA25E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/zutil.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C317A77FD18B4ACE9246A9ED /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/Host_IO-POSIX.cpp */ = {isa = PBXBuildFile; fileRef = 5C42C233F8934358B3A0ED39 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/Host_IO-POSIX.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C3209778623D4CA99244E36D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/ChunkPath.cpp */ = {isa = PBXBuildFile; fileRef = CAC303B5AA704237BBACD408 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/ChunkPath.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C38F123DDDBB4827A19E14C3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/Chunk.h */ = {isa = PBXBuildFile; fileRef = 46B87F16BF564120891AF0C4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/Chunk.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C4B015B13B6C4EE1A54F5359 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PackageFormat_Support.hpp */ = {isa = PBXBuildFile; fileRef = 42228B378BF14DF5A0EE4734 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PackageFormat_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C5AEF0E7513B44CB95775AEA /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMP_ProgressTracker.cpp */ = {isa = PBXBuildFile; fileRef = A64403D056C44F93B7E2F4E4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMP_ProgressTracker.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C7EB5AE581F640BF9F7B6116 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PSIR_MemoryReader.cpp */ = {isa = PBXBuildFile; fileRef = DE4D4AAD067C42E7852362C0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PSIR_MemoryReader.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C867AACE648843E3A7952D69 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/AIFF_Handler.hpp */ = {isa = PBXBuildFile; fileRef = D994EF2CEA404BC0AD7DAA89 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/AIFF_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C8C3ED956D2C4F36979F456E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TIFF_Support.cpp */ = {isa = PBXBuildFile; fileRef = 7A5009EC69744EABB2866326 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TIFF_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C9A9FA9874F94351A487EBD5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/Basic_Handler.cpp */ = {isa = PBXBuildFile; fileRef = ADF253017F3441088D8F0239 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/Basic_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C9F6DF17A3AF422CA03C5EBB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TIFF_MemoryReader.cpp */ = {isa = PBXBuildFile; fileRef = FB2B90ACDF824AC69354BBE0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TIFF_MemoryReader.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CCF6F316BF2F457389665276 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/IOUtils.hpp */ = {isa = PBXBuildFile; fileRef = 62575A827D744889BB0864B9 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/IOUtils.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CF144717F4424ECBA270A648 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/Cr8rMetadata.cpp */ = {isa = PBXBuildFile; fileRef = EA6B561D87FC4D48BCF1FD8E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/Cr8rMetadata.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D2A51265C3B64867B7974AF0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/deflate.h */ = {isa = PBXBuildFile; fileRef = 93B3EC145EF1439E8C563F01 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/deflate.h */; settings = {COMPILER_FLAGS = ""; }; };
+		D32F9EA25823451C863B1EF6 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TIFF_Support.hpp */ = {isa = PBXBuildFile; fileRef = 4F006578A69348EEB4D07298 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TIFF_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D369CD1AAAA9408893BC611A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inflate.c */ = {isa = PBXBuildFile; fileRef = 46CAFDAEA5814FC3B9D9E633 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inflate.c */; settings = {COMPILER_FLAGS = ""; }; };
+		D4E2175984F849AA93124AA2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/CartMetadata.h */ = {isa = PBXBuildFile; fileRef = 40051243EA95459C935CDFDC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/CartMetadata.h */; settings = {COMPILER_FLAGS = ""; }; };
+		D57DAEBA1370469E824C503F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inftrees.h */ = {isa = PBXBuildFile; fileRef = EF5EB12200CC49ACBF1B7EB0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inftrees.h */; settings = {COMPILER_FLAGS = ""; }; };
+		D778EADC4E2B42A0B29081EC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/FileHandler.h */ = {isa = PBXBuildFile; fileRef = C566B55DE6FC45888A9D1999 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/FileHandler.h */; settings = {COMPILER_FLAGS = ""; }; };
+		D7D306B4A8224FFA886FDDB1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/SafeStringAPIs.cpp */ = {isa = PBXBuildFile; fileRef = 01E84FC2B5B14BCC96BC21ED /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/SafeStringAPIs.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D9590A60BB1D4B2E82A0F9F4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IPTC_Support.hpp */ = {isa = PBXBuildFile; fileRef = 21EDE714E6E64EC284C429F1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IPTC_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DA110D85E0B1433B8A28A7EB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/MOOV_Support.hpp */ = {isa = PBXBuildFile; fileRef = 7FB8D059821A4773978570B3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/MOOV_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DC7F79EC892D47B1B71CED8F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PostScript_Support.hpp */ = {isa = PBXBuildFile; fileRef = 78DF756417C24D95B5249333 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PostScript_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DC8F806DC6C14479A7E03F45 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/AVCHD_Handler.cpp */ = {isa = PBXBuildFile; fileRef = DB48149EC67D4024A05E71C7 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/AVCHD_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DCD3CA39F19D4679B9F41B71 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/QuickTime_Support.cpp */ = {isa = PBXBuildFile; fileRef = BFF2494BFA98442896BEEDBB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/QuickTime_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DE1C353887BD43F9AF69EA04 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/OS_Utils_Linux.cpp */ = {isa = PBXBuildFile; fileRef = 25BAAD3EF81841DF8467AE7A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/OS_Utils_Linux.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DED646E1279E48FFBA178770 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/AIFF_Handler.cpp */ = {isa = PBXBuildFile; fileRef = 6DD2F512427A475FA198FB29 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/AIFF_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E0850A6FEE284E16B99AB0A5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ASF_Support.cpp */ = {isa = PBXBuildFile; fileRef = 8EDCC4E317E6407D9C58D306 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ASF_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E0B7C2E6AD334D3B925BF52B /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/ChunkPath.h */ = {isa = PBXBuildFile; fileRef = CCAF804C12F041D08C499792 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/ChunkPath.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E17FF2358B6C47839877685D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inflate.h */ = {isa = PBXBuildFile; fileRef = DCF1D6CFD46646C0825E8733 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inflate.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E2631E6EF90945D7AD39FD02 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/PrmLMetadata.cpp */ = {isa = PBXBuildFile; fileRef = F776A3C959E643CAB7F33AC8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/PrmLMetadata.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E4404CD16EEE44D996D7F13F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/AVCHD_Handler.hpp */ = {isa = PBXBuildFile; fileRef = 8E91A52A52D748E6B7B739EB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/AVCHD_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E4929D56DE7D4FECAD080A13 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPUtils.hpp */ = {isa = PBXBuildFile; fileRef = DBB00E47A9CC4378B5DC72A3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPUtils.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E54CAA96E6B94D3A9EE06C7D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inftrees.c */ = {isa = PBXBuildFile; fileRef = C42E1C42896A42C2AC2B969D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inftrees.c */; settings = {COMPILER_FLAGS = ""; }; };
+		E6BBCCBBE036494D9AB84477 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/iXMLMetadata.h */ = {isa = PBXBuildFile; fileRef = C439913D45D6491B864098B8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/iXMLMetadata.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E6D65B38D15344869FA17EC4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/FLV_Handler.hpp */ = {isa = PBXBuildFile; fileRef = 6C7D76D5ED8C4B88B571184D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/FLV_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E813ABCAAFDD44408BF7153E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ID3_Support.hpp */ = {isa = PBXBuildFile; fileRef = 47A1566274194F9294CA5F7F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ID3_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E84DF54EDFEB4BA890CE52AF /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/ASF_Handler.hpp */ = {isa = PBXBuildFile; fileRef = 0CA9D0A01F29414EB6C49984 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/ASF_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E93409D990C040D496EC9D7A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ReconcileIPTC.cpp */ = {isa = PBXBuildFile; fileRef = 6C51A99EFD3B496591DCAAC5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ReconcileIPTC.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E95AC962686B485EA1730EDB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMPFiles_IO.cpp */ = {isa = PBXBuildFile; fileRef = 384FF1B7ECF54320B13F4499 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMPFiles_IO.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E968288FDFDC49E58B120B15 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/RIFF_Support.cpp */ = {isa = PBXBuildFile; fileRef = C2A93AC034F4417A90F5A33A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/RIFF_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E974EF08F051442AB0339602 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PostScript_Support.cpp */ = {isa = PBXBuildFile; fileRef = ACBF0BE1DDDF4F429505C5C5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PostScript_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E9D83BB61D6748CD9365374F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/AIFF/AIFFReconcile.h */ = {isa = PBXBuildFile; fileRef = E82A5E72B42B485395272AA1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/AIFF/AIFFReconcile.h */; settings = {COMPILER_FLAGS = ""; }; };
+		EB70072D1D2D4261AE716085 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/WXMPFiles.cpp */ = {isa = PBXBuildFile; fileRef = 1D5FAC07CE7F4F49AAEA5325 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/WXMPFiles.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		ED6CD1547B0949949C1FFC45 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/resource/linux/XMPFiles.exp */ = {isa = PBXBuildFile; fileRef = 8638F28B8DD74AF7A452C282 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/resource/linux/XMPFiles.exp */; settings = {COMPILER_FLAGS = ""; }; };
+		EDB8415103B3468E9A5D8DD3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/UCF_Handler.cpp */ = {isa = PBXBuildFile; fileRef = EB60AF91C9404B268F913BCC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/UCF_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		EEAEF9E129954687896FB54C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/MP3_Handler.hpp */ = {isa = PBXBuildFile; fileRef = 1776F5B976E246A58925A74E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/MP3_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F046604C3727495DA09531CC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/Trivial_Handler.cpp */ = {isa = PBXBuildFile; fileRef = 7A7FA2ADE2634DAEBE7FA6F7 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/Trivial_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F21D913031234172A4DAB38D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ASF_Support.hpp */ = {isa = PBXBuildFile; fileRef = 48210EE6077545D992E93D13 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ASF_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F27C94CD4A5A4B08B5C6104C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/crc32.h */ = {isa = PBXBuildFile; fileRef = 564CA0753A4C46B5A2CF3B7A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/crc32.h */; settings = {COMPILER_FLAGS = ""; }; };
+		F35A886C6F164DEDA4395F8B /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/BEXTMetadata.cpp */ = {isa = PBXBuildFile; fileRef = 5D3D9CC27F204A528EDD2EEF /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/BEXTMetadata.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F5DF6B97265B418B93A8FD9E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/NativeMetadataSupport/MetadataSet.cpp */ = {isa = PBXBuildFile; fileRef = 24CEC4CA536146709428B3A0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/NativeMetadataSupport/MetadataSet.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F67D4589B01F4FF19786F06D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/compress.c */ = {isa = PBXBuildFile; fileRef = 98AB7524128449E99C276B6E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/compress.c */; settings = {COMPILER_FLAGS = ""; }; };
+		F6B60AFDAB3745CB901CE593 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/RIFF_Support.hpp */ = {isa = PBXBuildFile; fileRef = B2A96A86B865425CBC793D8E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/RIFF_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F908B80F1AAE45378B4314A4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/zconf.h */ = {isa = PBXBuildFile; fileRef = 86BE773430E04BF789CC71F9 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/zconf.h */; settings = {COMPILER_FLAGS = ""; }; };
+		FAE2DCDAC20C4882837846AC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/Module.h */ = {isa = PBXBuildFile; fileRef = A08325F100AB4F32B4A4A57D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/Module.h */; settings = {COMPILER_FLAGS = ""; }; };
+		FC662BB67074465AB12C7F9A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/InDesign_Handler.cpp */ = {isa = PBXBuildFile; fileRef = 4A8CC303C84D491FBC5FA167 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/InDesign_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FCB97855C003487B8F93144D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XML_Node.cpp */ = {isa = PBXBuildFile; fileRef = 7DABCBCF1794412382FD0D22 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XML_Node.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FD0144D9B9104A39AED4BFB8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/Endian.h */ = {isa = PBXBuildFile; fileRef = A5F7D52C780048EF9E0372CD /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/Endian.h */; settings = {COMPILER_FLAGS = ""; }; };
+		FD5718D1353D4A38B02BF77A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/PerfUtils.cpp */ = {isa = PBXBuildFile; fileRef = 079F8C85AF954EEB861F5E04 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/PerfUtils.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FD68C19BDB7746F3A625B286 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/INFOMetadata.cpp */ = {isa = PBXBuildFile; fileRef = 48D324673F1944D6A4B0B530 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/INFOMetadata.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FDFBEA3590854E1CA2676EB3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/XMPFiles_Impl.cpp */ = {isa = PBXBuildFile; fileRef = ADDD3787B7A348A4AA676580 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/XMPFiles_Impl.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		65878FE69B2E4BBCBAF9DD17 = {
+			isa = PBXBuildStyle;
+		};
+		6E44A8BCD1D1411AB62C6070 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		BE56BBE4D73C48D1931D3BEE /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		38E76EDC7AC44767AA18C41D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE26BE46019C49A295A8BE1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF007B14F3AF43C5B0E0AEAA;
+			remoteInfo = ZERO_CHECK;
+		};
+		6D5807E26CE64319A9CA95D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE26BE46019C49A295A8BE1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F77DC3D7D2E54F5BA84E3B24;
+			remoteInfo = XMPFiles;
+		};
+		9F3CDDE6B3F8414C87874AB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE26BE46019C49A295A8BE1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF007B14F3AF43C5B0E0AEAA;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00FAF2D121F64DE19B0B32AA /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/XMPFiles.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMPFiles.cpp; path = ../source/XMPFiles.cpp; sourceTree = SOURCE_ROOT; };
+		01E84FC2B5B14BCC96BC21ED /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/SafeStringAPIs.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SafeStringAPIs.cpp; path = ../../source/SafeStringAPIs.cpp; sourceTree = SOURCE_ROOT; };
+		02A22F529F694CE3B9D3D582 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PSIR_FileWriter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PSIR_FileWriter.cpp; path = ../source/FormatSupport/PSIR_FileWriter.cpp; sourceTree = SOURCE_ROOT; };
+		039965445AA548F780BEAEE6 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PackageFormat_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PackageFormat_Support.cpp; path = ../source/FormatSupport/PackageFormat_Support.cpp; sourceTree = SOURCE_ROOT; };
+		047C0AAB6DBE4B93B98AE760 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/IChunkContainer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IChunkContainer.h; path = ../source/FormatSupport/IFF/IChunkContainer.h; sourceTree = SOURCE_ROOT; };
+		04A681FE2A3A4D938B6C6BE1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/XMPAtoms.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMPAtoms.cpp; path = ../source/PluginHandler/XMPAtoms.cpp; sourceTree = SOURCE_ROOT; };
+		06233ADD5BBD4E498A26D7B0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/DISPMetadata.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DISPMetadata.h; path = ../source/FormatSupport/WAVE/DISPMetadata.h; sourceTree = SOURCE_ROOT; };
+		0669219DAF404626B76890D8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/AIFF/AIFFReconcile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AIFFReconcile.cpp; path = ../source/FormatSupport/AIFF/AIFFReconcile.cpp; sourceTree = SOURCE_ROOT; };
+		067CAB9F362E49DF8EF511CE /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/adler32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = adler32.c; path = "../../third-party/zlib/adler32.c"; sourceTree = SOURCE_ROOT; };
+		06A18A04DEB343A58204B8A3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/ModuleUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ModuleUtils.h; path = ../source/PluginHandler/ModuleUtils.h; sourceTree = SOURCE_ROOT; };
+		0749EDF96229468A8ACAC242 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/PrmLMetadata.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PrmLMetadata.h; path = ../source/FormatSupport/WAVE/PrmLMetadata.h; sourceTree = SOURCE_ROOT; };
+		079F8C85AF954EEB861F5E04 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/PerfUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PerfUtils.cpp; path = ../../source/PerfUtils.cpp; sourceTree = SOURCE_ROOT; };
+		093A1D37B24146A7B400DD71 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/InDesign_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = InDesign_Handler.hpp; path = ../source/FileHandlers/InDesign_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		094FD8E45CC5480D856AFBCE /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/RIFF.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = RIFF.hpp; path = ../source/FormatSupport/RIFF.hpp; sourceTree = SOURCE_ROOT; };
+		0B65E3AAEF80430BA671A03E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMP_LibUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMP_LibUtils.cpp; path = ../../source/XMP_LibUtils.cpp; sourceTree = SOURCE_ROOT; };
+		0BF48D245ACB4BCA9DF51B16 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TimeConversionUtils.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = TimeConversionUtils.hpp; path = ../source/FormatSupport/TimeConversionUtils.hpp; sourceTree = SOURCE_ROOT; };
+		0CA9D0A01F29414EB6C49984 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/ASF_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ASF_Handler.hpp; path = ../source/FileHandlers/ASF_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		0D19B80EB5B748118B540C54 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/XDCAM_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XDCAM_Support.hpp; path = ../source/FormatSupport/XDCAM_Support.hpp; sourceTree = SOURCE_ROOT; };
+		0FBDC9AA14B54207BBA9869C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/XMPAtoms.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XMPAtoms.h; path = ../source/PluginHandler/XMPAtoms.h; sourceTree = SOURCE_ROOT; };
+		11382351180740DF8E45A90C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/IChunkData.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IChunkData.h; path = ../source/FormatSupport/IFF/IChunkData.h; sourceTree = SOURCE_ROOT; };
+		11953A82D389412B801D1BF5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TimeConversionUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TimeConversionUtils.cpp; path = ../source/FormatSupport/TimeConversionUtils.cpp; sourceTree = SOURCE_ROOT; };
+		139B1405BB634C3B84D3DD04 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/SafeTypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SafeTypes.h; path = ../../source/SafeTypes.h; sourceTree = SOURCE_ROOT; };
+		14451AAB0CBA41C3A28964F2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/AIFF/AIFFBehavior.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AIFFBehavior.cpp; path = ../source/FormatSupport/AIFF/AIFFBehavior.cpp; sourceTree = SOURCE_ROOT; };
+		1776F5B976E246A58925A74E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/MP3_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = MP3_Handler.hpp; path = ../source/FileHandlers/MP3_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		198EBB5985F14F16BEEA6FD9 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPMeta.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = TXMPMeta.hpp; path = ../../public/include/TXMPMeta.hpp; sourceTree = SOURCE_ROOT; };
+		1A2586CB912C469DBA3F6736 /* XMPFiles */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = libXMPFiles.so; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A75025CC3864A89ABA56ADA /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_Environment.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XMP_Environment.h; path = ../../public/include/XMP_Environment.h; sourceTree = SOURCE_ROOT; };
+		1C2CFBD09D0F453492064110 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/WXMPFiles.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WXMPFiles.hpp; path = "../../public/include/client-glue/WXMPFiles.hpp"; sourceTree = SOURCE_ROOT; };
+		1D5FAC07CE7F4F49AAEA5325 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/WXMPFiles.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WXMPFiles.cpp; path = ../source/WXMPFiles.cpp; sourceTree = SOURCE_ROOT; };
+		21EDE714E6E64EC284C429F1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IPTC_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = IPTC_Support.hpp; path = ../source/FormatSupport/IPTC_Support.hpp; sourceTree = SOURCE_ROOT; };
+		24CEC4CA536146709428B3A0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/NativeMetadataSupport/MetadataSet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MetadataSet.cpp; path = ../source/NativeMetadataSupport/MetadataSet.cpp; sourceTree = SOURCE_ROOT; };
+		2539378102214325AA467190 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/Scanner_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Scanner_Handler.hpp; path = ../source/FileHandlers/Scanner_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		25BAAD3EF81841DF8467AE7A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/OS_Utils_Linux.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OS_Utils_Linux.cpp; path = ../source/PluginHandler/OS_Utils_Linux.cpp; sourceTree = SOURCE_ROOT; };
+		26C37AE3F07A490FAE81A862 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/Reconcile_Impl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Reconcile_Impl.hpp; path = ../source/FormatSupport/Reconcile_Impl.hpp; sourceTree = SOURCE_ROOT; };
+		2A64A4B555F34B79A13EB75C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/PNG_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PNG_Handler.hpp; path = ../source/FileHandlers/PNG_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		2CB243E747BA41AEB0C65B66 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/JPEG_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = JPEG_Handler.cpp; path = ../source/FileHandlers/JPEG_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		2CC99DA2E60B46768809DE87 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/NativeMetadataSupport/IMetadata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IMetadata.cpp; path = ../source/NativeMetadataSupport/IMetadata.cpp; sourceTree = SOURCE_ROOT; };
+		2F9713157B1940B392F4A80E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/HostAPIImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HostAPIImpl.cpp; path = ../source/PluginHandler/HostAPIImpl.cpp; sourceTree = SOURCE_ROOT; };
+		2FAD1229D79D421AA928E0A2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PNG_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PNG_Support.hpp; path = ../source/FormatSupport/PNG_Support.hpp; sourceTree = SOURCE_ROOT; };
+		30BF1144439B43E2A62033E0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ISOBaseMedia_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ISOBaseMedia_Support.cpp; path = ../source/FormatSupport/ISOBaseMedia_Support.cpp; sourceTree = SOURCE_ROOT; };
+		31463298F5324C7BA3DBC36E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/AIFF/AIFFMetadata.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AIFFMetadata.h; path = ../source/FormatSupport/AIFF/AIFFMetadata.h; sourceTree = SOURCE_ROOT; };
+		3170EDD56CEB4DF7A0E18C15 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/RIFF_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = RIFF_Handler.hpp; path = ../source/FileHandlers/RIFF_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		33B9130FD4E0497BBB02B607 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/infback.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = infback.c; path = "../../third-party/zlib/infback.c"; sourceTree = SOURCE_ROOT; };
+		34DB0D350FB64583B5EF9FE7 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/WAVE_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WAVE_Handler.hpp; path = ../source/FileHandlers/WAVE_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		34F4EE3DB5354BE48CBEBE91 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/BEXTMetadata.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = BEXTMetadata.h; path = ../source/FormatSupport/WAVE/BEXTMetadata.h; sourceTree = SOURCE_ROOT; };
+		37CDFEC1FFA048C7BDBDEA03 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_IO.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMP_IO.hpp; path = ../../public/include/XMP_IO.hpp; sourceTree = SOURCE_ROOT; };
+		384FF1B7ECF54320B13F4499 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMPFiles_IO.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMPFiles_IO.cpp; path = ../../source/XMPFiles_IO.cpp; sourceTree = SOURCE_ROOT; };
+		3BC1675228CE40BE8BD4F13C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3DC3AE3BFA5444EA91EE8C6D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/FileHandlerInstance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FileHandlerInstance.cpp; path = ../source/PluginHandler/FileHandlerInstance.cpp; sourceTree = SOURCE_ROOT; };
+		3DD656A4F1D846109B67D282 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/TXMPFiles.incl_cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = TXMPFiles.incl_cpp; path = "../../public/include/client-glue/TXMPFiles.incl_cpp"; sourceTree = SOURCE_ROOT; };
+		40051243EA95459C935CDFDC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/CartMetadata.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CartMetadata.h; path = ../source/FormatSupport/WAVE/CartMetadata.h; sourceTree = SOURCE_ROOT; };
+		40E9312805C54F4F9FBB4452 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_Version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XMP_Version.h; path = ../../public/include/XMP_Version.h; sourceTree = SOURCE_ROOT; };
+		41C497A283AF4530A8F3D8D6 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/SonyHDV_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SonyHDV_Handler.hpp; path = ../source/FileHandlers/SonyHDV_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		41F76E57C18D450C916D4896 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/gzguts.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gzguts.h; path = "../../third-party/zlib/gzguts.h"; sourceTree = SOURCE_ROOT; };
+		42228B378BF14DF5A0EE4734 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PackageFormat_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PackageFormat_Support.hpp; path = ../source/FormatSupport/PackageFormat_Support.hpp; sourceTree = SOURCE_ROOT; };
+		46B87F16BF564120891AF0C4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/Chunk.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Chunk.h; path = ../source/FormatSupport/IFF/Chunk.h; sourceTree = SOURCE_ROOT; };
+		46CAFDAEA5814FC3B9D9E633 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inflate.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = inflate.c; path = "../../third-party/zlib/inflate.c"; sourceTree = SOURCE_ROOT; };
+		47A1566274194F9294CA5F7F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ID3_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ID3_Support.hpp; path = ../source/FormatSupport/ID3_Support.hpp; sourceTree = SOURCE_ROOT; };
+		48210EE6077545D992E93D13 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ASF_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ASF_Support.hpp; path = ../source/FormatSupport/ASF_Support.hpp; sourceTree = SOURCE_ROOT; };
+		48D324673F1944D6A4B0B530 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/INFOMetadata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = INFOMetadata.cpp; path = ../source/FormatSupport/WAVE/INFOMetadata.cpp; sourceTree = SOURCE_ROOT; };
+		4A0AF4E91B2D443FBBEC6D25 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XIO.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XIO.cpp; path = ../../source/XIO.cpp; sourceTree = SOURCE_ROOT; };
+		4A115D226656436AAF860647 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/Host_IO.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Host_IO.hpp; path = ../../source/Host_IO.hpp; sourceTree = SOURCE_ROOT; };
+		4A8CC303C84D491FBC5FA167 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/InDesign_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = InDesign_Handler.cpp; path = ../source/FileHandlers/InDesign_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		4B1FBC302B114009987BC8C1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/NativeMetadataSupport/IReconcile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IReconcile.cpp; path = ../source/NativeMetadataSupport/IReconcile.cpp; sourceTree = SOURCE_ROOT; };
+		4D38536243EE4411BB9E99B4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/Module.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Module.cpp; path = ../source/PluginHandler/Module.cpp; sourceTree = SOURCE_ROOT; };
+		4D89721E9ED84BD29BF24AB5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/PNG_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PNG_Handler.cpp; path = ../source/FileHandlers/PNG_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		4E75A77CA5EB480BAE970259 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4E79A2DC44674CB2814F23C3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/SonyHDV_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SonyHDV_Handler.cpp; path = ../source/FileHandlers/SonyHDV_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		4ECEDECAA1014182BC99C2D9 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_Const.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XMP_Const.h; path = ../../public/include/XMP_Const.h; sourceTree = SOURCE_ROOT; };
+		4F006578A69348EEB4D07298 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TIFF_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = TIFF_Support.hpp; path = ../source/FormatSupport/TIFF_Support.hpp; sourceTree = SOURCE_ROOT; };
+		4F18B36C5AEC4DBD816A9F0B /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/JPEG_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = JPEG_Handler.hpp; path = ../source/FileHandlers/JPEG_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		512DE82D8E0A433FB99B3675 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/crc32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = crc32.c; path = "../../third-party/zlib/crc32.c"; sourceTree = SOURCE_ROOT; };
+		524E88AC20F34A96B9485BF4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPIterator.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = TXMPIterator.hpp; path = ../../public/include/TXMPIterator.hpp; sourceTree = SOURCE_ROOT; };
+		5396BB54C56C4086AC4DA25E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/zutil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zutil.h; path = "../../third-party/zlib/zutil.h"; sourceTree = SOURCE_ROOT; };
+		564CA0753A4C46B5A2CF3B7A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/crc32.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = crc32.h; path = "../../third-party/zlib/crc32.h"; sourceTree = SOURCE_ROOT; };
+		57264AE9C92E401AAD0F15F2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inffast.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = inffast.c; path = "../../third-party/zlib/inffast.c"; sourceTree = SOURCE_ROOT; };
+		58FC3040ACDC4C1394A44639 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/HandlerRegistry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HandlerRegistry.cpp; path = ../source/HandlerRegistry.cpp; sourceTree = SOURCE_ROOT; };
+		5C42C233F8934358B3A0ED39 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/Host_IO-POSIX.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "Host_IO-POSIX.cpp"; path = "../../source/Host_IO-POSIX.cpp"; sourceTree = SOURCE_ROOT; };
+		5D3D9CC27F204A528EDD2EEF /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/BEXTMetadata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BEXTMetadata.cpp; path = ../source/FormatSupport/WAVE/BEXTMetadata.cpp; sourceTree = SOURCE_ROOT; };
+		5EA99ADE710749ADAF616A71 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/PluginManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PluginManager.h; path = ../source/PluginHandler/PluginManager.h; sourceTree = SOURCE_ROOT; };
+		5F396ED9E78A4432A3E8C88D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/WAVEReconcile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = WAVEReconcile.h; path = ../source/FormatSupport/WAVE/WAVEReconcile.h; sourceTree = SOURCE_ROOT; };
+		5FEBC979AEF345B3A17CDE3E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/ChunkController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ChunkController.h; path = ../source/FormatSupport/IFF/ChunkController.h; sourceTree = SOURCE_ROOT; };
+		6034B9AF3C4C45C98FFDF188 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/P2_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = P2_Handler.cpp; path = ../source/FileHandlers/P2_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		620FFA8E642D4881B3779052 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XIO.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XIO.hpp; path = ../../source/XIO.hpp; sourceTree = SOURCE_ROOT; };
+		62575A827D744889BB0864B9 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/IOUtils.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = IOUtils.hpp; path = ../../source/IOUtils.hpp; sourceTree = SOURCE_ROOT; };
+		62BD02E600954220BE46BA7E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/IChunkBehavior.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IChunkBehavior.h; path = ../source/FormatSupport/IFF/IChunkBehavior.h; sourceTree = SOURCE_ROOT; };
+		62E7012A5F9349FB81A0CCD5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/trees.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = trees.h; path = "../../third-party/zlib/trees.h"; sourceTree = SOURCE_ROOT; };
+		633ACFF99DCF45139ED86A94 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ReconcileLegacy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ReconcileLegacy.cpp; path = ../source/FormatSupport/ReconcileLegacy.cpp; sourceTree = SOURCE_ROOT; };
+		64A1FF1EE78144B784FA9AC7 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/Cr8rMetadata.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Cr8rMetadata.h; path = ../source/FormatSupport/WAVE/Cr8rMetadata.h; sourceTree = SOURCE_ROOT; };
+		665169AC84234FEDA67DAA4E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/XMPScanner.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMPScanner.cpp; path = ../source/FormatSupport/XMPScanner.cpp; sourceTree = SOURCE_ROOT; };
+		67BB336DE00B4FC0A7872F9D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/XDCAM_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XDCAM_Handler.cpp; path = ../source/FileHandlers/XDCAM_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		6C51A99EFD3B496591DCAAC5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ReconcileIPTC.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ReconcileIPTC.cpp; path = ../source/FormatSupport/ReconcileIPTC.cpp; sourceTree = SOURCE_ROOT; };
+		6C7D76D5ED8C4B88B571184D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/FLV_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = FLV_Handler.hpp; path = ../source/FileHandlers/FLV_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		6CAEC68DFED24B9A97818A65 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/P2_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = P2_Handler.hpp; path = ../source/FileHandlers/P2_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		6D5EC772583544D9BD307860 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/PluginManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PluginManager.cpp; path = ../source/PluginHandler/PluginManager.cpp; sourceTree = SOURCE_ROOT; };
+		6D8B6A7D8382491B8860C219 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IPTC_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IPTC_Support.cpp; path = ../source/FormatSupport/IPTC_Support.cpp; sourceTree = SOURCE_ROOT; };
+		6DD2F512427A475FA198FB29 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/AIFF_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AIFF_Handler.cpp; path = ../source/FileHandlers/AIFF_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		6DE7C8DAFB5249999F6C140F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/SWF_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SWF_Handler.hpp; path = ../source/FileHandlers/SWF_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		6F1D7A080C94449A93B92B75 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/XDCAMEX_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XDCAMEX_Handler.hpp; path = ../source/FileHandlers/XDCAMEX_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		7059604E77F546568D7DAB9D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/SWF_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SWF_Support.cpp; path = ../source/FormatSupport/SWF_Support.cpp; sourceTree = SOURCE_ROOT; };
+		71AB78C98BB44E20A021082A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/MOOV_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MOOV_Support.cpp; path = ../source/FormatSupport/MOOV_Support.cpp; sourceTree = SOURCE_ROOT; };
+		73AD54597CE24F128CB7656A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/Trivial_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Trivial_Handler.hpp; path = ../source/FileHandlers/Trivial_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		75F598AF636746F5A16CD651 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TIFF_FileWriter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TIFF_FileWriter.cpp; path = ../source/FormatSupport/TIFF_FileWriter.cpp; sourceTree = SOURCE_ROOT; };
+		78CEF2A1D74F4CEEA8B590F3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/PostScript_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PostScript_Handler.hpp; path = ../source/FileHandlers/PostScript_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		78DF756417C24D95B5249333 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PostScript_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PostScript_Support.hpp; path = ../source/FormatSupport/PostScript_Support.hpp; sourceTree = SOURCE_ROOT; };
+		7A5009EC69744EABB2866326 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TIFF_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TIFF_Support.cpp; path = ../source/FormatSupport/TIFF_Support.cpp; sourceTree = SOURCE_ROOT; };
+		7A7FA2ADE2634DAEBE7FA6F7 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/Trivial_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Trivial_Handler.cpp; path = ../source/FileHandlers/Trivial_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		7C6EEED5395E450BB27876CC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7D6160B6BB6B4417B5C6B0E0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/MPEG2_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MPEG2_Handler.cpp; path = ../source/FileHandlers/MPEG2_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		7DABCBCF1794412382FD0D22 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XML_Node.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XML_Node.cpp; path = ../../source/XML_Node.cpp; sourceTree = SOURCE_ROOT; };
+		7E7D9B0E5ADD44E3A63B2397 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/deflate.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = deflate.c; path = "../../third-party/zlib/deflate.c"; sourceTree = SOURCE_ROOT; };
+		7FB8D059821A4773978570B3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/MOOV_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = MOOV_Support.hpp; path = ../source/FormatSupport/MOOV_Support.hpp; sourceTree = SOURCE_ROOT; };
+		811E7683BA07417AA3D4C1FD /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/XDCAM_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XDCAM_Handler.hpp; path = ../source/FileHandlers/XDCAM_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		82816A792F6F4FC19F179B9D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/INFOMetadata.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = INFOMetadata.h; path = ../source/FormatSupport/WAVE/INFOMetadata.h; sourceTree = SOURCE_ROOT; };
+		832CACBEED06474D870028B2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/build/XMP_BuildInfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XMP_BuildInfo.h; path = ../../build/XMP_BuildInfo.h; sourceTree = SOURCE_ROOT; };
+		8638F28B8DD74AF7A452C282 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/resource/linux/XMPFiles.exp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = XMPFiles.exp; path = ../resource/linux/XMPFiles.exp; sourceTree = SOURCE_ROOT; };
+		86BE773430E04BF789CC71F9 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/zconf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zconf.h; path = "../../third-party/zlib/zconf.h"; sourceTree = SOURCE_ROOT; };
+		8E91A52A52D748E6B7B739EB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/AVCHD_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = AVCHD_Handler.hpp; path = ../source/FileHandlers/AVCHD_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		8EDCC4E317E6407D9C58D306 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ASF_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ASF_Support.cpp; path = ../source/FormatSupport/ASF_Support.cpp; sourceTree = SOURCE_ROOT; };
+		927CC2E01B9246138F9FCB09 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/DISPMetadata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DISPMetadata.cpp; path = ../source/FormatSupport/WAVE/DISPMetadata.cpp; sourceTree = SOURCE_ROOT; };
+		93B3EC145EF1439E8C563F01 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/deflate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = deflate.h; path = "../../third-party/zlib/deflate.h"; sourceTree = SOURCE_ROOT; };
+		947BA01152C645D5B93BABCF /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP.incl_cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = XMP.incl_cpp; path = ../../public/include/XMP.incl_cpp; sourceTree = SOURCE_ROOT; };
+		973BA8BA9A2A416397BA9B8E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/CartMetadata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CartMetadata.cpp; path = ../source/FormatSupport/WAVE/CartMetadata.cpp; sourceTree = SOURCE_ROOT; };
+		9765AA96F5464FBDBF67FA07 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/IOUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IOUtils.cpp; path = ../../source/IOUtils.cpp; sourceTree = SOURCE_ROOT; };
+		98AB7524128449E99C276B6E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/compress.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = compress.c; path = "../../third-party/zlib/compress.c"; sourceTree = SOURCE_ROOT; };
+		9B4FC58252BA48369927774B /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/SWF_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SWF_Support.hpp; path = ../source/FormatSupport/SWF_Support.hpp; sourceTree = SOURCE_ROOT; };
+		A009B6D685E74535BEBF7C31 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/UCF_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = UCF_Handler.hpp; path = ../source/FileHandlers/UCF_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		A08325F100AB4F32B4A4A57D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/Module.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Module.h; path = ../source/PluginHandler/Module.h; sourceTree = SOURCE_ROOT; };
+		A3D9D0031DEF413EB5C55503 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/MPEG2_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = MPEG2_Handler.hpp; path = ../source/FileHandlers/MPEG2_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		A4B4213505B34916B91645F2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/zlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zlib.h; path = "../../third-party/zlib/zlib.h"; sourceTree = SOURCE_ROOT; };
+		A5C4EC988A1E47C3BB0B936C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/PostScript_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PostScript_Handler.cpp; path = ../source/FileHandlers/PostScript_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		A5F7D52C780048EF9E0372CD /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/Endian.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Endian.h; path = ../../source/Endian.h; sourceTree = SOURCE_ROOT; };
+		A64403D056C44F93B7E2F4E4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMP_ProgressTracker.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMP_ProgressTracker.cpp; path = ../../source/XMP_ProgressTracker.cpp; sourceTree = SOURCE_ROOT; };
+		A646B503139F41E8A1EDBB71 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/Scanner_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Scanner_Handler.cpp; path = ../source/FileHandlers/Scanner_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		A8883317CC764268B5167FEC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/iXMLMetadata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = iXMLMetadata.cpp; path = ../source/FormatSupport/WAVE/iXMLMetadata.cpp; sourceTree = SOURCE_ROOT; };
+		A96F3C1FA5B84631AE821D0C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/XMPScanner.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMPScanner.hpp; path = ../source/FormatSupport/XMPScanner.hpp; sourceTree = SOURCE_ROOT; };
+		AA142D6BED4A43A1989D2892 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/uncompr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = uncompr.c; path = "../../third-party/zlib/uncompr.c"; sourceTree = SOURCE_ROOT; };
+		AB642BEDA82541A49C548882 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ReconcileTIFF.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ReconcileTIFF.cpp; path = ../source/FormatSupport/ReconcileTIFF.cpp; sourceTree = SOURCE_ROOT; };
+		ACBF0BE1DDDF4F429505C5C5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PostScript_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PostScript_Support.cpp; path = ../source/FormatSupport/PostScript_Support.cpp; sourceTree = SOURCE_ROOT; };
+		AD8F5FCDE9E2415F8DFE817B /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/QuickTime_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = QuickTime_Support.hpp; path = ../source/FormatSupport/QuickTime_Support.hpp; sourceTree = SOURCE_ROOT; };
+		ADDD3787B7A348A4AA676580 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/XMPFiles_Impl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMPFiles_Impl.cpp; path = ../source/XMPFiles_Impl.cpp; sourceTree = SOURCE_ROOT; };
+		ADF253017F3441088D8F0239 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/Basic_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Basic_Handler.cpp; path = ../source/FileHandlers/Basic_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		AF051C28B4404ACE9F846BD5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/AIFF/AIFFMetadata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AIFFMetadata.cpp; path = ../source/FormatSupport/AIFF/AIFFMetadata.cpp; sourceTree = SOURCE_ROOT; };
+		B05D6B8C355E4A0F9949D078 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ISOBaseMedia_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ISOBaseMedia_Support.hpp; path = ../source/FormatSupport/ISOBaseMedia_Support.hpp; sourceTree = SOURCE_ROOT; };
+		B2A96A86B865425CBC793D8E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/RIFF_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = RIFF_Support.hpp; path = ../source/FormatSupport/RIFF_Support.hpp; sourceTree = SOURCE_ROOT; };
+		B5B60269DD9B4FD8A8F6C7B4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/MP3_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MP3_Handler.cpp; path = ../source/FileHandlers/MP3_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		B656A4CDB17044B08F0063E2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/UnicodeConversions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = UnicodeConversions.cpp; path = ../../source/UnicodeConversions.cpp; sourceTree = SOURCE_ROOT; };
+		B7AAD4D5408A4FC0AD5D8D94 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/TIFF_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TIFF_Handler.cpp; path = ../source/FileHandlers/TIFF_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		B8D000DE2C934CBBB71EAE95 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/zutil.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = zutil.c; path = "../../third-party/zlib/zutil.c"; sourceTree = SOURCE_ROOT; };
+		B92F4F9E04D149E8985283FA /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMP.hpp; path = ../../public/include/XMP.hpp; sourceTree = SOURCE_ROOT; };
+		BC7D2724660846568CA753FC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/trees.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = trees.c; path = "../../third-party/zlib/trees.c"; sourceTree = SOURCE_ROOT; };
+		BF0EFB4C8F7D4027AE3188E9 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/WAVEReconcile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WAVEReconcile.cpp; path = ../source/FormatSupport/WAVE/WAVEReconcile.cpp; sourceTree = SOURCE_ROOT; };
+		BFF2494BFA98442896BEEDBB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/QuickTime_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = QuickTime_Support.cpp; path = ../source/FormatSupport/QuickTime_Support.cpp; sourceTree = SOURCE_ROOT; };
+		C2A93AC034F4417A90F5A33A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/RIFF_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RIFF_Support.cpp; path = ../source/FormatSupport/RIFF_Support.cpp; sourceTree = SOURCE_ROOT; };
+		C3FFD3AE8DA34F15AEE9C553 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/FileHandlerInstance.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = FileHandlerInstance.h; path = ../source/PluginHandler/FileHandlerInstance.h; sourceTree = SOURCE_ROOT; };
+		C41B8FB89A0249D59B860F65 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PSIR_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PSIR_Support.hpp; path = ../source/FormatSupport/PSIR_Support.hpp; sourceTree = SOURCE_ROOT; };
+		C42E1C42896A42C2AC2B969D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inftrees.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = inftrees.c; path = "../../third-party/zlib/inftrees.c"; sourceTree = SOURCE_ROOT; };
+		C439913D45D6491B864098B8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/iXMLMetadata.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iXMLMetadata.h; path = ../source/FormatSupport/WAVE/iXMLMetadata.h; sourceTree = SOURCE_ROOT; };
+		C566B55DE6FC45888A9D1999 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/FileHandler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = FileHandler.h; path = ../source/PluginHandler/FileHandler.h; sourceTree = SOURCE_ROOT; };
+		C6AF853B71E04B459E4206AA /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/TIFF_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = TIFF_Handler.hpp; path = ../source/FileHandlers/TIFF_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		C70BC07D435D4D839582A1A0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inffixed.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = inffixed.h; path = "../../third-party/zlib/inffixed.h"; sourceTree = SOURCE_ROOT; };
+		C8EE1647B64544888BB149C8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/ASF_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ASF_Handler.cpp; path = ../source/FileHandlers/ASF_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		C90179307DF942278B8AF7D1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMPFiles_IO.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMPFiles_IO.hpp; path = ../../source/XMPFiles_IO.hpp; sourceTree = SOURCE_ROOT; };
+		CAC303B5AA704237BBACD408 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/ChunkPath.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ChunkPath.cpp; path = ../source/FormatSupport/IFF/ChunkPath.cpp; sourceTree = SOURCE_ROOT; };
+		CB508361011043169A76A30C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/ChunkController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ChunkController.cpp; path = ../source/FormatSupport/IFF/ChunkController.cpp; sourceTree = SOURCE_ROOT; };
+		CC61C5B314CE4AFD85D666C5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/XMPFiles.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMPFiles.hpp; path = ../source/XMPFiles.hpp; sourceTree = SOURCE_ROOT; };
+		CCAF804C12F041D08C499792 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/ChunkPath.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ChunkPath.h; path = ../source/FormatSupport/IFF/ChunkPath.h; sourceTree = SOURCE_ROOT; };
+		CD89BBB8FB724879B6417325 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/WXMP_Common.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WXMP_Common.hpp; path = "../../public/include/client-glue/WXMP_Common.hpp"; sourceTree = SOURCE_ROOT; };
+		D1B07AA8C3C04748A1F47F98 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/SWF_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SWF_Handler.cpp; path = ../source/FileHandlers/SWF_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		D534EB577D554FD4A94DE530 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/AIFF/AIFFBehavior.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AIFFBehavior.h; path = ../source/FormatSupport/AIFF/AIFFBehavior.h; sourceTree = SOURCE_ROOT; };
+		D575576BBE25486D88302767 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/XDCAMEX_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XDCAMEX_Handler.cpp; path = ../source/FileHandlers/XDCAMEX_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		D724CE2D3F234E018037E5F6 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/SafeStringAPIs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SafeStringAPIs.h; path = ../../source/SafeStringAPIs.h; sourceTree = SOURCE_ROOT; };
+		D994EF2CEA404BC0AD7DAA89 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/AIFF_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = AIFF_Handler.hpp; path = ../source/FileHandlers/AIFF_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		D9E0E9EBF4FD490C863ABF5E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/Reconcile_Impl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Reconcile_Impl.cpp; path = ../source/FormatSupport/Reconcile_Impl.cpp; sourceTree = SOURCE_ROOT; };
+		DB48149EC67D4024A05E71C7 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/AVCHD_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AVCHD_Handler.cpp; path = ../source/FileHandlers/AVCHD_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		DBB00E47A9CC4378B5DC72A3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPUtils.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = TXMPUtils.hpp; path = ../../public/include/TXMPUtils.hpp; sourceTree = SOURCE_ROOT; };
+		DC0811DA65CD409DBDE95BC3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PNG_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PNG_Support.cpp; path = ../source/FormatSupport/PNG_Support.cpp; sourceTree = SOURCE_ROOT; };
+		DCE78C3822694EE9A6645ECB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/MPEG4_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MPEG4_Handler.cpp; path = ../source/FileHandlers/MPEG4_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		DCF1D6CFD46646C0825E8733 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inflate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = inflate.h; path = "../../third-party/zlib/inflate.h"; sourceTree = SOURCE_ROOT; };
+		DCFA51E07AD9465B893F138B /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/Basic_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Basic_Handler.hpp; path = ../source/FileHandlers/Basic_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		DE4D4AAD067C42E7852362C0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PSIR_MemoryReader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PSIR_MemoryReader.cpp; path = ../source/FormatSupport/PSIR_MemoryReader.cpp; sourceTree = SOURCE_ROOT; };
+		DE5A3CC1ACF04C0F8C64B178 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/RIFF_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RIFF_Handler.cpp; path = ../source/FileHandlers/RIFF_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		E1D0038526134B22915D23B3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/PSD_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PSD_Handler.hpp; path = ../source/FileHandlers/PSD_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		E3CA349132604867AB7878BA /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPFiles.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = TXMPFiles.hpp; path = ../../public/include/TXMPFiles.hpp; sourceTree = SOURCE_ROOT; };
+		E56BD528CB3445ECA77EF4BF /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/MPEG4_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = MPEG4_Handler.hpp; path = ../source/FileHandlers/MPEG4_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		E5A882CBF50747098C6F0C1C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/WAVEBehavior.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WAVEBehavior.cpp; path = ../source/FormatSupport/WAVE/WAVEBehavior.cpp; sourceTree = SOURCE_ROOT; };
+		E6549CBBE3EF4D1F9044962A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/XMPFiles_Impl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMPFiles_Impl.hpp; path = ../source/XMPFiles_Impl.hpp; sourceTree = SOURCE_ROOT; };
+		E82A5E72B42B485395272AA1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/AIFF/AIFFReconcile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AIFFReconcile.h; path = ../source/FormatSupport/AIFF/AIFFReconcile.h; sourceTree = SOURCE_ROOT; };
+		EA6B561D87FC4D48BCF1FD8E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/Cr8rMetadata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Cr8rMetadata.cpp; path = ../source/FormatSupport/WAVE/Cr8rMetadata.cpp; sourceTree = SOURCE_ROOT; };
+		EB02A86816994CF6A222DD7F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ReconcileLegacy.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ReconcileLegacy.hpp; path = ../source/FormatSupport/ReconcileLegacy.hpp; sourceTree = SOURCE_ROOT; };
+		EB60AF91C9404B268F913BCC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/UCF_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = UCF_Handler.cpp; path = ../source/FileHandlers/UCF_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		EC4B9766FD594CDD92CA3A78 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/WAVE_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WAVE_Handler.cpp; path = ../source/FileHandlers/WAVE_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		ECB200FAD3E3407FBE02672F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/FLV_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FLV_Handler.cpp; path = ../source/FileHandlers/FLV_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		EF5BD81937EB4EFFB61E917E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/RIFF.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RIFF.cpp; path = ../source/FormatSupport/RIFF.cpp; sourceTree = SOURCE_ROOT; };
+		EF5EB12200CC49ACBF1B7EB0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inftrees.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = inftrees.h; path = "../../third-party/zlib/inftrees.h"; sourceTree = SOURCE_ROOT; };
+		EFD686042F614F69A6B0E9BF /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/SuppressSAL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SuppressSAL.h; path = ../../source/SuppressSAL.h; sourceTree = SOURCE_ROOT; };
+		F02C7E2454424B09AFE98BD9 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ID3_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ID3_Support.cpp; path = ../source/FormatSupport/ID3_Support.cpp; sourceTree = SOURCE_ROOT; };
+		F15D7EDDAE764A3AB73E849D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/PSD_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PSD_Handler.cpp; path = ../source/FileHandlers/PSD_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		F2CBB0F478C4451DA5A63380 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inffast.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = inffast.h; path = "../../third-party/zlib/inffast.h"; sourceTree = SOURCE_ROOT; };
+		F53B104D4C95419BBDFD1253 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/P2_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = P2_Support.hpp; path = ../source/FormatSupport/P2_Support.hpp; sourceTree = SOURCE_ROOT; };
+		F776A3C959E643CAB7F33AC8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/PrmLMetadata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PrmLMetadata.cpp; path = ../source/FormatSupport/WAVE/PrmLMetadata.cpp; sourceTree = SOURCE_ROOT; };
+		F84B5B26ABC94261BC8B9A40 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/P2_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = P2_Support.cpp; path = ../source/FormatSupport/P2_Support.cpp; sourceTree = SOURCE_ROOT; };
+		FA3BEEFEE1DF42669B1D82CB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/Chunk.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Chunk.cpp; path = ../source/FormatSupport/IFF/Chunk.cpp; sourceTree = SOURCE_ROOT; };
+		FB2B90ACDF824AC69354BBE0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TIFF_MemoryReader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TIFF_MemoryReader.cpp; path = ../source/FormatSupport/TIFF_MemoryReader.cpp; sourceTree = SOURCE_ROOT; };
+		FCEDD86B6BA44D4C9AAB94BC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zuid/interfaces/MD5.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MD5.cpp; path = "../../third-party/zuid/interfaces/MD5.cpp"; sourceTree = SOURCE_ROOT; };
+		FE2E4BA96B774CFAB508EC2D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/WAVEBehavior.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = WAVEBehavior.h; path = ../source/FormatSupport/WAVE/WAVEBehavior.h; sourceTree = SOURCE_ROOT; };
+		FE65CA52E0B548D89A122410 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/XDCAM_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XDCAM_Support.cpp; path = ../source/FormatSupport/XDCAM_Support.cpp; sourceTree = SOURCE_ROOT; };
+		FFB0FFFF607B4CC2A4B9F4DC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/IChunkBehavior.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IChunkBehavior.cpp; path = ../source/FormatSupport/IFF/IChunkBehavior.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0293A128EB6F4D20ADC630CD /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				22BBF80D833B4E919024EE34 /* CMake Rules */,
+				4E75A77CA5EB480BAE970259 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		0660B4A5C4074B8EB9D25A13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A2586CB912C469DBA3F6736 /* XMPFiles */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A15E56316E14828919DAB1D /* Common Code */ = {
+			isa = PBXGroup;
+			children = (
+				9A31C2CE4ECF4B7994A1F310 /* NativeMetadataSupport */,
+				58FC3040ACDC4C1394A44639 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/HandlerRegistry.cpp */,
+				1D5FAC07CE7F4F49AAEA5325 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/WXMPFiles.cpp */,
+				00FAF2D121F64DE19B0B32AA /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/XMPFiles.cpp */,
+				ADDD3787B7A348A4AA676580 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/XMPFiles_Impl.cpp */,
+				5C42C233F8934358B3A0ED39 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/Host_IO-POSIX.cpp */,
+				9765AA96F5464FBDBF67FA07 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/IOUtils.cpp */,
+				079F8C85AF954EEB861F5E04 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/PerfUtils.cpp */,
+				01E84FC2B5B14BCC96BC21ED /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/SafeStringAPIs.cpp */,
+				B656A4CDB17044B08F0063E2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/UnicodeConversions.cpp */,
+				4A0AF4E91B2D443FBBEC6D25 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XIO.cpp */,
+				7DABCBCF1794412382FD0D22 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XML_Node.cpp */,
+				384FF1B7ECF54320B13F4499 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMPFiles_IO.cpp */,
+				0B65E3AAEF80430BA671A03E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMP_LibUtils.cpp */,
+				A64403D056C44F93B7E2F4E4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMP_ProgressTracker.cpp */,
+				FCEDD86B6BA44D4C9AAB94BC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zuid/interfaces/MD5.cpp */,
+			);
+			name = "Common Code";
+			sourceTree = "<group>";
+		};
+		22BBF80D833B4E919024EE34 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		245A93FD3FCA40B292477D10 = {
+			isa = PBXGroup;
+			children = (
+				79F9D8AFF5BC4DA9BE3478F1 /* Sources */,
+				8266D3D71FAC4592B069B76A /* Resources */,
+				0660B4A5C4074B8EB9D25A13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DFF9DB8BE7944EA8AEAC2F4 /* Format Support */ = {
+			isa = PBXGroup;
+			children = (
+				C521F367E93241D7B5B123A0 /* AIFF */,
+				7254E1426D8F432E87809A89 /* IFF */,
+				FD739BE5E9014F829ABC8F95 /* WAVE */,
+				48210EE6077545D992E93D13 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ASF_Support.hpp */,
+				47A1566274194F9294CA5F7F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ID3_Support.hpp */,
+				21EDE714E6E64EC284C429F1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IPTC_Support.hpp */,
+				B05D6B8C355E4A0F9949D078 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ISOBaseMedia_Support.hpp */,
+				7FB8D059821A4773978570B3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/MOOV_Support.hpp */,
+				F53B104D4C95419BBDFD1253 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/P2_Support.hpp */,
+				2FAD1229D79D421AA928E0A2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PNG_Support.hpp */,
+				C41B8FB89A0249D59B860F65 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PSIR_Support.hpp */,
+				42228B378BF14DF5A0EE4734 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PackageFormat_Support.hpp */,
+				78DF756417C24D95B5249333 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PostScript_Support.hpp */,
+				AD8F5FCDE9E2415F8DFE817B /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/QuickTime_Support.hpp */,
+				094FD8E45CC5480D856AFBCE /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/RIFF.hpp */,
+				B2A96A86B865425CBC793D8E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/RIFF_Support.hpp */,
+				EB02A86816994CF6A222DD7F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ReconcileLegacy.hpp */,
+				26C37AE3F07A490FAE81A862 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/Reconcile_Impl.hpp */,
+				9B4FC58252BA48369927774B /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/SWF_Support.hpp */,
+				4F006578A69348EEB4D07298 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TIFF_Support.hpp */,
+				0BF48D245ACB4BCA9DF51B16 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TimeConversionUtils.hpp */,
+				0D19B80EB5B748118B540C54 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/XDCAM_Support.hpp */,
+				A96F3C1FA5B84631AE821D0C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/XMPScanner.hpp */,
+			);
+			name = "Format Support";
+			sourceTree = "<group>";
+		};
+		3E47D408D19446C78A7D7F3D /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				74A0DA30457A46589C501A86 /* zlib */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		44E3108AE57B4EE7BC1B1C9C /* Client Glue */ = {
+			isa = PBXGroup;
+			children = (
+				3DD656A4F1D846109B67D282 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/TXMPFiles.incl_cpp */,
+				1C2CFBD09D0F453492064110 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/WXMPFiles.hpp */,
+				CD89BBB8FB724879B6417325 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/WXMP_Common.hpp */,
+			);
+			name = "Client Glue";
+			sourceTree = "<group>";
+		};
+		491C1AF0FD754574BF1C6657 /* Internal Headers */ = {
+			isa = PBXGroup;
+			children = (
+				B2C13987796F4B5A9CC62C1B /* Common Code */,
+				572F86FC54D34DACBB201F62 /* File Handlers */,
+				3DFF9DB8BE7944EA8AEAC2F4 /* Format Support */,
+				B9E2EAF421CA4AC7AFA4E68B /* PluginHandler */,
+			);
+			name = "Internal Headers";
+			sourceTree = "<group>";
+		};
+		572F86FC54D34DACBB201F62 /* File Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				0CA9D0A01F29414EB6C49984 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/ASF_Handler.hpp */,
+				8E91A52A52D748E6B7B739EB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/AVCHD_Handler.hpp */,
+				DCFA51E07AD9465B893F138B /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/Basic_Handler.hpp */,
+				6C7D76D5ED8C4B88B571184D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/FLV_Handler.hpp */,
+				093A1D37B24146A7B400DD71 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/InDesign_Handler.hpp */,
+				4F18B36C5AEC4DBD816A9F0B /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/JPEG_Handler.hpp */,
+				1776F5B976E246A58925A74E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/MP3_Handler.hpp */,
+				A3D9D0031DEF413EB5C55503 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/MPEG2_Handler.hpp */,
+				E56BD528CB3445ECA77EF4BF /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/MPEG4_Handler.hpp */,
+				6CAEC68DFED24B9A97818A65 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/P2_Handler.hpp */,
+				2A64A4B555F34B79A13EB75C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/PNG_Handler.hpp */,
+				E1D0038526134B22915D23B3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/PSD_Handler.hpp */,
+				78CEF2A1D74F4CEEA8B590F3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/PostScript_Handler.hpp */,
+				3170EDD56CEB4DF7A0E18C15 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/RIFF_Handler.hpp */,
+				6DE7C8DAFB5249999F6C140F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/SWF_Handler.hpp */,
+				2539378102214325AA467190 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/Scanner_Handler.hpp */,
+				41C497A283AF4530A8F3D8D6 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/SonyHDV_Handler.hpp */,
+				C6AF853B71E04B459E4206AA /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/TIFF_Handler.hpp */,
+				73AD54597CE24F128CB7656A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/Trivial_Handler.hpp */,
+				A009B6D685E74535BEBF7C31 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/UCF_Handler.hpp */,
+				34DB0D350FB64583B5EF9FE7 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/WAVE_Handler.hpp */,
+				6F1D7A080C94449A93B92B75 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/XDCAMEX_Handler.hpp */,
+				811E7683BA07417AA3D4C1FD /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/XDCAM_Handler.hpp */,
+			);
+			name = "File Handlers";
+			sourceTree = "<group>";
+		};
+		6631D2D2BFED45B5AC3ECB4F /* Resource Files */ = {
+			isa = PBXGroup;
+			children = (
+				8638F28B8DD74AF7A452C282 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/resource/linux/XMPFiles.exp */,
+			);
+			name = "Resource Files";
+			sourceTree = "<group>";
+		};
+		6D40A4AF8E0A4597A458680F /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				91A29618DA3B406B97127688 /* zlib */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		7225E3CB65A848168296202F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D40A4AF8E0A4597A458680F /* ThirdParty */,
+				1A15E56316E14828919DAB1D /* Common Code */,
+				A9A2A94001884FE384A7BC6F /* File Handlers */,
+				DAF5CB635E67467C9F362CC1 /* Format Support */,
+				B55F86C519944055BF5B49E0 /* PluginHandler */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7254E1426D8F432E87809A89 /* IFF */ = {
+			isa = PBXGroup;
+			children = (
+				46B87F16BF564120891AF0C4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/Chunk.h */,
+				5FEBC979AEF345B3A17CDE3E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/ChunkController.h */,
+				CCAF804C12F041D08C499792 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/ChunkPath.h */,
+				62BD02E600954220BE46BA7E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/IChunkBehavior.h */,
+				047C0AAB6DBE4B93B98AE760 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/IChunkContainer.h */,
+				11382351180740DF8E45A90C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/IChunkData.h */,
+			);
+			name = IFF;
+			sourceTree = "<group>";
+		};
+		74A0DA30457A46589C501A86 /* zlib */ = {
+			isa = PBXGroup;
+			children = (
+				564CA0753A4C46B5A2CF3B7A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/crc32.h */,
+				93B3EC145EF1439E8C563F01 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/deflate.h */,
+				41F76E57C18D450C916D4896 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/gzguts.h */,
+				F2CBB0F478C4451DA5A63380 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inffast.h */,
+				C70BC07D435D4D839582A1A0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inffixed.h */,
+				DCF1D6CFD46646C0825E8733 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inflate.h */,
+				EF5EB12200CC49ACBF1B7EB0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inftrees.h */,
+				62E7012A5F9349FB81A0CCD5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/trees.h */,
+				86BE773430E04BF789CC71F9 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/zconf.h */,
+				A4B4213505B34916B91645F2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/zlib.h */,
+				5396BB54C56C4086AC4DA25E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/zutil.h */,
+			);
+			name = zlib;
+			sourceTree = "<group>";
+		};
+		79F9D8AFF5BC4DA9BE3478F1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B121E2E7B117429E932454ED /* ZERO_CHECK */,
+				0293A128EB6F4D20ADC630CD /* ALL_BUILD */,
+				B5F92501F98B481B90F42005 /* XMPFiles */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		8266D3D71FAC4592B069B76A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8452A0D12C3146F4A18ACC26 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		87C84A61731D441CB5C8E10A /* Public Headers */ = {
+			isa = PBXGroup;
+			children = (
+				44E3108AE57B4EE7BC1B1C9C /* Client Glue */,
+				E3CA349132604867AB7878BA /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPFiles.hpp */,
+				524E88AC20F34A96B9485BF4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPIterator.hpp */,
+				198EBB5985F14F16BEEA6FD9 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPMeta.hpp */,
+				DBB00E47A9CC4378B5DC72A3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPUtils.hpp */,
+				B92F4F9E04D149E8985283FA /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP.hpp */,
+				947BA01152C645D5B93BABCF /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP.incl_cpp */,
+				4ECEDECAA1014182BC99C2D9 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_Const.h */,
+				1A75025CC3864A89ABA56ADA /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_Environment.h */,
+				37CDFEC1FFA048C7BDBDEA03 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_IO.hpp */,
+				40E9312805C54F4F9FBB4452 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_Version.h */,
+			);
+			name = "Public Headers";
+			sourceTree = "<group>";
+		};
+		8A1A9288CC3146EB92CE0BFA /* AIFF */ = {
+			isa = PBXGroup;
+			children = (
+				14451AAB0CBA41C3A28964F2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/AIFF/AIFFBehavior.cpp */,
+				AF051C28B4404ACE9F846BD5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/AIFF/AIFFMetadata.cpp */,
+				0669219DAF404626B76890D8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/AIFF/AIFFReconcile.cpp */,
+			);
+			name = AIFF;
+			sourceTree = "<group>";
+		};
+		91A29618DA3B406B97127688 /* zlib */ = {
+			isa = PBXGroup;
+			children = (
+				067CAB9F362E49DF8EF511CE /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/adler32.c */,
+				98AB7524128449E99C276B6E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/compress.c */,
+				512DE82D8E0A433FB99B3675 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/crc32.c */,
+				7E7D9B0E5ADD44E3A63B2397 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/deflate.c */,
+				33B9130FD4E0497BBB02B607 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/infback.c */,
+				57264AE9C92E401AAD0F15F2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inffast.c */,
+				46CAFDAEA5814FC3B9D9E633 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inflate.c */,
+				C42E1C42896A42C2AC2B969D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inftrees.c */,
+				BC7D2724660846568CA753FC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/trees.c */,
+				AA142D6BED4A43A1989D2892 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/uncompr.c */,
+				B8D000DE2C934CBBB71EAE95 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/zutil.c */,
+			);
+			name = zlib;
+			sourceTree = "<group>";
+		};
+		9A31C2CE4ECF4B7994A1F310 /* NativeMetadataSupport */ = {
+			isa = PBXGroup;
+			children = (
+				2CC99DA2E60B46768809DE87 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/NativeMetadataSupport/IMetadata.cpp */,
+				4B1FBC302B114009987BC8C1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/NativeMetadataSupport/IReconcile.cpp */,
+				24CEC4CA536146709428B3A0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/NativeMetadataSupport/MetadataSet.cpp */,
+			);
+			name = NativeMetadataSupport;
+			sourceTree = "<group>";
+		};
+		A9A2A94001884FE384A7BC6F /* File Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				6DD2F512427A475FA198FB29 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/AIFF_Handler.cpp */,
+				D994EF2CEA404BC0AD7DAA89 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/AIFF_Handler.hpp */,
+				C8EE1647B64544888BB149C8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/ASF_Handler.cpp */,
+				DB48149EC67D4024A05E71C7 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/AVCHD_Handler.cpp */,
+				ADF253017F3441088D8F0239 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/Basic_Handler.cpp */,
+				ECB200FAD3E3407FBE02672F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/FLV_Handler.cpp */,
+				4A8CC303C84D491FBC5FA167 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/InDesign_Handler.cpp */,
+				2CB243E747BA41AEB0C65B66 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/JPEG_Handler.cpp */,
+				B5B60269DD9B4FD8A8F6C7B4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/MP3_Handler.cpp */,
+				7D6160B6BB6B4417B5C6B0E0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/MPEG2_Handler.cpp */,
+				DCE78C3822694EE9A6645ECB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/MPEG4_Handler.cpp */,
+				6034B9AF3C4C45C98FFDF188 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/P2_Handler.cpp */,
+				4D89721E9ED84BD29BF24AB5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/PNG_Handler.cpp */,
+				F15D7EDDAE764A3AB73E849D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/PSD_Handler.cpp */,
+				A5C4EC988A1E47C3BB0B936C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/PostScript_Handler.cpp */,
+				DE5A3CC1ACF04C0F8C64B178 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/RIFF_Handler.cpp */,
+				D1B07AA8C3C04748A1F47F98 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/SWF_Handler.cpp */,
+				A646B503139F41E8A1EDBB71 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/Scanner_Handler.cpp */,
+				4E79A2DC44674CB2814F23C3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/SonyHDV_Handler.cpp */,
+				B7AAD4D5408A4FC0AD5D8D94 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/TIFF_Handler.cpp */,
+				7A7FA2ADE2634DAEBE7FA6F7 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/Trivial_Handler.cpp */,
+				EB60AF91C9404B268F913BCC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/UCF_Handler.cpp */,
+				EC4B9766FD594CDD92CA3A78 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/WAVE_Handler.cpp */,
+				D575576BBE25486D88302767 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/XDCAMEX_Handler.cpp */,
+				67BB336DE00B4FC0A7872F9D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/XDCAM_Handler.cpp */,
+			);
+			name = "File Handlers";
+			sourceTree = "<group>";
+		};
+		AFADE38B51BD459794F6B7B8 /* IFF */ = {
+			isa = PBXGroup;
+			children = (
+				FA3BEEFEE1DF42669B1D82CB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/Chunk.cpp */,
+				CB508361011043169A76A30C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/ChunkController.cpp */,
+				CAC303B5AA704237BBACD408 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/ChunkPath.cpp */,
+				FFB0FFFF607B4CC2A4B9F4DC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/IChunkBehavior.cpp */,
+			);
+			name = IFF;
+			sourceTree = "<group>";
+		};
+		B121E2E7B117429E932454ED /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				8452A0D12C3146F4A18ACC26 /* CMake Rules */,
+				7C6EEED5395E450BB27876CC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		B2C13987796F4B5A9CC62C1B /* Common Code */ = {
+			isa = PBXGroup;
+			children = (
+				CC61C5B314CE4AFD85D666C5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/XMPFiles.hpp */,
+				E6549CBBE3EF4D1F9044962A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/XMPFiles_Impl.hpp */,
+				832CACBEED06474D870028B2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/build/XMP_BuildInfo.h */,
+				A5F7D52C780048EF9E0372CD /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/Endian.h */,
+				D724CE2D3F234E018037E5F6 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/SafeStringAPIs.h */,
+				139B1405BB634C3B84D3DD04 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/SafeTypes.h */,
+				EFD686042F614F69A6B0E9BF /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/SuppressSAL.h */,
+			);
+			name = "Common Code";
+			sourceTree = "<group>";
+		};
+		B55F86C519944055BF5B49E0 /* PluginHandler */ = {
+			isa = PBXGroup;
+			children = (
+				3DC3AE3BFA5444EA91EE8C6D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/FileHandlerInstance.cpp */,
+				2F9713157B1940B392F4A80E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/HostAPIImpl.cpp */,
+				4D38536243EE4411BB9E99B4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/Module.cpp */,
+				25BAAD3EF81841DF8467AE7A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/OS_Utils_Linux.cpp */,
+				6D5EC772583544D9BD307860 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/PluginManager.cpp */,
+				04A681FE2A3A4D938B6C6BE1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/XMPAtoms.cpp */,
+			);
+			name = PluginHandler;
+			sourceTree = "<group>";
+		};
+		B5F92501F98B481B90F42005 /* XMPFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D25B0CA7C3DD4477866F6824 /* Header Files */,
+				7225E3CB65A848168296202F /* Source Files */,
+				6631D2D2BFED45B5AC3ECB4F /* Resource Files */,
+				3BC1675228CE40BE8BD4F13C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/CMakeLists.txt */,
+			);
+			name = XMPFiles;
+			sourceTree = "<group>";
+		};
+		B9E2EAF421CA4AC7AFA4E68B /* PluginHandler */ = {
+			isa = PBXGroup;
+			children = (
+				C566B55DE6FC45888A9D1999 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/FileHandler.h */,
+				C3FFD3AE8DA34F15AEE9C553 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/FileHandlerInstance.h */,
+				A08325F100AB4F32B4A4A57D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/Module.h */,
+				06A18A04DEB343A58204B8A3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/ModuleUtils.h */,
+				5EA99ADE710749ADAF616A71 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/PluginManager.h */,
+				0FBDC9AA14B54207BBA9869C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/XMPAtoms.h */,
+			);
+			name = PluginHandler;
+			sourceTree = "<group>";
+		};
+		C521F367E93241D7B5B123A0 /* AIFF */ = {
+			isa = PBXGroup;
+			children = (
+				D534EB577D554FD4A94DE530 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/AIFF/AIFFBehavior.h */,
+				31463298F5324C7BA3DBC36E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/AIFF/AIFFMetadata.h */,
+				E82A5E72B42B485395272AA1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/AIFF/AIFFReconcile.h */,
+			);
+			name = AIFF;
+			sourceTree = "<group>";
+		};
+		C6433E6220374EB1905042DA /* WAVE */ = {
+			isa = PBXGroup;
+			children = (
+				5D3D9CC27F204A528EDD2EEF /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/BEXTMetadata.cpp */,
+				973BA8BA9A2A416397BA9B8E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/CartMetadata.cpp */,
+				EA6B561D87FC4D48BCF1FD8E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/Cr8rMetadata.cpp */,
+				927CC2E01B9246138F9FCB09 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/DISPMetadata.cpp */,
+				48D324673F1944D6A4B0B530 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/INFOMetadata.cpp */,
+				F776A3C959E643CAB7F33AC8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/PrmLMetadata.cpp */,
+				E5A882CBF50747098C6F0C1C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/WAVEBehavior.cpp */,
+				BF0EFB4C8F7D4027AE3188E9 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/WAVEReconcile.cpp */,
+				A8883317CC764268B5167FEC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/iXMLMetadata.cpp */,
+			);
+			name = WAVE;
+			sourceTree = "<group>";
+		};
+		D25B0CA7C3DD4477866F6824 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				491C1AF0FD754574BF1C6657 /* Internal Headers */,
+				87C84A61731D441CB5C8E10A /* Public Headers */,
+				3E47D408D19446C78A7D7F3D /* ThirdParty */,
+				4A115D226656436AAF860647 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/Host_IO.hpp */,
+				62575A827D744889BB0864B9 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/IOUtils.hpp */,
+				620FFA8E642D4881B3779052 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XIO.hpp */,
+				C90179307DF942278B8AF7D1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMPFiles_IO.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		DAF5CB635E67467C9F362CC1 /* Format Support */ = {
+			isa = PBXGroup;
+			children = (
+				8A1A9288CC3146EB92CE0BFA /* AIFF */,
+				AFADE38B51BD459794F6B7B8 /* IFF */,
+				C6433E6220374EB1905042DA /* WAVE */,
+				8EDCC4E317E6407D9C58D306 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ASF_Support.cpp */,
+				F02C7E2454424B09AFE98BD9 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ID3_Support.cpp */,
+				6D8B6A7D8382491B8860C219 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IPTC_Support.cpp */,
+				30BF1144439B43E2A62033E0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ISOBaseMedia_Support.cpp */,
+				71AB78C98BB44E20A021082A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/MOOV_Support.cpp */,
+				F84B5B26ABC94261BC8B9A40 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/P2_Support.cpp */,
+				DC0811DA65CD409DBDE95BC3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PNG_Support.cpp */,
+				02A22F529F694CE3B9D3D582 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PSIR_FileWriter.cpp */,
+				DE4D4AAD067C42E7852362C0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PSIR_MemoryReader.cpp */,
+				039965445AA548F780BEAEE6 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PackageFormat_Support.cpp */,
+				ACBF0BE1DDDF4F429505C5C5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PostScript_Support.cpp */,
+				BFF2494BFA98442896BEEDBB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/QuickTime_Support.cpp */,
+				EF5BD81937EB4EFFB61E917E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/RIFF.cpp */,
+				C2A93AC034F4417A90F5A33A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/RIFF_Support.cpp */,
+				6C51A99EFD3B496591DCAAC5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ReconcileIPTC.cpp */,
+				633ACFF99DCF45139ED86A94 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ReconcileLegacy.cpp */,
+				AB642BEDA82541A49C548882 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ReconcileTIFF.cpp */,
+				D9E0E9EBF4FD490C863ABF5E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/Reconcile_Impl.cpp */,
+				7059604E77F546568D7DAB9D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/SWF_Support.cpp */,
+				75F598AF636746F5A16CD651 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TIFF_FileWriter.cpp */,
+				FB2B90ACDF824AC69354BBE0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TIFF_MemoryReader.cpp */,
+				7A5009EC69744EABB2866326 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TIFF_Support.cpp */,
+				11953A82D389412B801D1BF5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TimeConversionUtils.cpp */,
+				FE65CA52E0B548D89A122410 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/XDCAM_Support.cpp */,
+				665169AC84234FEDA67DAA4E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/XMPScanner.cpp */,
+			);
+			name = "Format Support";
+			sourceTree = "<group>";
+		};
+		FD739BE5E9014F829ABC8F95 /* WAVE */ = {
+			isa = PBXGroup;
+			children = (
+				34F4EE3DB5354BE48CBEBE91 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/BEXTMetadata.h */,
+				40051243EA95459C935CDFDC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/CartMetadata.h */,
+				64A1FF1EE78144B784FA9AC7 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/Cr8rMetadata.h */,
+				06233ADD5BBD4E498A26D7B0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/DISPMetadata.h */,
+				82816A792F6F4FC19F179B9D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/INFOMetadata.h */,
+				0749EDF96229468A8ACAC242 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/PrmLMetadata.h */,
+				FE2E4BA96B774CFAB508EC2D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/WAVEBehavior.h */,
+				5F396ED9E78A4432A3E8C88D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/WAVEReconcile.h */,
+				C439913D45D6491B864098B8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/iXMLMetadata.h */,
+			);
+			name = WAVE;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F77DC3D7D2E54F5BA84E3B24 /* XMPFiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8729993E416E4183B442BD21 /* Build configuration list for PBXNativeTarget "XMPFiles" */;
+			buildPhases = (
+				59BB57010C34441FA0C186CF /* Sources */,
+				A6E1D3B676324BAB9BFBAFDC /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F12262BF72E14F6497985C19 /* PBXTargetDependency */,
+			);
+			name = XMPFiles;
+			productName = XMPFiles;
+			productReference = 1A2586CB912C469DBA3F6736 /* XMPFiles */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE26BE46019C49A295A8BE1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = DDFCFC7E22D04C91B51A36BC /* Build configuration list for PBXProject "XMPFiles64" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				6E44A8BCD1D1411AB62C6070 /* Debug */,
+				BE56BBE4D73C48D1931D3BEE /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 245A93FD3FCA40B292477D10;
+			projectDirPath = ../../../;
+			projectRoot = "";
+			targets = (
+				93072CBD4DFB4EA4A32BA8CE /* ALL_BUILD */,
+				F77DC3D7D2E54F5BA84E3B24 /* XMPFiles */,
+				BF007B14F3AF43C5B0E0AEAA /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CC1D1846C824927B3B21A4F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		75BBA5107F764457AFB7BD9C /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/xcode/dynamic/intel_64 -f /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/xcode/dynamic/intel_64/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		A02F2F2E032A4FF7960E420D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/xcode/dynamic/intel_64 -f /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/xcode/dynamic/intel_64/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		A6E1D3B676324BAB9BFBAFDC /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/xcode/dynamic/intel_64 -f /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/xcode/dynamic/intel_64/CMakeScripts/XMPFiles_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		B0C9CD7E928B4B6DBE90011F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59BB57010C34441FA0C186CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED646E1279E48FFBA178770 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/AIFF_Handler.cpp */,
+				A55A090B51E8468493F94D75 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/ASF_Handler.cpp */,
+				DC8F806DC6C14479A7E03F45 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/AVCHD_Handler.cpp */,
+				C9A9FA9874F94351A487EBD5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/Basic_Handler.cpp */,
+				40EDA767649A49FA94235BE5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/FLV_Handler.cpp */,
+				FC662BB67074465AB12C7F9A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/InDesign_Handler.cpp */,
+				AF0126DF8DE14E249FBF1CB4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/JPEG_Handler.cpp */,
+				1D8771B8C5EC4B0E8B2DF9E1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/MP3_Handler.cpp */,
+				96663C7DE6174E3294638F03 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/MPEG2_Handler.cpp */,
+				B0296529BD6B4F2DAC58F0F4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/MPEG4_Handler.cpp */,
+				2D0B6D35A64946DF96D93B5F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/P2_Handler.cpp */,
+				81367B235D0F4333A62199FE /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/PNG_Handler.cpp */,
+				9E25326FB93B4ADD9EFC8E7E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/PSD_Handler.cpp */,
+				B0ADCAA165634F25838CBD34 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/PostScript_Handler.cpp */,
+				954A60340CB940609232557D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/RIFF_Handler.cpp */,
+				773A33985AB94BDAB408ED88 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/SWF_Handler.cpp */,
+				0B35A14F95B44DCEB11FF194 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/Scanner_Handler.cpp */,
+				223750786A8F4C8BB6DA5CD0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/SonyHDV_Handler.cpp */,
+				81F2F47B5E3B42BB8C0ACE2C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/TIFF_Handler.cpp */,
+				F046604C3727495DA09531CC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/Trivial_Handler.cpp */,
+				EDB8415103B3468E9A5D8DD3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/UCF_Handler.cpp */,
+				6BC8164E43EF45E5AD8586D3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/WAVE_Handler.cpp */,
+				6BA3015967F14BDEB8174501 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/XDCAMEX_Handler.cpp */,
+				2F82F9E91211427885625FE8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FileHandlers/XDCAM_Handler.cpp */,
+				BD74924593E94E77BA328FE8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/AIFF/AIFFBehavior.cpp */,
+				5E3D754B9D1241E9BC802B33 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/AIFF/AIFFMetadata.cpp */,
+				0D5BC1A6502040B6A24AF717 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/AIFF/AIFFReconcile.cpp */,
+				E0850A6FEE284E16B99AB0A5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ASF_Support.cpp */,
+				6FE2AE301F504036BF79B36F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ID3_Support.cpp */,
+				90C230C250C24548A3A4E477 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/Chunk.cpp */,
+				A417D918817F449680141778 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/ChunkController.cpp */,
+				C3209778623D4CA99244E36D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/ChunkPath.cpp */,
+				377F6BD5A0FD4A49B166D847 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IFF/IChunkBehavior.cpp */,
+				40576DB5544F44B4AD8F5F27 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/IPTC_Support.cpp */,
+				31C54EE971E147B9B9AF66C1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ISOBaseMedia_Support.cpp */,
+				12EAF98FD3774E66B6CCB581 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/MOOV_Support.cpp */,
+				3A55CB38A88D482696C4B567 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/P2_Support.cpp */,
+				1DDDED716D22461D8653B43D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PNG_Support.cpp */,
+				684A41583A324C3F9FAFF3D2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PSIR_FileWriter.cpp */,
+				C7EB5AE581F640BF9F7B6116 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PSIR_MemoryReader.cpp */,
+				9FA6B0EF196B46E48DE86832 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PackageFormat_Support.cpp */,
+				E974EF08F051442AB0339602 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/PostScript_Support.cpp */,
+				DCD3CA39F19D4679B9F41B71 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/QuickTime_Support.cpp */,
+				45B7AB26440E415E99D4ACD1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/RIFF.cpp */,
+				E968288FDFDC49E58B120B15 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/RIFF_Support.cpp */,
+				E93409D990C040D496EC9D7A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ReconcileIPTC.cpp */,
+				8FF68F88E1BF4208A866A9F4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ReconcileLegacy.cpp */,
+				4F49D02359134A2E90AFD3FB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/ReconcileTIFF.cpp */,
+				95B34F9E1F284F86BF484EA4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/Reconcile_Impl.cpp */,
+				7762A6BCA9384BDDABA00447 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/SWF_Support.cpp */,
+				B5853015F9D64F4992B09052 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TIFF_FileWriter.cpp */,
+				C9F6DF17A3AF422CA03C5EBB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TIFF_MemoryReader.cpp */,
+				C8C3ED956D2C4F36979F456E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TIFF_Support.cpp */,
+				7DC3E6553A4C4881A8336785 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/TimeConversionUtils.cpp */,
+				F35A886C6F164DEDA4395F8B /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/BEXTMetadata.cpp */,
+				2D901F08987C4E05884E3940 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/CartMetadata.cpp */,
+				CF144717F4424ECBA270A648 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/Cr8rMetadata.cpp */,
+				AF0056D0099142BD8C94B03D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/DISPMetadata.cpp */,
+				FD68C19BDB7746F3A625B286 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/INFOMetadata.cpp */,
+				E2631E6EF90945D7AD39FD02 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/PrmLMetadata.cpp */,
+				303D89F7581940D9BF1BCB94 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/WAVEBehavior.cpp */,
+				8066D783A2AA45B0BAEE95EE /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/WAVEReconcile.cpp */,
+				83F972DC77A349618E143A80 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/WAVE/iXMLMetadata.cpp */,
+				5DFE242E96FE411ABA5877D4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/XDCAM_Support.cpp */,
+				0CED073CA56A46E9B7C88665 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/FormatSupport/XMPScanner.cpp */,
+				318E409628E749EC871C69A6 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/HandlerRegistry.cpp */,
+				43DADECB5DDC410AA1461E1A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/NativeMetadataSupport/IMetadata.cpp */,
+				5593DD7319394E3AA707DE4B /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/NativeMetadataSupport/IReconcile.cpp */,
+				F5DF6B97265B418B93A8FD9E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/NativeMetadataSupport/MetadataSet.cpp */,
+				505BEBDBB60943F8BA15EE52 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/FileHandlerInstance.cpp */,
+				6EFC47D5CEC344EEB0606D4D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/HostAPIImpl.cpp */,
+				6209A81C4DA0458289BFEA1A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/Module.cpp */,
+				DE1C353887BD43F9AF69EA04 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/OS_Utils_Linux.cpp */,
+				24E1EA70F6A648529AE63B16 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/PluginManager.cpp */,
+				A0989305252940828D375FD9 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/PluginHandler/XMPAtoms.cpp */,
+				EB70072D1D2D4261AE716085 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/WXMPFiles.cpp */,
+				2ABF6860C87B440EA002661C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/XMPFiles.cpp */,
+				FDFBEA3590854E1CA2676EB3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/source/XMPFiles_Impl.cpp */,
+				C317A77FD18B4ACE9246A9ED /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/Host_IO-POSIX.cpp */,
+				BDFC47980F2B4D96915618C5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/IOUtils.cpp */,
+				FD5718D1353D4A38B02BF77A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/PerfUtils.cpp */,
+				D7D306B4A8224FFA886FDDB1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/SafeStringAPIs.cpp */,
+				AF909544B854438AA4B5E8C5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/UnicodeConversions.cpp */,
+				8F3DFDA5F6E74104BF71742D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XIO.cpp */,
+				FCB97855C003487B8F93144D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XML_Node.cpp */,
+				E95AC962686B485EA1730EDB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMPFiles_IO.cpp */,
+				98A15DC1AE2E4F07A043F9F3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMP_LibUtils.cpp */,
+				C5AEF0E7513B44CB95775AEA /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMP_ProgressTracker.cpp */,
+				3F90EFD2C80346088124F914 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/adler32.c */,
+				F67D4589B01F4FF19786F06D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/compress.c */,
+				37ABBAAAD65C4F45A2B4F0C8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/crc32.c */,
+				35C16BA53FD84854B5B51AEE /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/deflate.c */,
+				3316FEADBA3E41E68E991662 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/infback.c */,
+				BB77BAE6977C43C19AA39C20 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inffast.c */,
+				D369CD1AAAA9408893BC611A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inflate.c */,
+				E54CAA96E6B94D3A9EE06C7D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/inftrees.c */,
+				87CBD3A476E4497EBE7BE775 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/trees.c */,
+				8852254E007C4E9DA5B50A12 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/uncompr.c */,
+				0099FAB389754DFC9199BF6D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zlib/zutil.c */,
+				BBB7300BAFC84BE7AAE5B26B /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zuid/interfaces/MD5.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6075929FF13C4A91891CED16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F77DC3D7D2E54F5BA84E3B24 /* XMPFiles */;
+			targetProxy = 6D5807E26CE64319A9CA95D9 /* PBXContainerItemProxy */;
+		};
+		DA54AF9C725645BA87ACD974 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF007B14F3AF43C5B0E0AEAA /* ZERO_CHECK */;
+			targetProxy = 38E76EDC7AC44767AA18C41D /* PBXContainerItemProxy */;
+		};
+		F12262BF72E14F6497985C19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF007B14F3AF43C5B0E0AEAA /* ZERO_CHECK */;
+			targetProxy = 9F3CDDE6B3F8414C87874AB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D559464F90E4941A0485925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../..", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../public/include", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../third-party/expat/zlib", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../XMPFilesPlugins/api/source", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../resource/linux", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/xcode/dynamic/intel_64";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		2D624F3D78BE4847A7F1691F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../..", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../public/include", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../third-party/expat/zlib", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../XMPFilesPlugins/api/source", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../resource/linux", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/xcode/dynamic/intel_64";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		61050BDBD63A462CA24BC90D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/libraries/i80386linux_x64/Release";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .so;
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", XMPFiles_EXPORTS, "'XML_STATIC=1'", "'HAVE_EXPAT_CONFIG_H=1'", "'XMP_DynamicBuild=1'", "'BUILDING_XMPCOMMON_LIB=1'", "'UNIX_ENV=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../..", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../public/include", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../third-party/expat/zlib", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../XMPFilesPlugins/api/source", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../resource/linux", );
+				INFOPLIST_FILE = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/xcode/dynamic/intel_64/CMakeFiles/XMPFiles.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = $ORIGIN;
+				LIBRARY_SEARCH_PATHS = " /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../public/libraries/i80386linux_x64/$(configuration)$(effective_platform_name)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../public/libraries/i80386linux_x64/$(configuration)$(effective_platform_name)";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "-fPIC  -Wno-multichar -Wno-implicit -D_FILE_OFFSET_BITS=64 -funsigned-char  -m64  -fexceptions -Wformat -Wformat-security  -Wall -fstack-protector -D_FORTIFY_SOURCE=2        -fwrapv  -DNDEBUG=1 -D_NDEBUG=1 -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "-fPIC  -Wno-multichar -Wno-implicit -D_FILE_OFFSET_BITS=64 -funsigned-char  -m64  -fexceptions -Wformat -Wformat-security  -Wall -fstack-protector -D_FORTIFY_SOURCE=2       -fwrapv  -DNDEBUG=1 -D_NDEBUG=1 -fPIC  ";
+				OTHER_LDFLAGS = "-z defs -Xlinker -Bsymbolic -Wl,--no-undefined -m64  -lrt -ldl -luuid -lpthread /user/unicore/i80386linux_x64/compiler/gcc4.4.4/linux2.6_64/lib64/libssp.a -Xlinker --version-script -Xlinker \"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../resource/linux/XMPFiles.exp\" -install_name libXMPFiles.so  /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/libraries/i80386linux_x64/Release/libXMPCore.so";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = XMPFiles;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/xcode/dynamic/intel_64";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		B03319C5B4044ED2B44FDBA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../..", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../public/include", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../third-party/expat/zlib", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../XMPFilesPlugins/api/source", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../resource/linux", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/xcode/dynamic/intel_64";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		C017B1A9B0794C62870A823F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/xcode/dynamic/intel_64/build";
+			};
+			name = Release;
+		};
+		C418387153324466AE83B0FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../..", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../public/include", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../third-party/expat/zlib", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../XMPFilesPlugins/api/source", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../resource/linux", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/xcode/dynamic/intel_64";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		E372EF156EB4499993D6492D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/libraries/i80386linux_x64/Debug";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .so;
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", XMPFiles_EXPORTS, "'XML_STATIC=1'", "'HAVE_EXPAT_CONFIG_H=1'", "'XMP_DynamicBuild=1'", "'BUILDING_XMPCOMMON_LIB=1'", "'UNIX_ENV=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../..", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../public/include", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../third-party/expat/zlib", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../XMPFilesPlugins/api/source", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../resource/linux", );
+				INFOPLIST_FILE = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/xcode/dynamic/intel_64/CMakeFiles/XMPFiles.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = $ORIGIN;
+				LIBRARY_SEARCH_PATHS = " /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../public/libraries/i80386linux_x64/$(configuration)$(effective_platform_name)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../public/libraries/i80386linux_x64/$(configuration)$(effective_platform_name)";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "-fPIC  -Wno-multichar -Wno-implicit -D_FILE_OFFSET_BITS=64 -funsigned-char  -m64  -fexceptions -Wformat -Wformat-security  -Wall -fstack-protector -D_FORTIFY_SOURCE=2              -DDEBUG=1 -D_DEBUG=1 -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "-fPIC  -Wno-multichar -Wno-implicit -D_FILE_OFFSET_BITS=64 -funsigned-char  -m64  -fexceptions -Wformat -Wformat-security  -Wall -fstack-protector -D_FORTIFY_SOURCE=2             -DDEBUG=1 -D_DEBUG=1 -fPIC  ";
+				OTHER_LDFLAGS = "-z defs -Xlinker -Bsymbolic -Wl,--no-undefined -m64  -lrt -ldl -luuid -lpthread /user/unicore/i80386linux_x64/compiler/gcc4.4.4/linux2.6_64/lib64/libssp.a -Xlinker --version-script -Xlinker \"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../resource/linux/XMPFiles.exp\" -install_name libXMPFiles.so  /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/libraries/i80386linux_x64/Debug/libXMPCore.so";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = XMPFiles;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/xcode/dynamic/intel_64";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		F199D4AC7E674DEE9E140416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/xcode/dynamic/intel_64/build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		010D6B70E0C24F7591AC1FC7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B03319C5B4044ED2B44FDBA2 /* Debug */,
+				2D559464F90E4941A0485925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8729993E416E4183B442BD21 /* Build configuration list for PBXNativeTarget "XMPFiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E372EF156EB4499993D6492D /* Debug */,
+				61050BDBD63A462CA24BC90D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C0E34B7FBDD74650BA5EDDE8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C418387153324466AE83B0FF /* Debug */,
+				2D624F3D78BE4847A7F1691F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DDFCFC7E22D04C91B51A36BC /* Build configuration list for PBXProject "XMPFiles64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F199D4AC7E674DEE9E140416 /* Debug */,
+				C017B1A9B0794C62870A823F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE26BE46019C49A295A8BE1D /* Project object */;
+}

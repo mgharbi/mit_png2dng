@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_xmp_sdk.cpp \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_xmp_sdk.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_auto_ptr.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_classes.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_flags.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_types.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_assertions.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_exceptions.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_errors.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_host.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_memory.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_string.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_string_list.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_utils.h \
+  ../../../XMP-SDK/public/include/XMP.incl_cpp \
+  ../../../XMP-SDK/public/include/XMP.hpp \
+  ../../../XMP-SDK/public/include/XMP_Environment.h \
+  ../../../XMP-SDK/public/include/XMP_Version.h \
+  ../../../XMP-SDK/public/include/XMP_Const.h \
+  ../../../XMP-SDK/public/include/TXMPMeta.hpp \
+  ../../../XMP-SDK/public/include/TXMPIterator.hpp \
+  ../../../XMP-SDK/public/include/client-glue/WXMPIterator.hpp \
+  ../../../XMP-SDK/public/include/client-glue/WXMP_Common.hpp \
+  ../../../XMP-SDK/public/include/TXMPUtils.hpp \
+  ../../../XMP-SDK/public/include/client-glue/TXMPMeta.incl_cpp \
+  ../../../XMP-SDK/public/include/client-glue/WXMPMeta.hpp \
+  ../../../XMP-SDK/public/include/client-glue/TXMPIterator.incl_cpp \
+  ../../../XMP-SDK/public/include/client-glue/TXMPUtils.incl_cpp \
+  ../../../XMP-SDK/public/include/client-glue/WXMPUtils.hpp

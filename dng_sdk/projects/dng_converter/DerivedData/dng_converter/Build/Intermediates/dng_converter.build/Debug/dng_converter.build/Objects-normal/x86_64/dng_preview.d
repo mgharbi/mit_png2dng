@@ -1,0 +1,36 @@
+dependencies: \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_preview.cpp \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_preview.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_auto_ptr.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_classes.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_ifd.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_fingerprint.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_exceptions.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_errors.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_types.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_flags.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_stream.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_memory.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_rational.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_utils.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_rect.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_point.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_shared.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_matrix.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_sdk_limits.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_negative.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_1d_function.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_linearization_info.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_mosaic_info.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_opcode_list.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_opcodes.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_orientation.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_string.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_tag_types.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_tag_values.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_xy_coord.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_assertions.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_image.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_pixel_buffer.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_image_writer.h \
+  /Users/mgharbi/Downloads/dng_sdk_1_3/dng_sdk/projects/dng_converter/dng_converter/dng_tag_codes.h

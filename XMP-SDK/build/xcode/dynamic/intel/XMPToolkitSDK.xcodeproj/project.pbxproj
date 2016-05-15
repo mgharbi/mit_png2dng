@@ -1,0 +1,2420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1867E69B034D465BA6F1272C /* XMPCoreInfoPlist */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 78C554CE969E4798934131BA /* Build configuration list for PBXAggregateTarget "XMPCoreInfoPlist" */;
+			buildPhases = (
+				F3BDD7304001481AB1A06C0D /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = XMPCoreInfoPlist;
+			productName = XMPCoreInfoPlist;
+		};
+		87024BBC910D4F6CB5250F49 /* XMPFilesInfoPlist */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 64FC9B297A5947179884F64F /* Build configuration list for PBXAggregateTarget "XMPFilesInfoPlist" */;
+			buildPhases = (
+				24D3C98FDF9548258E0CF85B /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = XMPFilesInfoPlist;
+			productName = XMPFilesInfoPlist;
+		};
+		BDC86DB4B41F40B388FC46A8 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8427DFDA0D3B46C197076C0E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				6F94E24C1E8A4EA58D2EFE5C /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F02AE3F6F38C46C3BD95BDC3 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0F891E0B8AA44F619DABBFC0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				E98EF4772DCD4783B0487520 /* CMake Rules */,
+			);
+			dependencies = (
+				3FFC07522E864FBFAA869BE5 /* PBXTargetDependency */,
+				8C522C94BEF4497090879BD8 /* PBXTargetDependency */,
+				B95A95E36BD142FA8ED35C80 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0056F6889E974A77949ABC66 /* SafeStringAPIs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7108B946A5C14C9C88CD8F15 /* SafeStringAPIs.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0498705FFFC34769A112B685 /* XML_Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F97CFFA97B44B9D92D05CC4 /* XML_Node.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		04F5643727DB46F5B5C830F7 /* ChunkController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F632A59D2CE4C59A0269D4D /* ChunkController.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		05FB0B8BCC4C4398BBEEB64A /* IMetadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC3E0756B84A444B87B34354 /* IMetadata.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		062D92C45D7740AB9D1E8DC8 /* ReconcileTIFF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1BE8E269AF64A58B1396D8E /* ReconcileTIFF.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0796548F39FA47188F9DEDD7 /* XIO.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 95AF4E3E8FC04F55B2A44FD7 /* XIO.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		09346CE90E104193A5030544 /* inftrees.h in Headers */ = {isa = PBXBuildFile; fileRef = 480906237E464A2F858693D1 /* inftrees.h */; settings = {COMPILER_FLAGS = ""; }; };
+		09EC83408BEA449CB070AFA1 /* gzguts.h in Headers */ = {isa = PBXBuildFile; fileRef = 789667AEDA20449CAB420ECF /* gzguts.h */; settings = {COMPILER_FLAGS = ""; }; };
+		0A6F58C0075B4BDBB514D6A2 /* MP3_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50ED04D9E8F24A4792E3D54B /* MP3_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0ABE675507204083B60F77E9 /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A9D82A5988E4AA089EEF0EC /* crc32.c */; settings = {COMPILER_FLAGS = ""; }; };
+		0C01419B6CE74ECBB74D7CB2 /* ExpatAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D671AD8D1C4544619B494313 /* ExpatAdapter.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0C0435EB04714D6691D7856F /* Trivial_Handler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0BB11BC586304C59AE7F449D /* Trivial_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0E26EC62E0524B8FA37D9348 /* AVCHD_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3A5DD30F40E44129E61F9E8 /* AVCHD_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0F3C54282C024D2B8B4F0120 /* PostScript_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3871F28A3704CBCB45E66F8 /* PostScript_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		116A4E07518E4B87B9CDACBF /* WXMPIterator.hpp in Headers */ = {isa = PBXBuildFile; fileRef = EE3A61DD4AC44F859242442F /* WXMPIterator.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1319DE1836A748CFB1240111 /* XMPMeta-GetSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2AAD12352E1424490DE8942 /* XMPMeta-GetSet.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		13DC9DEAFAE24A7184AF68E4 /* TXMPMeta.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0AF296E0B1DF43B583AC98BF /* TXMPMeta.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1541E652104747D5BDE5F94B /* MetadataSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF163A916F344D1A90D17DD3 /* MetadataSet.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		15DE545662E44083840ECB0E /* UCF_Handler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 1D0223CDBA424611B34CFB45 /* UCF_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		15EBFA36068149D9A0A43A6B /* CartMetadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC1189973A714E64BC960C7F /* CartMetadata.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		177BEF1056044FCAB27D439F /* MOOV_Support.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4DF51243B77444F28AF0A35A /* MOOV_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		199133B7A1734E10AD0F673A /* Reconcile_Impl.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 10DCB283D3CD46AD80578D87 /* Reconcile_Impl.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		19BAE56A98D64008A50FA1C8 /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = A809FA767F434DF1BE7E456B /* deflate.c */; settings = {COMPILER_FLAGS = ""; }; };
+		19DC90C85E44498E88B65A14 /* WAVEBehavior.h in Headers */ = {isa = PBXBuildFile; fileRef = 168408D3F45B40F8BB0D241C /* WAVEBehavior.h */; settings = {COMPILER_FLAGS = ""; }; };
+		1A37113535864ED6AE44A9AB /* inffast.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0ABA2C30424DF5B5ABFC40 /* inffast.h */; settings = {COMPILER_FLAGS = ""; }; };
+		1C57D8C75B9A4C2E86D3ADD2 /* SWF_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8D75AE4988541E4B37EF4E4 /* SWF_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1C8E6083F8154057BE0798C5 /* SafeStringAPIs.h in Headers */ = {isa = PBXBuildFile; fileRef = 710A27F80EC143FD9751E177 /* SafeStringAPIs.h */; settings = {COMPILER_FLAGS = ""; }; };
+		1C96F725D84444C281C4F566 /* UnicodeConversions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8397D5949BF74FB3ACA9CD6F /* UnicodeConversions.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1D36D2F1912B40FB9B908027 /* WXMPMeta.hpp in Headers */ = {isa = PBXBuildFile; fileRef = FA79BA929C4E4DD0B1A281BD /* WXMPMeta.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1DA7A773E5534997AA67C013 /* ASF_Support.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 02196443AC854D819C7C16EE /* ASF_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1DE75E7DEF3C49CEB07C9707 /* WAVEBehavior.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F68D2EBB3B54F2092FCE76A /* WAVEBehavior.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1E994D2238844AD4997F5710 /* WXMPFiles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D0268AD04834C318F4BD087 /* WXMPFiles.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1F8DD21591524C668663EDBC /* UnicodeConversions.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 91C91434B3C84382A1E9BEF1 /* UnicodeConversions.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1F935AF1D76E457892280778 /* SonyHDV_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C53CE568EC54699AAB3801B /* SonyHDV_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		20CDA7A0A8AF4AA484CADE8A /* TIFF_Handler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 06593683AB864BA29CE1E6DD /* TIFF_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2118E4C8C3A74D45B45E2BE7 /* AIFFMetadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7DB386EFAFF4CD2863EE7A4 /* AIFFMetadata.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		233DB91967E74F4FA05D0C9A /* ParseRDF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D928F00ED85D4D16B6F55FC6 /* ParseRDF.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		234FC1786A0E4365AF70EFDB /* ID3_Support.hpp in Headers */ = {isa = PBXBuildFile; fileRef = CBECEA8D1EBD456EBD526183 /* ID3_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		23AB575E40174BC88A45A9D6 /* trees.h in Headers */ = {isa = PBXBuildFile; fileRef = F20F0978A5E24295B247FC81 /* trees.h */; settings = {COMPILER_FLAGS = ""; }; };
+		24EB05D694EA43E4A9ADC165 /* ModuleUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 777D422FA0AF4E8CAA980352 /* ModuleUtils.h */; settings = {COMPILER_FLAGS = ""; }; };
+		252375BA7F424551B2FA34ED /* XMP_Version.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C2776323F0C4C9C957D98D1 /* XMP_Version.h */; settings = {COMPILER_FLAGS = ""; }; };
+		26ECED968D6C47F3A6D62A67 /* Host_IO.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 53928F6F9BD2431391929349 /* Host_IO.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		27C02A10BDC14BBF9ED7CD65 /* XMPFiles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D94280BEA28C4258B21F42FD /* XMPFiles.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		28441A09BE464030A22A76F1 /* iXMLMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C49D350BC84210BF06A1E3 /* iXMLMetadata.h */; settings = {COMPILER_FLAGS = ""; }; };
+		29CB59DC1A25415CA8A17360 /* WXMPUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 892BD4CAE5AA4CC1B21ADE8A /* WXMPUtils.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2A4A8BBCA81341C78378FD64 /* Scanner_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 048869D59A454A799857DC52 /* Scanner_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2B6855BD5D3A482AA36752E8 /* XMPFiles_Impl.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 682B243FF97A4FD79FE44A00 /* XMPFiles_Impl.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2CD63DDF481341629F9FDBF0 /* zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = A53B6602013D41CC8C67E146 /* zlib.h */; settings = {COMPILER_FLAGS = ""; }; };
+		2CFFAECA27934C5BA7A05571 /* INFOMetadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 651C3F3679A64B728BA5FACE /* INFOMetadata.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2D22FDC70859485A89B48D51 /* FileHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = D65FDCDCD9A546C8A40F7882 /* FileHandler.h */; settings = {COMPILER_FLAGS = ""; }; };
+		2D680F69C7E04684ABBDDC45 /* ExpatAdapter.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5E6954BE8A774DD5AC5191CF /* ExpatAdapter.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2F97A3947DCA4B44A2B35E5E /* PackageFormat_Support.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13F32997006F451385F8CFEE /* PackageFormat_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		313EB8152D93401D8F98E4C0 /* ISOBaseMedia_Support.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 24426C9E87894157B5D3D87C /* ISOBaseMedia_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		32736BF98DCE46B5B2D9E125 /* XMP_ProgressTracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5D301EE9590472E97CC427C /* XMP_ProgressTracker.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		35A312A0F431491F86B8D9F6 /* iXMLMetadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88DAFC7F61E74C1386A8C2A4 /* iXMLMetadata.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		35A824E519EC42F8801AFF95 /* inflate.h in Headers */ = {isa = PBXBuildFile; fileRef = 202E4072B66B48B6A2C9BB61 /* inflate.h */; settings = {COMPILER_FLAGS = ""; }; };
+		36F27C0890C04EEB8FF96B62 /* XMP.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 582923CE15D042D5A618CBD8 /* XMP.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3899AC2105FB4DEEAFFB06E7 /* MD5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B1E5CCD7856498FA3152EAC /* MD5.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3B54996F355A48B1B0E75867 /* XDCAM_Support.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2E9424765AD485A80356A7E /* XDCAM_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3C65F45ACD92431098A63030 /* PrmLMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 87640AFD62D54FFF8A35B23A /* PrmLMetadata.h */; settings = {COMPILER_FLAGS = ""; }; };
+		3ECFAC62E0744124B89E0EE5 /* zconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 569FE547AE6844A18CC28E6A /* zconf.h */; settings = {COMPILER_FLAGS = ""; }; };
+		3F68B0D6DDA24591B48CEBD1 /* OS_Utils_Mac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97A19EA96C884F2E95CDD5B5 /* OS_Utils_Mac.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		424D6EC0D48340809C066FCA /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 985914D7B95D46A4AC7709BD /* trees.c */; settings = {COMPILER_FLAGS = ""; }; };
+		438D9A4D95AE45258F8FE6B9 /* TimeConversionUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE89E82B69D64B96B61BF867 /* TimeConversionUtils.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		43C835442B814C9A950D25AA /* RIFF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10778DA795094690B7DF6D24 /* RIFF.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		454BF8E46C49491D8CF05452 /* AIFFReconcile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 463D6EDECC364DC5AB9097DF /* AIFFReconcile.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		45E4ED583D2B4099B6D56F29 /* MPEG2_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FFFC82A2D3584DA08EDA573B /* MPEG2_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		48167BE4313F48E39C9EACCB /* JPEG_Handler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 801481B177E8434786E9B9B7 /* JPEG_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		489EE28705624BFBB5636E0E /* Endian.h in Headers */ = {isa = PBXBuildFile; fileRef = C6E52C731A1C428F99B18F40 /* Endian.h */; settings = {COMPILER_FLAGS = ""; }; };
+		49E9CAA1AF914B5EAA648F1C /* XMPFiles_IO.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 74E6DF2B92B4470F91CA4F75 /* XMPFiles_IO.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4A02FEDFFE4644B5A7383742 /* ChunkController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA725B0843E415FAF5EE8DA /* ChunkController.h */; settings = {COMPILER_FLAGS = ""; }; };
+		4AFDE4DCA93E4CB78F0C5895 /* WAVEReconcile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7DD739E5EFC454EBC8949D9 /* WAVEReconcile.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4CD619DEDE6B4733AC4474C7 /* PackageFormat_Support.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 56133239AEC3492595B4E093 /* PackageFormat_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4D839B3A583145979CD545E0 /* XMP_IO.hpp in Headers */ = {isa = PBXBuildFile; fileRef = CECB0CCB5C974DA0BF6E1CDB /* XMP_IO.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4ED7472D3B524BC99BAF08B2 /* SWF_Handler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D051962E101D4D0099E4BF6C /* SWF_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4F029CDBF2504FF5BE23B168 /* deflate.h in Headers */ = {isa = PBXBuildFile; fileRef = AA07D92B48C14CDCAADA4280 /* deflate.h */; settings = {COMPILER_FLAGS = ""; }; };
+		502E3666AAD04C799EB91B63 /* XMPScanner.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8A0D6CFD69E344E7BB345584 /* XMPScanner.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		528E8E9248E6486AB80CE4E8 /* WAVE_Handler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 723BB8799AE34D769063E3D2 /* WAVE_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		529E9065CF6D4FD6BA860DB8 /* XMP_LibUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C14366100EAE4D4998D27084 /* XMP_LibUtils.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		541041E33DF94ED99D385EFD /* TXMPUtils.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4572BCA52D9349469226394B /* TXMPUtils.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		552C1C4D2E664A008743520E /* IPTC_Support.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9AAE77C388264C3F916A46BE /* IPTC_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		56120CB4CB4E4B99BBD99156 /* inffixed.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F8ED70E133D49A8A7DA9D29 /* inffixed.h */; settings = {COMPILER_FLAGS = ""; }; };
+		5A4FEE52D1E94E719BEC3165 /* xmltok.c in Sources */ = {isa = PBXBuildFile; fileRef = 886659D1905B43409184F358 /* xmltok.c */; settings = {COMPILER_FLAGS = ""; }; };
+		5BC57F0FE43549D6A532EBE3 /* TIFF_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36CE87538BEF4D5180304490 /* TIFF_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5D39F20D13C44C08B1695850 /* MP3_Handler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = AF3492AC29554170A02558B4 /* MP3_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5EF54B8F6D914BED824239CA /* MPEG4_Handler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A9B8AE3942224CD2AA297E89 /* MPEG4_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5FD93A604D5147979850C959 /* Trivial_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BCDC64ECACE4A45805D67C2 /* Trivial_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6011A7D42D964D84970F2D20 /* PNG_Support.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6E7A857E4D64DEBA7E09E34 /* PNG_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6234C62272094F8DBABC905B /* InDesign_Handler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 04D9718751D64AB98F4BFF53 /* InDesign_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		62BB937D58004F318734FCE2 /* FileHandlerInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = 715AD18C55E44A2BAEAC17AA /* FileHandlerInstance.h */; settings = {COMPILER_FLAGS = ""; }; };
+		641416DEDBCF4B29B63C963F /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 77A99823B73B4F61B2A2EF3F /* zutil.c */; settings = {COMPILER_FLAGS = ""; }; };
+		653F04B0A1634A77A52B378F /* XMPIterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9411AC9619D44DDDA6616DA8 /* XMPIterator.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		655570C66C3A418797185C3A /* Module.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D400C20229224D5F84D32387 /* Module.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		668E909B891A4CC5A066DE54 /* XMPCore_Impl.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3D116ACF93B845DCBF5569FD /* XMPCore_Impl.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		66DA5D507F99499EA69D7E5C /* PerfUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41E3D0E5A4D54F80A499A7C7 /* PerfUtils.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		697846788D0A410C8FEFBB49 /* PrmLMetadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80B43D4237F84D018F405460 /* PrmLMetadata.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		69CCF3F744DD42CABB4A5507 /* TXMPIterator.hpp in Headers */ = {isa = PBXBuildFile; fileRef = ACC1834991154EFEBC7F976E /* TXMPIterator.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6A2A2DAA14274A1B806EE5AC /* ReconcileLegacy.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 326ECFC637E44919A977BCAF /* ReconcileLegacy.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6C50C631BD724FFAA1BD2823 /* XDCAMEX_Handler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3ECF206ED4234DE98F9F80B7 /* XDCAMEX_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6D728ADA2204437CBD016D33 /* Module.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D8280304994EDCBE64AC5C /* Module.h */; settings = {COMPILER_FLAGS = ""; }; };
+		6E507CDDB952414E8FE3A3D5 /* WAVEReconcile.h in Headers */ = {isa = PBXBuildFile; fileRef = 4685AF8BEB0D4FA09264D0BE /* WAVEReconcile.h */; settings = {COMPILER_FLAGS = ""; }; };
+		707BED52A9704DC58D6F5E43 /* SonyHDV_Handler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = CA20ADE3F10240C28A805D98 /* SonyHDV_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		71130124A0684BCA918DCDCB /* Basic_Handler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D350A85964334FF8A49EF108 /* Basic_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		735406B5926A420F870CAC71 /* TXMPFiles.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 28A3F509732941F596328275 /* TXMPFiles.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		759A41A67FDD44949F880F8D /* RIFF_Support.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D97F987C73524E3D9F3B0C90 /* RIFF_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		775BB245DCCA41579146DD09 /* ASF_Support.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC16B6A2FC0040E88B2EBDB0 /* ASF_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		78324AE16BD942F086F4CAD2 /* TXMPUtils.hpp in Headers */ = {isa = PBXBuildFile; fileRef = EC55775144B1488AAC56FF23 /* TXMPUtils.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		79D4D8D46E4B45D1A7676922 /* ID3_Support.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3A9D45BF73149478F7DB7B9 /* ID3_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7A3C6CBAA5E94BB0B923B643 /* PNG_Support.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6B8F06DB40B64E2398B61988 /* PNG_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7AB5A04C39C544129309B55A /* TimeConversionUtils.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C83AAD081B6D4E45AABCA861 /* TimeConversionUtils.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7AD69AEDF9C64296A01E47AA /* crc32.h in Headers */ = {isa = PBXBuildFile; fileRef = 5765F6290D4040BFA360125A /* crc32.h */; settings = {COMPILER_FLAGS = ""; }; };
+		7CCA1E2FEC8245C88C1138F8 /* expat_config.h in Headers */ = {isa = PBXBuildFile; fileRef = FC02FD330D974315A2E162D4 /* expat_config.h */; settings = {COMPILER_FLAGS = ""; }; };
+		7D2EA5E144D04D278131C859 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 316C1DE550BA4EE98FA12420 /* compress.c */; settings = {COMPILER_FLAGS = ""; }; };
+		7D7F66F74FB84FD091C8E073 /* XMP_Version.h in Headers */ = {isa = PBXBuildFile; fileRef = 670C0AC725A6457A9B244B52 /* XMP_Version.h */; settings = {COMPILER_FLAGS = ""; }; };
+		7E553E73B1874B0DABBAEF4C /* ChunkPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 841FB612D1C8438187FEB166 /* ChunkPath.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7F63E8428CCF48EE9ABAA968 /* XMP.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DE2FB58F0CBD4FBFB9A27E62 /* XMP.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7FD14B47AE3D487982DE2778 /* PSD_Handler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9F79C496E9F140BEBC83D7DB /* PSD_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7FDE3459BBF5477AB6705D10 /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = B47189FA28B44C4A8A1E0C6E /* infback.c */; settings = {COMPILER_FLAGS = ""; }; };
+		80D26CE48A2F4001B117D830 /* PNG_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4277E49FA75D4624A826B9AA /* PNG_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		80D611E6610C4BD49FAE2AAC /* QuickTime_Support.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDA18F0451264B25B738AFDB /* QuickTime_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8207959C4FA04FB280B53A8A /* XMP_BuildInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 14D76EA002234E9A926261C4 /* XMP_BuildInfo.h */; settings = {COMPILER_FLAGS = ""; }; };
+		8229716F705B430CBEFDF671 /* WXMPUtils.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 32DA235BA6B74067A4CA9A7B /* WXMPUtils.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		83173E12B9F849F8BDA7F82B /* AVCHD_Handler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = EBFC327BC4D4410F81684EE9 /* AVCHD_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		83F40FDA29B94D3095F8FB8B /* P2_Handler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = FEE25BCB0C78408CB4446AAD /* P2_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		84421D881135498F91AE21BB /* WXMPFiles.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 063AF7BC517D48C0A26E7BD1 /* WXMPFiles.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		84DBC1BD33B74F23A66EA5AA /* SWF_Support.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EF9D2897E6E4F1EB801A48F /* SWF_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		872D73F0A5EA40BA8685069E /* FLV_Handler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 48AD7151A8174D068ADEDE37 /* FLV_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8791C994E3594DABB824A075 /* XMPFiles.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 92C7549A37A94196871B2537 /* XMPFiles.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8931A438F2014DD1A35901B4 /* IChunkData.h in Headers */ = {isa = PBXBuildFile; fileRef = E90CE6374A564AA2BE36A746 /* IChunkData.h */; settings = {COMPILER_FLAGS = ""; }; };
+		8A0C77C9A3074A268C6AD309 /* IChunkBehavior.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5031A670FCCE4A209771C13A /* IChunkBehavior.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8A54C9D46EE346B9A0631DE1 /* ChunkPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 585BCE67798B407B873C9F55 /* ChunkPath.h */; settings = {COMPILER_FLAGS = ""; }; };
+		8AF27B413B4444FA8F58D0CC /* ASF_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B36898091E704A359FFF257C /* ASF_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8B0A1067F09E41EFBB990A68 /* TIFF_Support.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E2A5FE9B917403688AB538F /* TIFF_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8BCC05923F0F4175B1BD49FC /* XMLParserAdapter.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9679B77252CE496CA984911E /* XMLParserAdapter.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8BEA3ED0679544DFA7499E6D /* Chunk.h in Headers */ = {isa = PBXBuildFile; fileRef = 2389045679FC4E3FA1EC675A /* Chunk.h */; settings = {COMPILER_FLAGS = ""; }; };
+		8C5F2987305A4A3CB30708BE /* MPEG2_Handler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = CC4FB09BDCF941A6A40BBC9A /* MPEG2_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8CB71E20DF1A40BA844E7CA7 /* HostAPIImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 902E3598298742DFAA86C426 /* HostAPIImpl.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8D5DE490EFD645B19300E1A5 /* HandlerRegistry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4C5660B9F34039A45AB4BE /* HandlerRegistry.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8D9A933DA8E54084AD6D370D /* XMPAtoms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACD0D532C5E34B3BB10EBFE0 /* XMPAtoms.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8E0EC0A32A464A73839535AA /* DISPMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = BD9EB2CAE9974463AABF3929 /* DISPMetadata.h */; settings = {COMPILER_FLAGS = ""; }; };
+		8FDD25A3127346C78DF0CE2C /* XMPCore_Impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50779D1E89884AF0A7F9C026 /* XMPCore_Impl.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		907108C99A314637886F45E1 /* PSD_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8903EFE19EC246A4B722D653 /* PSD_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9088CBF5990C40B3879A45A2 /* FileHandlerInstance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EC470C285984F50B133011D /* FileHandlerInstance.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		90EB0D6E9B5B49F8AF1EE47B /* PostScript_Support.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 768A710EE37949C1A38BD7CF /* PostScript_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		924D7B330E004264B01B4ADF /* AIFFBehavior.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93260933B20E48A69E4A55F1 /* AIFFBehavior.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		933EE554DB7D439CBC45DFE0 /* JPEG_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D6D26D1693847DE940E3138 /* JPEG_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9390D946413D40379BFDDF14 /* InDesign_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C5FE7FB9E5D441ACA68B007E /* InDesign_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9466D3EB36D445659DEC581B /* Cr8rMetadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9922230555D443FC8B4F7783 /* Cr8rMetadata.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		955B4D268F694CA68DA3A520 /* TXMPMeta.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 7BB601011D3149DDB6C81BD7 /* TXMPMeta.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9641289B673F4EC4A7B678A2 /* XML_Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B896360EE22A474C98E1DCB0 /* XML_Node.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9708D046C81F49F287A92D33 /* XMPFiles_IO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E942D068B8E6446EB71492E1 /* XMPFiles_IO.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		977851B5D7574A229FB33C7D /* IOUtils.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 94731B1F0FFB4227BBF91088 /* IOUtils.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9A2B6704C4FC4BEB92BB75BD /* WXMP_Common.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 89496BBC50194712995FD13A /* WXMP_Common.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9DE11EADEE2B4B6E8AC9E7F8 /* IChunkContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = AFFFA05546D249138542A994 /* IChunkContainer.h */; settings = {COMPILER_FLAGS = ""; }; };
+		9E5EA9D026C94BAAAED0FD0E /* WXMPIterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0361E5753F554D2DA85B8061 /* WXMPIterator.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9E817FD8F9F247EE82C9D909 /* XMPMeta.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 865AEFE6325C4BD091A0641A /* XMPMeta.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A090BC2945ED41489E2F2BF3 /* INFOMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = ABBA544D5A2E46928A14D843 /* INFOMetadata.h */; settings = {COMPILER_FLAGS = ""; }; };
+		A0B9AC0137F94F64A3C2CCD8 /* P2_Support.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 813B9286407542AB8BEDFD5E /* P2_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A4274F25D40C4855A17C897E /* WXMPMeta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 207A2C629F9249A4871F5A95 /* WXMPMeta.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A4F0337C6CFB4493BEF1152D /* FLV_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7F803FFFC4346899FA2B1B5 /* FLV_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A60D932765CF4EB1B82EAA8B /* xmlparse.c in Sources */ = {isa = PBXBuildFile; fileRef = F1FCA6328D12402FBC3FA698 /* xmlparse.c */; settings = {COMPILER_FLAGS = ""; }; };
+		A660D94D0D53486BB504316C /* XMPAtoms.h in Headers */ = {isa = PBXBuildFile; fileRef = 09942AB523B44A7E808746BE /* XMPAtoms.h */; settings = {COMPILER_FLAGS = ""; }; };
+		A70EDE8B846B4E58AFEED09E /* CartMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 33F4F074F0D742099DB108FB /* CartMetadata.h */; settings = {COMPILER_FLAGS = ""; }; };
+		A731617BBBC5422E826535B7 /* SuppressSAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CCE6F3CC0264D69BDBF3F82 /* SuppressSAL.h */; settings = {COMPILER_FLAGS = ""; }; };
+		A8763B50CF5F41239D9D2B90 /* AIFF_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB411AC1A4401DB0FAF855 /* AIFF_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A930DA69AE7642B18D95B69B /* XMP_LibUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 904A42BEAF4748198EFA3501 /* XMP_LibUtils.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AA2A96D045C44714942119DC /* XMPMeta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D3269B5F2864922B2FD182C /* XMPMeta.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AACA4248F32444EFA87A91ED /* DISPMetadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8016DB3B3C24D1F8C51506F /* DISPMetadata.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AD103FB8136C40A18E4F566D /* PSIR_FileWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A7D618E634544DE9145FF7F /* PSIR_FileWriter.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AFCBD9358DB941EAA48AABFF /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 614BE936706D4471B4CBBA29 /* inflate.c */; settings = {COMPILER_FLAGS = ""; }; };
+		B1143F3F30C74C148C3443AE /* Host_IO-POSIX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFD9B33456FC40EA812A3052 /* Host_IO-POSIX.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B1FF80CEE41D4EEC88969F38 /* RIFF.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BAAA5BF6E28A4CFFAF7BDFD1 /* RIFF.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B20087054C164B9193F59A07 /* Basic_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F278940D7FFA4D0A9C54E0F0 /* Basic_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B46D8D80D67549CAB759DB34 /* MOOV_Support.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 635864A1276F4787B835C4BA /* MOOV_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B734045C78C7412A955A4E0E /* BEXTMetadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BBA3D35E9EB4176BA254998 /* BEXTMetadata.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B7386034296247E3A080A117 /* SWF_Support.hpp in Headers */ = {isa = PBXBuildFile; fileRef = CD2C719FB1534473B9616A76 /* SWF_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B75DDBAA71B2441A9FB614D6 /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = 06E22471924C417BA212D754 /* inftrees.c */; settings = {COMPILER_FLAGS = ""; }; };
+		B818D49E1C864C94BD2BEC21 /* WXMP_Common.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 26188D58638141E69DE5DBFF /* WXMP_Common.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B86C5F00CDF84C2DA2A32A85 /* XMPMeta-Parse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F521B31F41B4098A2EF3176 /* XMPMeta-Parse.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B8A5E06BD28446BBB6B3D7DA /* PluginManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F4A997CFDF423A9CDB7958 /* PluginManager.h */; settings = {COMPILER_FLAGS = ""; }; };
+		B8DAD052C8464A8C9B60287B /* QuickTime_Support.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9C95013DA06547CEA5EC112D /* QuickTime_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BC569517836A458D8C06BFF2 /* XMPFiles_Impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B78B411EEE73475B944D0F2A /* XMPFiles_Impl.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BD0059B7389C4356A716D946 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = 83DB83836D264E798AD5BB48 /* adler32.c */; settings = {COMPILER_FLAGS = ""; }; };
+		BDB7B583F8584BE2B6617F12 /* PostScript_Handler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4BDE8F0B7AEB46C2A2C37D00 /* PostScript_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BF6221C8B8B944E6858FD5A5 /* Scanner_Handler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B14622152FD847D6889B0C35 /* Scanner_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BFA9808FC69546588C67E40E /* AIFF_Handler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 15714F3F428444F4A0356A39 /* AIFF_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BFE541A3B71B48C39E6C5B2D /* IOUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45C7047B5C4748728A0B5399 /* IOUtils.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C103CC4F781843059D4187CD /* IChunkBehavior.h in Headers */ = {isa = PBXBuildFile; fileRef = 455AACC779834EA19A05603C /* IChunkBehavior.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C1596F601D0C4F1FBB933F50 /* MD5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2619527F024B4987B7BC8A3B /* MD5.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C4B0235AADC44664A477C10F /* RIFF_Handler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BBD82287B8D84ECCBEEEF0B5 /* RIFF_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C78BCB656B0E4DD28B0F1115 /* XDCAM_Handler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B06D675E4B314DECAA9CE6B1 /* XDCAM_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C89AD9256C2C4C72AD22AA4C /* XIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C377D65EBC6043D4BD47D1E9 /* XIO.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C9DB425C530E462C8F0CD46E /* P2_Support.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 20F3D888FE80424681E1FE8C /* P2_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CA1120084123495E9455032D /* P2_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 192AE48D3C1B42F0864EF650 /* P2_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CADC32BD8CC7455AA08607EE /* Cr8rMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 6639F640C8044AB7BA689C66 /* Cr8rMetadata.h */; settings = {COMPILER_FLAGS = ""; }; };
+		CB3ACCF05A534E109E537DA9 /* ReconcileIPTC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C61694E39F3B4D58B0268AB7 /* ReconcileIPTC.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CC78A9D4736F4408AE1B85CC /* XDCAM_Support.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BF58E4B7995B4924929266BC /* XDCAM_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CDE3C8800AEF466A8F14331F /* RIFF_Support.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30FF60C0386E435191AB6118 /* RIFF_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CE3359AEA4C34E489C91A534 /* PostScript_Support.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 29400DCE06174B1B9FCE63AC /* PostScript_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CF1CE8472130441A9A0E8A24 /* XMPUtils.hpp in Headers */ = {isa = PBXBuildFile; fileRef = AB0A97D7436144458E2DE7FC /* XMPUtils.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D146162F24D248B593BA9C6D /* UCF_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43503AA5F189469CB62F20F0 /* UCF_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D16F744FE3334C7EB52B946B /* TXMPIterator.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6CA7EDB97D0246B4A6428184 /* TXMPIterator.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D294B1C361334AC3BAE325DA /* XMPUtils-FileInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EA7C4B070AF4F1F96E3A777 /* XMPUtils-FileInfo.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D30064350A9849819B6A0717 /* XDCAM_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45FAAE93A4E34B5A858EACF7 /* XDCAM_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D57ACB839EC74F2DA3307F4C /* XMPCorePList.h in Headers */ = {isa = PBXBuildFile; fileRef = 7409DEF05B1A40E8AF45A614 /* XMPCorePList.h */; settings = {COMPILER_FLAGS = ""; }; };
+		D8A84DF09E7745CE9708BEB5 /* AIFFBehavior.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EBFC85AFE454FE0BC4CBDCB /* AIFFBehavior.h */; settings = {COMPILER_FLAGS = ""; }; };
+		D8E6B9CEF37842BBB5BF7B64 /* PSIR_Support.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 05C0540AE76441E697410CF2 /* PSIR_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D9C9183A0EF34E8188D724AA /* IReconcile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9EF9822D746A44B9B540DEA8 /* IReconcile.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DA04CDCA434B4D3BB55ABD5D /* XMPMeta-Serialize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1409A4E661E47C1A1EC1843 /* XMPMeta-Serialize.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DB0DF82E70DD498080C01E0D /* WAVE_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7809CC6FCE814DBEB757BE95 /* WAVE_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DC2659EBA6FC4E68A08ED525 /* AIFFMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 3167990D138B4479B68647F3 /* AIFFMetadata.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E0111C0E3CA24AF6BA228CC9 /* PSIR_MemoryReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ACB084EBD1E4E0E8EB8601C /* PSIR_MemoryReader.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E0797C8508ED4217841E68E6 /* XMPScanner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1C71E871E45447FAECA5E2D /* XMPScanner.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E1271CC81C104D91A84B08E7 /* UnicodeConversions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01E98261D8954EE580B9A8DD /* UnicodeConversions.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E1D61A7FA349483BA2698166 /* zutil.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D66581417F43DAA6C25E95 /* zutil.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E235077A31EB4C4B924B58B8 /* ISOBaseMedia_Support.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47FC267F91994D00A2C57DE3 /* ISOBaseMedia_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E363EB533A604893A423EFFC /* AIFFReconcile.h in Headers */ = {isa = PBXBuildFile; fileRef = C47EF017EC834FE98CDEAEFA /* AIFFReconcile.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E3B134B77DF64A77AB0E1B83 /* BEXTMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A851EF5EF9B409691259854 /* BEXTMetadata.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E56CBF4E3A3A40AA8401F026 /* TIFF_FileWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB229D12B1B4E87B025F2E3 /* TIFF_FileWriter.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E6E35113634C4E32A7C85965 /* XMPUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C73C100ECBB44858BEC72A0 /* XMPUtils.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E6F1E9AD369B412A90FEEF42 /* XMP_BuildInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3296C4006590475782406075 /* XMP_BuildInfo.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E706A83C6152494E84DAE586 /* MPEG4_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FD08B6BF06F472FB8B9F4AB /* MPEG4_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E9332B2045424A6EBAF79CD4 /* XDCAMEX_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BCD43808B25481CB9D51AFC /* XDCAMEX_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E9B241ED88F844A0ABD8FF0A /* RIFF_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCAF99170471422CBE95E549 /* RIFF_Handler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		EAA10FE95CA74EBEB5749CC2 /* XMP_Environment.h in Headers */ = {isa = PBXBuildFile; fileRef = CEDCB86841404BEE84A791D1 /* XMP_Environment.h */; settings = {COMPILER_FLAGS = ""; }; };
+		EAD56741B358442E8E07D218 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = C2472E4307034E1DA88BB3BD /* uncompr.c */; settings = {COMPILER_FLAGS = ""; }; };
+		EAF3C62478CC47C7AC8835BE /* XMP_Const.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8B8D6D7B1E4B53A0564468 /* XMP_Const.h */; settings = {COMPILER_FLAGS = ""; }; };
+		EE9FDF8BFE54472783A82445 /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BD52DB210184F8FA07B4E17 /* inffast.c */; settings = {COMPILER_FLAGS = ""; }; };
+		EECE631C4D54490D853F26B6 /* SafeTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 58EFD904A76E4FDE80E3E15E /* SafeTypes.h */; settings = {COMPILER_FLAGS = ""; }; };
+		F06B3F8333B545D9BA916B77 /* ReconcileLegacy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9396BAD913444127A2E5D530 /* ReconcileLegacy.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F0AF8CE507B1497D840B0777 /* xmlrole.c in Sources */ = {isa = PBXBuildFile; fileRef = 5641DE5168D34559B5AE5A03 /* xmlrole.c */; settings = {COMPILER_FLAGS = ""; }; };
+		F12D4791B00841B892C7B27A /* XMP_Const.h in Headers */ = {isa = PBXBuildFile; fileRef = 6555B125B8B44CC3813AF813 /* XMP_Const.h */; settings = {COMPILER_FLAGS = ""; }; };
+		F40FCF8F69574E8CBEB226DD /* TIFF_MemoryReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3D85169386A4DCCB42EAA5F /* TIFF_MemoryReader.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F42C5338A0234103AE44C9B5 /* Chunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 051BA01DF2834BC4A2149D78 /* Chunk.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F5B7A4B7BDF34EABB7C11C42 /* PNG_Handler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8FED40B8FBED4199AA268FF3 /* PNG_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F7E908337D354AD7BFDF6BD4 /* PluginManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54A21B604BF44E4792D304FC /* PluginManager.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F900A2FB4E1743219A7389EF /* TIFF_Support.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 677BF7D4366E49BDBE571AAE /* TIFF_Support.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F912C7A2D8D5409292B54154 /* XMPIterator.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2ACCC285623047158F952155 /* XMPIterator.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F977729AFF13445E93D289A5 /* IPTC_Support.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C24C83E5474482AA561E84F /* IPTC_Support.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FCEE5A96B6FE4D67873D2848 /* ASF_Handler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0A489F1A7DCA4848BEE281FF /* ASF_Handler.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FD0C431CB27949AA971F43B9 /* Reconcile_Impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E983B7EC398495A9BEAEFAB /* Reconcile_Impl.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FD30F7A623E04037AEE5BEFF /* XMP_Environment.h in Headers */ = {isa = PBXBuildFile; fileRef = 148FDC5E6FA94C7982923D7D /* XMP_Environment.h */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07E059A00E0B4097AC496283 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0EC898890284FF19C31699F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A449245AA8D548C4BB1C3E43;
+			remoteInfo = XMPFiles;
+		};
+		09041951FA88456F9E1E4485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0EC898890284FF19C31699F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1619416375764868ABECA289;
+			remoteInfo = XMPCore;
+		};
+		1A3698239B78450C9E37C16C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0EC898890284FF19C31699F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1867E69B034D465BA6F1272C;
+			remoteInfo = XMPCoreInfoPlist;
+		};
+		4777FF4C88FD407EA2D74389 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0EC898890284FF19C31699F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87024BBC910D4F6CB5250F49;
+			remoteInfo = XMPFilesInfoPlist;
+		};
+		8C459B6795A2431AAF621918 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0EC898890284FF19C31699F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1619416375764868ABECA289;
+			remoteInfo = XMPCore;
+		};
+		92B8BE38C0BC4AABB20EE1FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0EC898890284FF19C31699F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDC86DB4B41F40B388FC46A8;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E98261D8954EE580B9A8DD /* UnicodeConversions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = UnicodeConversions.cpp; path = ../source/UnicodeConversions.cpp; sourceTree = SOURCE_ROOT; };
+		02196443AC854D819C7C16EE /* ASF_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ASF_Support.hpp; path = ../XMPFiles/source/FormatSupport/ASF_Support.hpp; sourceTree = SOURCE_ROOT; };
+		0361E5753F554D2DA85B8061 /* WXMPIterator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WXMPIterator.cpp; path = ../XMPCore/source/WXMPIterator.cpp; sourceTree = SOURCE_ROOT; };
+		048869D59A454A799857DC52 /* Scanner_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Scanner_Handler.cpp; path = ../XMPFiles/source/FileHandlers/Scanner_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		04D9718751D64AB98F4BFF53 /* InDesign_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = InDesign_Handler.hpp; path = ../XMPFiles/source/FileHandlers/InDesign_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		051BA01DF2834BC4A2149D78 /* Chunk.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Chunk.cpp; path = ../XMPFiles/source/FormatSupport/IFF/Chunk.cpp; sourceTree = SOURCE_ROOT; };
+		05C0540AE76441E697410CF2 /* PSIR_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PSIR_Support.hpp; path = ../XMPFiles/source/FormatSupport/PSIR_Support.hpp; sourceTree = SOURCE_ROOT; };
+		063AF7BC517D48C0A26E7BD1 /* WXMPFiles.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WXMPFiles.hpp; path = "../public/include/client-glue/WXMPFiles.hpp"; sourceTree = SOURCE_ROOT; };
+		06593683AB864BA29CE1E6DD /* TIFF_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = TIFF_Handler.hpp; path = ../XMPFiles/source/FileHandlers/TIFF_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		06E22471924C417BA212D754 /* inftrees.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = inftrees.c; path = "../third-party/zlib/inftrees.c"; sourceTree = SOURCE_ROOT; };
+		09942AB523B44A7E808746BE /* XMPAtoms.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XMPAtoms.h; path = ../XMPFiles/source/PluginHandler/XMPAtoms.h; sourceTree = SOURCE_ROOT; };
+		0A489F1A7DCA4848BEE281FF /* ASF_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ASF_Handler.hpp; path = ../XMPFiles/source/FileHandlers/ASF_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		0AF296E0B1DF43B583AC98BF /* TXMPMeta.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = TXMPMeta.hpp; path = ../public/include/TXMPMeta.hpp; sourceTree = SOURCE_ROOT; };
+		0BB11BC586304C59AE7F449D /* Trivial_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Trivial_Handler.hpp; path = ../XMPFiles/source/FileHandlers/Trivial_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		0D6D26D1693847DE940E3138 /* JPEG_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = JPEG_Handler.cpp; path = ../XMPFiles/source/FileHandlers/JPEG_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		0E983B7EC398495A9BEAEFAB /* Reconcile_Impl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Reconcile_Impl.cpp; path = ../XMPFiles/source/FormatSupport/Reconcile_Impl.cpp; sourceTree = SOURCE_ROOT; };
+		0EC470C285984F50B133011D /* FileHandlerInstance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FileHandlerInstance.cpp; path = ../XMPFiles/source/PluginHandler/FileHandlerInstance.cpp; sourceTree = SOURCE_ROOT; };
+		0F521B31F41B4098A2EF3176 /* XMPMeta-Parse.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "XMPMeta-Parse.cpp"; path = "../XMPCore/source/XMPMeta-Parse.cpp"; sourceTree = SOURCE_ROOT; };
+		10778DA795094690B7DF6D24 /* RIFF.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RIFF.cpp; path = ../XMPFiles/source/FormatSupport/RIFF.cpp; sourceTree = SOURCE_ROOT; };
+		10DCB283D3CD46AD80578D87 /* Reconcile_Impl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Reconcile_Impl.hpp; path = ../XMPFiles/source/FormatSupport/Reconcile_Impl.hpp; sourceTree = SOURCE_ROOT; };
+		13F32997006F451385F8CFEE /* PackageFormat_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PackageFormat_Support.cpp; path = ../XMPFiles/source/FormatSupport/PackageFormat_Support.cpp; sourceTree = SOURCE_ROOT; };
+		148FDC5E6FA94C7982923D7D /* XMP_Environment.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XMP_Environment.h; path = ../public/include/XMP_Environment.h; sourceTree = SOURCE_ROOT; };
+		14D76EA002234E9A926261C4 /* XMP_BuildInfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = XMP_BuildInfo.h; sourceTree = SOURCE_ROOT; };
+		15714F3F428444F4A0356A39 /* AIFF_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = AIFF_Handler.hpp; path = ../XMPFiles/source/FileHandlers/AIFF_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		168408D3F45B40F8BB0D241C /* WAVEBehavior.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = WAVEBehavior.h; path = ../XMPFiles/source/FormatSupport/WAVE/WAVEBehavior.h; sourceTree = SOURCE_ROOT; };
+		192AE48D3C1B42F0864EF650 /* P2_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = P2_Handler.cpp; path = ../XMPFiles/source/FileHandlers/P2_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		192FF06EF02A429AA90C7566 /* XMPCore.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = XMPCore.plist; path = ../XMPCore/resource/mac/XMPCore.plist; sourceTree = SOURCE_ROOT; };
+		1A851EF5EF9B409691259854 /* BEXTMetadata.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = BEXTMetadata.h; path = ../XMPFiles/source/FormatSupport/WAVE/BEXTMetadata.h; sourceTree = SOURCE_ROOT; };
+		1BD52DB210184F8FA07B4E17 /* inffast.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = inffast.c; path = "../third-party/zlib/inffast.c"; sourceTree = SOURCE_ROOT; };
+		1C73C100ECBB44858BEC72A0 /* XMPUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMPUtils.cpp; path = ../XMPCore/source/XMPUtils.cpp; sourceTree = SOURCE_ROOT; };
+		1C794C82DFEF4DBBB2B07E9F /* XMPCore.exp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = XMPCore.exp; path = ../XMPCore/resource/mac/XMPCore.exp; sourceTree = SOURCE_ROOT; };
+		1D0223CDBA424611B34CFB45 /* UCF_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = UCF_Handler.hpp; path = ../XMPFiles/source/FileHandlers/UCF_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		1F632A59D2CE4C59A0269D4D /* ChunkController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ChunkController.cpp; path = ../XMPFiles/source/FormatSupport/IFF/ChunkController.cpp; sourceTree = SOURCE_ROOT; };
+		202E4072B66B48B6A2C9BB61 /* inflate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = inflate.h; path = "../third-party/zlib/inflate.h"; sourceTree = SOURCE_ROOT; };
+		207A2C629F9249A4871F5A95 /* WXMPMeta.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WXMPMeta.cpp; path = ../XMPCore/source/WXMPMeta.cpp; sourceTree = SOURCE_ROOT; };
+		20F3D888FE80424681E1FE8C /* P2_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = P2_Support.cpp; path = ../XMPFiles/source/FormatSupport/P2_Support.cpp; sourceTree = SOURCE_ROOT; };
+		2389045679FC4E3FA1EC675A /* Chunk.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Chunk.h; path = ../XMPFiles/source/FormatSupport/IFF/Chunk.h; sourceTree = SOURCE_ROOT; };
+		23BDDA7C33F84FE4901AB1BD /* XMP.incl_cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = XMP.incl_cpp; path = ../public/include/XMP.incl_cpp; sourceTree = SOURCE_ROOT; };
+		24426C9E87894157B5D3D87C /* ISOBaseMedia_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ISOBaseMedia_Support.hpp; path = ../XMPFiles/source/FormatSupport/ISOBaseMedia_Support.hpp; sourceTree = SOURCE_ROOT; };
+		26188D58638141E69DE5DBFF /* WXMP_Common.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WXMP_Common.hpp; path = "../public/include/client-glue/WXMP_Common.hpp"; sourceTree = SOURCE_ROOT; };
+		2619527F024B4987B7BC8A3B /* MD5.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MD5.cpp; path = "../third-party/zuid/interfaces/MD5.cpp"; sourceTree = SOURCE_ROOT; };
+		28A3F509732941F596328275 /* TXMPFiles.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = TXMPFiles.hpp; path = ../public/include/TXMPFiles.hpp; sourceTree = SOURCE_ROOT; };
+		2902328A64EE4F69A5011D9F /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		29400DCE06174B1B9FCE63AC /* PostScript_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PostScript_Support.hpp; path = ../XMPFiles/source/FormatSupport/PostScript_Support.hpp; sourceTree = SOURCE_ROOT; };
+		2ACCC285623047158F952155 /* XMPIterator.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMPIterator.hpp; path = ../XMPCore/source/XMPIterator.hpp; sourceTree = SOURCE_ROOT; };
+		2B1E5CCD7856498FA3152EAC /* MD5.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MD5.cpp; path = "../third-party/zuid/interfaces/MD5.cpp"; sourceTree = SOURCE_ROOT; };
+		2EF9D2897E6E4F1EB801A48F /* SWF_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SWF_Support.cpp; path = ../XMPFiles/source/FormatSupport/SWF_Support.cpp; sourceTree = SOURCE_ROOT; };
+		2F0ABA2C30424DF5B5ABFC40 /* inffast.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = inffast.h; path = "../third-party/zlib/inffast.h"; sourceTree = SOURCE_ROOT; };
+		30FF60C0386E435191AB6118 /* RIFF_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RIFF_Support.cpp; path = ../XMPFiles/source/FormatSupport/RIFF_Support.cpp; sourceTree = SOURCE_ROOT; };
+		3167990D138B4479B68647F3 /* AIFFMetadata.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AIFFMetadata.h; path = ../XMPFiles/source/FormatSupport/AIFF/AIFFMetadata.h; sourceTree = SOURCE_ROOT; };
+		316C1DE550BA4EE98FA12420 /* compress.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = compress.c; path = "../third-party/zlib/compress.c"; sourceTree = SOURCE_ROOT; };
+		31E36453DC744E6099012713 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = ../XMPCore/build/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		31EC30AF023A49CD94F9769E /* TXMPUtils.incl_cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = TXMPUtils.incl_cpp; path = "../public/include/client-glue/TXMPUtils.incl_cpp"; sourceTree = SOURCE_ROOT; };
+		326ECFC637E44919A977BCAF /* ReconcileLegacy.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ReconcileLegacy.hpp; path = ../XMPFiles/source/FormatSupport/ReconcileLegacy.hpp; sourceTree = SOURCE_ROOT; };
+		3296C4006590475782406075 /* XMP_BuildInfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = XMP_BuildInfo.h; sourceTree = SOURCE_ROOT; };
+		32DA235BA6B74067A4CA9A7B /* WXMPUtils.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WXMPUtils.hpp; path = "../public/include/client-glue/WXMPUtils.hpp"; sourceTree = SOURCE_ROOT; };
+		33F4F074F0D742099DB108FB /* CartMetadata.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CartMetadata.h; path = ../XMPFiles/source/FormatSupport/WAVE/CartMetadata.h; sourceTree = SOURCE_ROOT; };
+		36CE87538BEF4D5180304490 /* TIFF_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TIFF_Handler.cpp; path = ../XMPFiles/source/FileHandlers/TIFF_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		3ADEFC1406AA4501AAA6B5B2 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = ../XMPCore/build/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3D0268AD04834C318F4BD087 /* WXMPFiles.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WXMPFiles.cpp; path = ../XMPFiles/source/WXMPFiles.cpp; sourceTree = SOURCE_ROOT; };
+		3D116ACF93B845DCBF5569FD /* XMPCore_Impl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMPCore_Impl.hpp; path = ../XMPCore/source/XMPCore_Impl.hpp; sourceTree = SOURCE_ROOT; };
+		3E94BB3A33044243983AC35F /* XMP.incl_cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = XMP.incl_cpp; path = ../public/include/XMP.incl_cpp; sourceTree = SOURCE_ROOT; };
+		3EA7C4B070AF4F1F96E3A777 /* XMPUtils-FileInfo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "XMPUtils-FileInfo.cpp"; path = "../XMPCore/source/XMPUtils-FileInfo.cpp"; sourceTree = SOURCE_ROOT; };
+		3ECF206ED4234DE98F9F80B7 /* XDCAMEX_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XDCAMEX_Handler.hpp; path = ../XMPFiles/source/FileHandlers/XDCAMEX_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		41E3D0E5A4D54F80A499A7C7 /* PerfUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PerfUtils.cpp; path = ../source/PerfUtils.cpp; sourceTree = SOURCE_ROOT; };
+		4277E49FA75D4624A826B9AA /* PNG_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PNG_Handler.cpp; path = ../XMPFiles/source/FileHandlers/PNG_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		43503AA5F189469CB62F20F0 /* UCF_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = UCF_Handler.cpp; path = ../XMPFiles/source/FileHandlers/UCF_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		455AACC779834EA19A05603C /* IChunkBehavior.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IChunkBehavior.h; path = ../XMPFiles/source/FormatSupport/IFF/IChunkBehavior.h; sourceTree = SOURCE_ROOT; };
+		4572BCA52D9349469226394B /* TXMPUtils.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = TXMPUtils.hpp; path = ../public/include/TXMPUtils.hpp; sourceTree = SOURCE_ROOT; };
+		45C7047B5C4748728A0B5399 /* IOUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IOUtils.cpp; path = ../source/IOUtils.cpp; sourceTree = SOURCE_ROOT; };
+		45FAAE93A4E34B5A858EACF7 /* XDCAM_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XDCAM_Handler.cpp; path = ../XMPFiles/source/FileHandlers/XDCAM_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		463D6EDECC364DC5AB9097DF /* AIFFReconcile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AIFFReconcile.cpp; path = ../XMPFiles/source/FormatSupport/AIFF/AIFFReconcile.cpp; sourceTree = SOURCE_ROOT; };
+		4685AF8BEB0D4FA09264D0BE /* WAVEReconcile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = WAVEReconcile.h; path = ../XMPFiles/source/FormatSupport/WAVE/WAVEReconcile.h; sourceTree = SOURCE_ROOT; };
+		47FC267F91994D00A2C57DE3 /* ISOBaseMedia_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ISOBaseMedia_Support.cpp; path = ../XMPFiles/source/FormatSupport/ISOBaseMedia_Support.cpp; sourceTree = SOURCE_ROOT; };
+		480906237E464A2F858693D1 /* inftrees.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = inftrees.h; path = "../third-party/zlib/inftrees.h"; sourceTree = SOURCE_ROOT; };
+		48AD7151A8174D068ADEDE37 /* FLV_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = FLV_Handler.hpp; path = ../XMPFiles/source/FileHandlers/FLV_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		4BBA3D35E9EB4176BA254998 /* BEXTMetadata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BEXTMetadata.cpp; path = ../XMPFiles/source/FormatSupport/WAVE/BEXTMetadata.cpp; sourceTree = SOURCE_ROOT; };
+		4BBB411AC1A4401DB0FAF855 /* AIFF_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AIFF_Handler.cpp; path = ../XMPFiles/source/FileHandlers/AIFF_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		4BDE8F0B7AEB46C2A2C37D00 /* PostScript_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PostScript_Handler.hpp; path = ../XMPFiles/source/FileHandlers/PostScript_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		4C53CE568EC54699AAB3801B /* SonyHDV_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SonyHDV_Handler.cpp; path = ../XMPFiles/source/FileHandlers/SonyHDV_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		4CA725B0843E415FAF5EE8DA /* ChunkController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ChunkController.h; path = ../XMPFiles/source/FormatSupport/IFF/ChunkController.h; sourceTree = SOURCE_ROOT; };
+		4DF51243B77444F28AF0A35A /* MOOV_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = MOOV_Support.hpp; path = ../XMPFiles/source/FormatSupport/MOOV_Support.hpp; sourceTree = SOURCE_ROOT; };
+		4FD08B6BF06F472FB8B9F4AB /* MPEG4_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MPEG4_Handler.cpp; path = ../XMPFiles/source/FileHandlers/MPEG4_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		5031A670FCCE4A209771C13A /* IChunkBehavior.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IChunkBehavior.cpp; path = ../XMPFiles/source/FormatSupport/IFF/IChunkBehavior.cpp; sourceTree = SOURCE_ROOT; };
+		50779D1E89884AF0A7F9C026 /* XMPCore_Impl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMPCore_Impl.cpp; path = ../XMPCore/source/XMPCore_Impl.cpp; sourceTree = SOURCE_ROOT; };
+		50ED04D9E8F24A4792E3D54B /* MP3_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MP3_Handler.cpp; path = ../XMPFiles/source/FileHandlers/MP3_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		53928F6F9BD2431391929349 /* Host_IO.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Host_IO.hpp; path = ../source/Host_IO.hpp; sourceTree = SOURCE_ROOT; };
+		54A21B604BF44E4792D304FC /* PluginManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PluginManager.cpp; path = ../XMPFiles/source/PluginHandler/PluginManager.cpp; sourceTree = SOURCE_ROOT; };
+		56133239AEC3492595B4E093 /* PackageFormat_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PackageFormat_Support.hpp; path = ../XMPFiles/source/FormatSupport/PackageFormat_Support.hpp; sourceTree = SOURCE_ROOT; };
+		5641DE5168D34559B5AE5A03 /* xmlrole.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xmlrole.c; path = "../third-party/expat/lib/xmlrole.c"; sourceTree = SOURCE_ROOT; };
+		569FE547AE6844A18CC28E6A /* zconf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zconf.h; path = "../third-party/zlib/zconf.h"; sourceTree = SOURCE_ROOT; };
+		5765F6290D4040BFA360125A /* crc32.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = crc32.h; path = "../third-party/zlib/crc32.h"; sourceTree = SOURCE_ROOT; };
+		582923CE15D042D5A618CBD8 /* XMP.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMP.hpp; path = ../public/include/XMP.hpp; sourceTree = SOURCE_ROOT; };
+		585BCE67798B407B873C9F55 /* ChunkPath.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ChunkPath.h; path = ../XMPFiles/source/FormatSupport/IFF/ChunkPath.h; sourceTree = SOURCE_ROOT; };
+		58EFD904A76E4FDE80E3E15E /* SafeTypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SafeTypes.h; path = ../source/SafeTypes.h; sourceTree = SOURCE_ROOT; };
+		5BCD43808B25481CB9D51AFC /* XDCAMEX_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XDCAMEX_Handler.cpp; path = ../XMPFiles/source/FileHandlers/XDCAMEX_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		5C24C83E5474482AA561E84F /* IPTC_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IPTC_Support.cpp; path = ../XMPFiles/source/FormatSupport/IPTC_Support.cpp; sourceTree = SOURCE_ROOT; };
+		5E6954BE8A774DD5AC5191CF /* ExpatAdapter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ExpatAdapter.hpp; path = ../source/ExpatAdapter.hpp; sourceTree = SOURCE_ROOT; };
+		614BE936706D4471B4CBBA29 /* inflate.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = inflate.c; path = "../third-party/zlib/inflate.c"; sourceTree = SOURCE_ROOT; };
+		635864A1276F4787B835C4BA /* MOOV_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MOOV_Support.cpp; path = ../XMPFiles/source/FormatSupport/MOOV_Support.cpp; sourceTree = SOURCE_ROOT; };
+		642467A775804BE485FAB345 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		651C3F3679A64B728BA5FACE /* INFOMetadata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = INFOMetadata.cpp; path = ../XMPFiles/source/FormatSupport/WAVE/INFOMetadata.cpp; sourceTree = SOURCE_ROOT; };
+		6555B125B8B44CC3813AF813 /* XMP_Const.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XMP_Const.h; path = ../public/include/XMP_Const.h; sourceTree = SOURCE_ROOT; };
+		6639F640C8044AB7BA689C66 /* Cr8rMetadata.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Cr8rMetadata.h; path = ../XMPFiles/source/FormatSupport/WAVE/Cr8rMetadata.h; sourceTree = SOURCE_ROOT; };
+		66CA70636C5F4B8A9900B84F /* XMPFiles.exp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = XMPFiles.exp; path = ../XMPFiles/resource/mac/XMPFiles.exp; sourceTree = SOURCE_ROOT; };
+		670C0AC725A6457A9B244B52 /* XMP_Version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XMP_Version.h; path = ../public/include/XMP_Version.h; sourceTree = SOURCE_ROOT; };
+		677BF7D4366E49BDBE571AAE /* TIFF_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = TIFF_Support.hpp; path = ../XMPFiles/source/FormatSupport/TIFF_Support.hpp; sourceTree = SOURCE_ROOT; };
+		67D8280304994EDCBE64AC5C /* Module.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Module.h; path = ../XMPFiles/source/PluginHandler/Module.h; sourceTree = SOURCE_ROOT; };
+		682B243FF97A4FD79FE44A00 /* XMPFiles_Impl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMPFiles_Impl.hpp; path = ../XMPFiles/source/XMPFiles_Impl.hpp; sourceTree = SOURCE_ROOT; };
+		6A5B6ED6FA5048F5AF7549CE /* XMPFiles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XMPFiles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A7D618E634544DE9145FF7F /* PSIR_FileWriter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PSIR_FileWriter.cpp; path = ../XMPFiles/source/FormatSupport/PSIR_FileWriter.cpp; sourceTree = SOURCE_ROOT; };
+		6B8F06DB40B64E2398B61988 /* PNG_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PNG_Support.hpp; path = ../XMPFiles/source/FormatSupport/PNG_Support.hpp; sourceTree = SOURCE_ROOT; };
+		6C2776323F0C4C9C957D98D1 /* XMP_Version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XMP_Version.h; path = ../public/include/XMP_Version.h; sourceTree = SOURCE_ROOT; };
+		6CA7EDB97D0246B4A6428184 /* TXMPIterator.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = TXMPIterator.hpp; path = ../public/include/TXMPIterator.hpp; sourceTree = SOURCE_ROOT; };
+		6CB72E49C9254E1CAD951D01 /* TXMPMeta.incl_cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = TXMPMeta.incl_cpp; path = "../public/include/client-glue/TXMPMeta.incl_cpp"; sourceTree = SOURCE_ROOT; };
+		7108B946A5C14C9C88CD8F15 /* SafeStringAPIs.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SafeStringAPIs.cpp; path = ../source/SafeStringAPIs.cpp; sourceTree = SOURCE_ROOT; };
+		710A27F80EC143FD9751E177 /* SafeStringAPIs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SafeStringAPIs.h; path = ../source/SafeStringAPIs.h; sourceTree = SOURCE_ROOT; };
+		715AD18C55E44A2BAEAC17AA /* FileHandlerInstance.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = FileHandlerInstance.h; path = ../XMPFiles/source/PluginHandler/FileHandlerInstance.h; sourceTree = SOURCE_ROOT; };
+		723BB8799AE34D769063E3D2 /* WAVE_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WAVE_Handler.hpp; path = ../XMPFiles/source/FileHandlers/WAVE_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		7409DEF05B1A40E8AF45A614 /* XMPCorePList.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XMPCorePList.h; path = ../XMPCore/resource/mac/XMPCorePList.h; sourceTree = SOURCE_ROOT; };
+		74E6DF2B92B4470F91CA4F75 /* XMPFiles_IO.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMPFiles_IO.hpp; path = ../source/XMPFiles_IO.hpp; sourceTree = SOURCE_ROOT; };
+		768A710EE37949C1A38BD7CF /* PostScript_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PostScript_Support.cpp; path = ../XMPFiles/source/FormatSupport/PostScript_Support.cpp; sourceTree = SOURCE_ROOT; };
+		777D422FA0AF4E8CAA980352 /* ModuleUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ModuleUtils.h; path = ../XMPFiles/source/PluginHandler/ModuleUtils.h; sourceTree = SOURCE_ROOT; };
+		77A99823B73B4F61B2A2EF3F /* zutil.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = zutil.c; path = "../third-party/zlib/zutil.c"; sourceTree = SOURCE_ROOT; };
+		7809CC6FCE814DBEB757BE95 /* WAVE_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WAVE_Handler.cpp; path = ../XMPFiles/source/FileHandlers/WAVE_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		789667AEDA20449CAB420ECF /* gzguts.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gzguts.h; path = "../third-party/zlib/gzguts.h"; sourceTree = SOURCE_ROOT; };
+		7BB601011D3149DDB6C81BD7 /* TXMPMeta.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = TXMPMeta.hpp; path = ../public/include/TXMPMeta.hpp; sourceTree = SOURCE_ROOT; };
+		7E2A5FE9B917403688AB538F /* TIFF_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TIFF_Support.cpp; path = ../XMPFiles/source/FormatSupport/TIFF_Support.cpp; sourceTree = SOURCE_ROOT; };
+		7F8ED70E133D49A8A7DA9D29 /* inffixed.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = inffixed.h; path = "../third-party/zlib/inffixed.h"; sourceTree = SOURCE_ROOT; };
+		801481B177E8434786E9B9B7 /* JPEG_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = JPEG_Handler.hpp; path = ../XMPFiles/source/FileHandlers/JPEG_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		80B43D4237F84D018F405460 /* PrmLMetadata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PrmLMetadata.cpp; path = ../XMPFiles/source/FormatSupport/WAVE/PrmLMetadata.cpp; sourceTree = SOURCE_ROOT; };
+		813B9286407542AB8BEDFD5E /* P2_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = P2_Support.hpp; path = ../XMPFiles/source/FormatSupport/P2_Support.hpp; sourceTree = SOURCE_ROOT; };
+		8397D5949BF74FB3ACA9CD6F /* UnicodeConversions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = UnicodeConversions.cpp; path = ../source/UnicodeConversions.cpp; sourceTree = SOURCE_ROOT; };
+		83DB83836D264E798AD5BB48 /* adler32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = adler32.c; path = "../third-party/zlib/adler32.c"; sourceTree = SOURCE_ROOT; };
+		841FB612D1C8438187FEB166 /* ChunkPath.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ChunkPath.cpp; path = ../XMPFiles/source/FormatSupport/IFF/ChunkPath.cpp; sourceTree = SOURCE_ROOT; };
+		84F4A997CFDF423A9CDB7958 /* PluginManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PluginManager.h; path = ../XMPFiles/source/PluginHandler/PluginManager.h; sourceTree = SOURCE_ROOT; };
+		865AEFE6325C4BD091A0641A /* XMPMeta.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMPMeta.hpp; path = ../XMPCore/source/XMPMeta.hpp; sourceTree = SOURCE_ROOT; };
+		87640AFD62D54FFF8A35B23A /* PrmLMetadata.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PrmLMetadata.h; path = ../XMPFiles/source/FormatSupport/WAVE/PrmLMetadata.h; sourceTree = SOURCE_ROOT; };
+		886659D1905B43409184F358 /* xmltok.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xmltok.c; path = "../third-party/expat/lib/xmltok.c"; sourceTree = SOURCE_ROOT; };
+		88DAFC7F61E74C1386A8C2A4 /* iXMLMetadata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = iXMLMetadata.cpp; path = ../XMPFiles/source/FormatSupport/WAVE/iXMLMetadata.cpp; sourceTree = SOURCE_ROOT; };
+		8903EFE19EC246A4B722D653 /* PSD_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PSD_Handler.cpp; path = ../XMPFiles/source/FileHandlers/PSD_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		892BD4CAE5AA4CC1B21ADE8A /* WXMPUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WXMPUtils.cpp; path = ../XMPCore/source/WXMPUtils.cpp; sourceTree = SOURCE_ROOT; };
+		89496BBC50194712995FD13A /* WXMP_Common.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WXMP_Common.hpp; path = "../public/include/client-glue/WXMP_Common.hpp"; sourceTree = SOURCE_ROOT; };
+		8A0D6CFD69E344E7BB345584 /* XMPScanner.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMPScanner.hpp; path = ../XMPFiles/source/FormatSupport/XMPScanner.hpp; sourceTree = SOURCE_ROOT; };
+		8A9D82A5988E4AA089EEF0EC /* crc32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = crc32.c; path = "../third-party/zlib/crc32.c"; sourceTree = SOURCE_ROOT; };
+		8BCDC64ECACE4A45805D67C2 /* Trivial_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Trivial_Handler.cpp; path = ../XMPFiles/source/FileHandlers/Trivial_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		8C4C5660B9F34039A45AB4BE /* HandlerRegistry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HandlerRegistry.cpp; path = ../XMPFiles/source/HandlerRegistry.cpp; sourceTree = SOURCE_ROOT; };
+		8D3269B5F2864922B2FD182C /* XMPMeta.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMPMeta.cpp; path = ../XMPCore/source/XMPMeta.cpp; sourceTree = SOURCE_ROOT; };
+		8F68D2EBB3B54F2092FCE76A /* WAVEBehavior.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WAVEBehavior.cpp; path = ../XMPFiles/source/FormatSupport/WAVE/WAVEBehavior.cpp; sourceTree = SOURCE_ROOT; };
+		8FED40B8FBED4199AA268FF3 /* PNG_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PNG_Handler.hpp; path = ../XMPFiles/source/FileHandlers/PNG_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		902E3598298742DFAA86C426 /* HostAPIImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HostAPIImpl.cpp; path = ../XMPFiles/source/PluginHandler/HostAPIImpl.cpp; sourceTree = SOURCE_ROOT; };
+		904A42BEAF4748198EFA3501 /* XMP_LibUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMP_LibUtils.cpp; path = ../source/XMP_LibUtils.cpp; sourceTree = SOURCE_ROOT; };
+		91C91434B3C84382A1E9BEF1 /* UnicodeConversions.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = UnicodeConversions.hpp; path = ../source/UnicodeConversions.hpp; sourceTree = SOURCE_ROOT; };
+		92C49D350BC84210BF06A1E3 /* iXMLMetadata.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iXMLMetadata.h; path = ../XMPFiles/source/FormatSupport/WAVE/iXMLMetadata.h; sourceTree = SOURCE_ROOT; };
+		92C7549A37A94196871B2537 /* XMPFiles.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMPFiles.hpp; path = ../XMPFiles/source/XMPFiles.hpp; sourceTree = SOURCE_ROOT; };
+		93260933B20E48A69E4A55F1 /* AIFFBehavior.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AIFFBehavior.cpp; path = ../XMPFiles/source/FormatSupport/AIFF/AIFFBehavior.cpp; sourceTree = SOURCE_ROOT; };
+		9396BAD913444127A2E5D530 /* ReconcileLegacy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ReconcileLegacy.cpp; path = ../XMPFiles/source/FormatSupport/ReconcileLegacy.cpp; sourceTree = SOURCE_ROOT; };
+		9411AC9619D44DDDA6616DA8 /* XMPIterator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMPIterator.cpp; path = ../XMPCore/source/XMPIterator.cpp; sourceTree = SOURCE_ROOT; };
+		94731B1F0FFB4227BBF91088 /* IOUtils.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = IOUtils.hpp; path = ../source/IOUtils.hpp; sourceTree = SOURCE_ROOT; };
+		94CDFCB27FB741E191C49C87 /* TXMPFiles.incl_cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = TXMPFiles.incl_cpp; path = "../public/include/client-glue/TXMPFiles.incl_cpp"; sourceTree = SOURCE_ROOT; };
+		95AF4E3E8FC04F55B2A44FD7 /* XIO.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XIO.hpp; path = ../source/XIO.hpp; sourceTree = SOURCE_ROOT; };
+		9679B77252CE496CA984911E /* XMLParserAdapter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMLParserAdapter.hpp; path = ../source/XMLParserAdapter.hpp; sourceTree = SOURCE_ROOT; };
+		97A19EA96C884F2E95CDD5B5 /* OS_Utils_Mac.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OS_Utils_Mac.cpp; path = ../XMPFiles/source/PluginHandler/OS_Utils_Mac.cpp; sourceTree = SOURCE_ROOT; };
+		985914D7B95D46A4AC7709BD /* trees.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = trees.c; path = "../third-party/zlib/trees.c"; sourceTree = SOURCE_ROOT; };
+		9922230555D443FC8B4F7783 /* Cr8rMetadata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Cr8rMetadata.cpp; path = ../XMPFiles/source/FormatSupport/WAVE/Cr8rMetadata.cpp; sourceTree = SOURCE_ROOT; };
+		9AAE77C388264C3F916A46BE /* IPTC_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = IPTC_Support.hpp; path = ../XMPFiles/source/FormatSupport/IPTC_Support.hpp; sourceTree = SOURCE_ROOT; };
+		9ACB084EBD1E4E0E8EB8601C /* PSIR_MemoryReader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PSIR_MemoryReader.cpp; path = ../XMPFiles/source/FormatSupport/PSIR_MemoryReader.cpp; sourceTree = SOURCE_ROOT; };
+		9C8B8D6D7B1E4B53A0564468 /* XMP_Const.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XMP_Const.h; path = ../public/include/XMP_Const.h; sourceTree = SOURCE_ROOT; };
+		9C95013DA06547CEA5EC112D /* QuickTime_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = QuickTime_Support.hpp; path = ../XMPFiles/source/FormatSupport/QuickTime_Support.hpp; sourceTree = SOURCE_ROOT; };
+		9CCE6F3CC0264D69BDBF3F82 /* SuppressSAL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SuppressSAL.h; path = ../source/SuppressSAL.h; sourceTree = SOURCE_ROOT; };
+		9CD3729608A94AC48EA6CAEC /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = ../XMPFiles/build/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9EBFC85AFE454FE0BC4CBDCB /* AIFFBehavior.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AIFFBehavior.h; path = ../XMPFiles/source/FormatSupport/AIFF/AIFFBehavior.h; sourceTree = SOURCE_ROOT; };
+		9EF9822D746A44B9B540DEA8 /* IReconcile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IReconcile.cpp; path = ../XMPFiles/source/NativeMetadataSupport/IReconcile.cpp; sourceTree = SOURCE_ROOT; };
+		9F79C496E9F140BEBC83D7DB /* PSD_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PSD_Handler.hpp; path = ../XMPFiles/source/FileHandlers/PSD_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		9F97CFFA97B44B9D92D05CC4 /* XML_Node.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XML_Node.cpp; path = ../source/XML_Node.cpp; sourceTree = SOURCE_ROOT; };
+		A0E793F120A24BC5BB443746 /* XMPCore.unexp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = XMPCore.unexp; path = ../XMPCore/resource/mac/XMPCore.unexp; sourceTree = SOURCE_ROOT; };
+		A53B6602013D41CC8C67E146 /* zlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zlib.h; path = "../third-party/zlib/zlib.h"; sourceTree = SOURCE_ROOT; };
+		A809FA767F434DF1BE7E456B /* deflate.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = deflate.c; path = "../third-party/zlib/deflate.c"; sourceTree = SOURCE_ROOT; };
+		A9B8AE3942224CD2AA297E89 /* MPEG4_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = MPEG4_Handler.hpp; path = ../XMPFiles/source/FileHandlers/MPEG4_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		AA07D92B48C14CDCAADA4280 /* deflate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = deflate.h; path = "../third-party/zlib/deflate.h"; sourceTree = SOURCE_ROOT; };
+		AB0A97D7436144458E2DE7FC /* XMPUtils.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMPUtils.hpp; path = ../XMPCore/source/XMPUtils.hpp; sourceTree = SOURCE_ROOT; };
+		ABBA544D5A2E46928A14D843 /* INFOMetadata.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = INFOMetadata.h; path = ../XMPFiles/source/FormatSupport/WAVE/INFOMetadata.h; sourceTree = SOURCE_ROOT; };
+		ACC1834991154EFEBC7F976E /* TXMPIterator.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = TXMPIterator.hpp; path = ../public/include/TXMPIterator.hpp; sourceTree = SOURCE_ROOT; };
+		ACD0D532C5E34B3BB10EBFE0 /* XMPAtoms.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMPAtoms.cpp; path = ../XMPFiles/source/PluginHandler/XMPAtoms.cpp; sourceTree = SOURCE_ROOT; };
+		AF3492AC29554170A02558B4 /* MP3_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = MP3_Handler.hpp; path = ../XMPFiles/source/FileHandlers/MP3_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		AFFFA05546D249138542A994 /* IChunkContainer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IChunkContainer.h; path = ../XMPFiles/source/FormatSupport/IFF/IChunkContainer.h; sourceTree = SOURCE_ROOT; };
+		B06D675E4B314DECAA9CE6B1 /* XDCAM_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XDCAM_Handler.hpp; path = ../XMPFiles/source/FileHandlers/XDCAM_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		B14622152FD847D6889B0C35 /* Scanner_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Scanner_Handler.hpp; path = ../XMPFiles/source/FileHandlers/Scanner_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		B1C71E871E45447FAECA5E2D /* XMPScanner.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMPScanner.cpp; path = ../XMPFiles/source/FormatSupport/XMPScanner.cpp; sourceTree = SOURCE_ROOT; };
+		B36898091E704A359FFF257C /* ASF_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ASF_Handler.cpp; path = ../XMPFiles/source/FileHandlers/ASF_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		B3871F28A3704CBCB45E66F8 /* PostScript_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PostScript_Handler.cpp; path = ../XMPFiles/source/FileHandlers/PostScript_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		B3A9D45BF73149478F7DB7B9 /* ID3_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ID3_Support.cpp; path = ../XMPFiles/source/FormatSupport/ID3_Support.cpp; sourceTree = SOURCE_ROOT; };
+		B3F770218C084DBC983A5BAB /* XMPCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XMPCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B47189FA28B44C4A8A1E0C6E /* infback.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = infback.c; path = "../third-party/zlib/infback.c"; sourceTree = SOURCE_ROOT; };
+		B78B411EEE73475B944D0F2A /* XMPFiles_Impl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMPFiles_Impl.cpp; path = ../XMPFiles/source/XMPFiles_Impl.cpp; sourceTree = SOURCE_ROOT; };
+		B896360EE22A474C98E1DCB0 /* XML_Node.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XML_Node.cpp; path = ../source/XML_Node.cpp; sourceTree = SOURCE_ROOT; };
+		BAAA5BF6E28A4CFFAF7BDFD1 /* RIFF.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = RIFF.hpp; path = ../XMPFiles/source/FormatSupport/RIFF.hpp; sourceTree = SOURCE_ROOT; };
+		BBD82287B8D84ECCBEEEF0B5 /* RIFF_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = RIFF_Handler.hpp; path = ../XMPFiles/source/FileHandlers/RIFF_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		BD9EB2CAE9974463AABF3929 /* DISPMetadata.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DISPMetadata.h; path = ../XMPFiles/source/FormatSupport/WAVE/DISPMetadata.h; sourceTree = SOURCE_ROOT; };
+		BF163A916F344D1A90D17DD3 /* MetadataSet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MetadataSet.cpp; path = ../XMPFiles/source/NativeMetadataSupport/MetadataSet.cpp; sourceTree = SOURCE_ROOT; };
+		BF58E4B7995B4924929266BC /* XDCAM_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XDCAM_Support.hpp; path = ../XMPFiles/source/FormatSupport/XDCAM_Support.hpp; sourceTree = SOURCE_ROOT; };
+		BFAE00A69B604C1CB775BD48 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = ../XMPFiles/build/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C14366100EAE4D4998D27084 /* XMP_LibUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMP_LibUtils.cpp; path = ../source/XMP_LibUtils.cpp; sourceTree = SOURCE_ROOT; };
+		C2472E4307034E1DA88BB3BD /* uncompr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = uncompr.c; path = "../third-party/zlib/uncompr.c"; sourceTree = SOURCE_ROOT; };
+		C377D65EBC6043D4BD47D1E9 /* XIO.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XIO.cpp; path = ../source/XIO.cpp; sourceTree = SOURCE_ROOT; };
+		C47EF017EC834FE98CDEAEFA /* AIFFReconcile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AIFFReconcile.h; path = ../XMPFiles/source/FormatSupport/AIFF/AIFFReconcile.h; sourceTree = SOURCE_ROOT; };
+		C5FE7FB9E5D441ACA68B007E /* InDesign_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = InDesign_Handler.cpp; path = ../XMPFiles/source/FileHandlers/InDesign_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		C61694E39F3B4D58B0268AB7 /* ReconcileIPTC.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ReconcileIPTC.cpp; path = ../XMPFiles/source/FormatSupport/ReconcileIPTC.cpp; sourceTree = SOURCE_ROOT; };
+		C6E52C731A1C428F99B18F40 /* Endian.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Endian.h; path = ../source/Endian.h; sourceTree = SOURCE_ROOT; };
+		C7DD739E5EFC454EBC8949D9 /* WAVEReconcile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WAVEReconcile.cpp; path = ../XMPFiles/source/FormatSupport/WAVE/WAVEReconcile.cpp; sourceTree = SOURCE_ROOT; };
+		C7F803FFFC4346899FA2B1B5 /* FLV_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FLV_Handler.cpp; path = ../XMPFiles/source/FileHandlers/FLV_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		C83AAD081B6D4E45AABCA861 /* TimeConversionUtils.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = TimeConversionUtils.hpp; path = ../XMPFiles/source/FormatSupport/TimeConversionUtils.hpp; sourceTree = SOURCE_ROOT; };
+		CA20ADE3F10240C28A805D98 /* SonyHDV_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SonyHDV_Handler.hpp; path = ../XMPFiles/source/FileHandlers/SonyHDV_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		CBECEA8D1EBD456EBD526183 /* ID3_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ID3_Support.hpp; path = ../XMPFiles/source/FormatSupport/ID3_Support.hpp; sourceTree = SOURCE_ROOT; };
+		CC3E0756B84A444B87B34354 /* IMetadata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IMetadata.cpp; path = ../XMPFiles/source/NativeMetadataSupport/IMetadata.cpp; sourceTree = SOURCE_ROOT; };
+		CC4FB09BDCF941A6A40BBC9A /* MPEG2_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = MPEG2_Handler.hpp; path = ../XMPFiles/source/FileHandlers/MPEG2_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		CD2C719FB1534473B9616A76 /* SWF_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SWF_Support.hpp; path = ../XMPFiles/source/FormatSupport/SWF_Support.hpp; sourceTree = SOURCE_ROOT; };
+		CECB0CCB5C974DA0BF6E1CDB /* XMP_IO.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMP_IO.hpp; path = ../public/include/XMP_IO.hpp; sourceTree = SOURCE_ROOT; };
+		CEDCB86841404BEE84A791D1 /* XMP_Environment.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XMP_Environment.h; path = ../public/include/XMP_Environment.h; sourceTree = SOURCE_ROOT; };
+		D051962E101D4D0099E4BF6C /* SWF_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SWF_Handler.hpp; path = ../XMPFiles/source/FileHandlers/SWF_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		D307C73B4FB04B9DBAEA9524 /* XMPFiles.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = XMPFiles.plist; path = ../XMPFiles/resource/mac/XMPFiles.plist; sourceTree = SOURCE_ROOT; };
+		D350A85964334FF8A49EF108 /* Basic_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Basic_Handler.hpp; path = ../XMPFiles/source/FileHandlers/Basic_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		D400C20229224D5F84D32387 /* Module.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Module.cpp; path = ../XMPFiles/source/PluginHandler/Module.cpp; sourceTree = SOURCE_ROOT; };
+		D65FDCDCD9A546C8A40F7882 /* FileHandler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = FileHandler.h; path = ../XMPFiles/source/PluginHandler/FileHandler.h; sourceTree = SOURCE_ROOT; };
+		D671AD8D1C4544619B494313 /* ExpatAdapter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ExpatAdapter.cpp; path = ../XMPCore/source/ExpatAdapter.cpp; sourceTree = SOURCE_ROOT; };
+		D7DB386EFAFF4CD2863EE7A4 /* AIFFMetadata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AIFFMetadata.cpp; path = ../XMPFiles/source/FormatSupport/AIFF/AIFFMetadata.cpp; sourceTree = SOURCE_ROOT; };
+		D8D75AE4988541E4B37EF4E4 /* SWF_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SWF_Handler.cpp; path = ../XMPFiles/source/FileHandlers/SWF_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		D928F00ED85D4D16B6F55FC6 /* ParseRDF.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ParseRDF.cpp; path = ../XMPCore/source/ParseRDF.cpp; sourceTree = SOURCE_ROOT; };
+		D94280BEA28C4258B21F42FD /* XMPFiles.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMPFiles.cpp; path = ../XMPFiles/source/XMPFiles.cpp; sourceTree = SOURCE_ROOT; };
+		D97F987C73524E3D9F3B0C90 /* RIFF_Support.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = RIFF_Support.hpp; path = ../XMPFiles/source/FormatSupport/RIFF_Support.hpp; sourceTree = SOURCE_ROOT; };
+		DAB229D12B1B4E87B025F2E3 /* TIFF_FileWriter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TIFF_FileWriter.cpp; path = ../XMPFiles/source/FormatSupport/TIFF_FileWriter.cpp; sourceTree = SOURCE_ROOT; };
+		DDA18F0451264B25B738AFDB /* QuickTime_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = QuickTime_Support.cpp; path = ../XMPFiles/source/FormatSupport/QuickTime_Support.cpp; sourceTree = SOURCE_ROOT; };
+		DE2FB58F0CBD4FBFB9A27E62 /* XMP.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMP.hpp; path = ../public/include/XMP.hpp; sourceTree = SOURCE_ROOT; };
+		E1409A4E661E47C1A1EC1843 /* XMPMeta-Serialize.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "XMPMeta-Serialize.cpp"; path = "../XMPCore/source/XMPMeta-Serialize.cpp"; sourceTree = SOURCE_ROOT; };
+		E1BE8E269AF64A58B1396D8E /* ReconcileTIFF.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ReconcileTIFF.cpp; path = ../XMPFiles/source/FormatSupport/ReconcileTIFF.cpp; sourceTree = SOURCE_ROOT; };
+		E378F7BE6BE048089FDF0E7A /* UnicodeInlines.incl_cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = UnicodeInlines.incl_cpp; path = ../source/UnicodeInlines.incl_cpp; sourceTree = SOURCE_ROOT; };
+		E3D85169386A4DCCB42EAA5F /* TIFF_MemoryReader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TIFF_MemoryReader.cpp; path = ../XMPFiles/source/FormatSupport/TIFF_MemoryReader.cpp; sourceTree = SOURCE_ROOT; };
+		E5D301EE9590472E97CC427C /* XMP_ProgressTracker.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMP_ProgressTracker.cpp; path = ../source/XMP_ProgressTracker.cpp; sourceTree = SOURCE_ROOT; };
+		E6E7A857E4D64DEBA7E09E34 /* PNG_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PNG_Support.cpp; path = ../XMPFiles/source/FormatSupport/PNG_Support.cpp; sourceTree = SOURCE_ROOT; };
+		E8016DB3B3C24D1F8C51506F /* DISPMetadata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DISPMetadata.cpp; path = ../XMPFiles/source/FormatSupport/WAVE/DISPMetadata.cpp; sourceTree = SOURCE_ROOT; };
+		E90CE6374A564AA2BE36A746 /* IChunkData.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IChunkData.h; path = ../XMPFiles/source/FormatSupport/IFF/IChunkData.h; sourceTree = SOURCE_ROOT; };
+		E942D068B8E6446EB71492E1 /* XMPFiles_IO.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMPFiles_IO.cpp; path = ../source/XMPFiles_IO.cpp; sourceTree = SOURCE_ROOT; };
+		EBFC327BC4D4410F81684EE9 /* AVCHD_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = AVCHD_Handler.hpp; path = ../XMPFiles/source/FileHandlers/AVCHD_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		EC1189973A714E64BC960C7F /* CartMetadata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CartMetadata.cpp; path = ../XMPFiles/source/FormatSupport/WAVE/CartMetadata.cpp; sourceTree = SOURCE_ROOT; };
+		EC16B6A2FC0040E88B2EBDB0 /* ASF_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ASF_Support.cpp; path = ../XMPFiles/source/FormatSupport/ASF_Support.cpp; sourceTree = SOURCE_ROOT; };
+		EC55775144B1488AAC56FF23 /* TXMPUtils.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = TXMPUtils.hpp; path = ../public/include/TXMPUtils.hpp; sourceTree = SOURCE_ROOT; };
+		EE3A61DD4AC44F859242442F /* WXMPIterator.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WXMPIterator.hpp; path = "../public/include/client-glue/WXMPIterator.hpp"; sourceTree = SOURCE_ROOT; };
+		EE89E82B69D64B96B61BF867 /* TimeConversionUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TimeConversionUtils.cpp; path = ../XMPFiles/source/FormatSupport/TimeConversionUtils.cpp; sourceTree = SOURCE_ROOT; };
+		EFD9B33456FC40EA812A3052 /* Host_IO-POSIX.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "Host_IO-POSIX.cpp"; path = "../source/Host_IO-POSIX.cpp"; sourceTree = SOURCE_ROOT; };
+		F1D66581417F43DAA6C25E95 /* zutil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zutil.h; path = "../third-party/zlib/zutil.h"; sourceTree = SOURCE_ROOT; };
+		F1FCA6328D12402FBC3FA698 /* xmlparse.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xmlparse.c; path = "../third-party/expat/lib/xmlparse.c"; sourceTree = SOURCE_ROOT; };
+		F20F0978A5E24295B247FC81 /* trees.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = trees.h; path = "../third-party/zlib/trees.h"; sourceTree = SOURCE_ROOT; };
+		F278940D7FFA4D0A9C54E0F0 /* Basic_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Basic_Handler.cpp; path = ../XMPFiles/source/FileHandlers/Basic_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		F2AAD12352E1424490DE8942 /* XMPMeta-GetSet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "XMPMeta-GetSet.cpp"; path = "../XMPCore/source/XMPMeta-GetSet.cpp"; sourceTree = SOURCE_ROOT; };
+		F2E9424765AD485A80356A7E /* XDCAM_Support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XDCAM_Support.cpp; path = ../XMPFiles/source/FormatSupport/XDCAM_Support.cpp; sourceTree = SOURCE_ROOT; };
+		F3A5DD30F40E44129E61F9E8 /* AVCHD_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AVCHD_Handler.cpp; path = ../XMPFiles/source/FileHandlers/AVCHD_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		FA79BA929C4E4DD0B1A281BD /* WXMPMeta.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WXMPMeta.hpp; path = "../public/include/client-glue/WXMPMeta.hpp"; sourceTree = SOURCE_ROOT; };
+		FC02FD330D974315A2E162D4 /* expat_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = expat_config.h; path = ../XMPCore/resource/mac/expat_config.h; sourceTree = SOURCE_ROOT; };
+		FCAF99170471422CBE95E549 /* RIFF_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RIFF_Handler.cpp; path = ../XMPFiles/source/FileHandlers/RIFF_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		FEE25BCB0C78408CB4446AAD /* P2_Handler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = P2_Handler.hpp; path = ../XMPFiles/source/FileHandlers/P2_Handler.hpp; sourceTree = SOURCE_ROOT; };
+		FF85060D0EC74336A82B403F /* TXMPIterator.incl_cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = TXMPIterator.incl_cpp; path = "../public/include/client-glue/TXMPIterator.incl_cpp"; sourceTree = SOURCE_ROOT; };
+		FFFC82A2D3584DA08EDA573B /* MPEG2_Handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MPEG2_Handler.cpp; path = ../XMPFiles/source/FileHandlers/MPEG2_Handler.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		07B342F0597649CD847321FF /* IFF */ = {
+			isa = PBXGroup;
+			children = (
+				2389045679FC4E3FA1EC675A /* Chunk.h */,
+				4CA725B0843E415FAF5EE8DA /* ChunkController.h */,
+				585BCE67798B407B873C9F55 /* ChunkPath.h */,
+				455AACC779834EA19A05603C /* IChunkBehavior.h */,
+				AFFFA05546D249138542A994 /* IChunkContainer.h */,
+				E90CE6374A564AA2BE36A746 /* IChunkData.h */,
+			);
+			name = IFF;
+			sourceTree = "<group>";
+		};
+		0A3DCEDED6174FEBA6B29FFF /* NativeMetadataSupport */ = {
+			isa = PBXGroup;
+			children = (
+				CC3E0756B84A444B87B34354 /* IMetadata.cpp */,
+				9EF9822D746A44B9B540DEA8 /* IReconcile.cpp */,
+				BF163A916F344D1A90D17DD3 /* MetadataSet.cpp */,
+			);
+			name = NativeMetadataSupport;
+			sourceTree = "<group>";
+		};
+		105BD89CE0C54876B6B033DE /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		1321E8D31E3C410186D4BD34 /* Common Code */ = {
+			isa = PBXGroup;
+			children = (
+				92C7549A37A94196871B2537 /* XMPFiles.hpp */,
+				682B243FF97A4FD79FE44A00 /* XMPFiles_Impl.hpp */,
+				3296C4006590475782406075 /* XMP_BuildInfo.h */,
+				C6E52C731A1C428F99B18F40 /* Endian.h */,
+				710A27F80EC143FD9751E177 /* SafeStringAPIs.h */,
+				58EFD904A76E4FDE80E3E15E /* SafeTypes.h */,
+				9CCE6F3CC0264D69BDBF3F82 /* SuppressSAL.h */,
+			);
+			name = "Common Code";
+			sourceTree = "<group>";
+		};
+		174CFBF1477B4ACD98C5BB76 /* Resource Files */ = {
+			isa = PBXGroup;
+			children = (
+				66CA70636C5F4B8A9900B84F /* XMPFiles.exp */,
+				D307C73B4FB04B9DBAEA9524 /* XMPFiles.plist */,
+			);
+			name = "Resource Files";
+			sourceTree = "<group>";
+		};
+		17F1458548C64A23BDB42909 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				736E8B18140D4136B1D2DAAC /* zlib */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		1C07C565AF7243AF9F6FDF77 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				5B6DB2817A094919A8343DEF /* XMPCore */,
+			);
+			name = Private;
+			sourceTree = "<group>";
+		};
+		1D7DEC441D8844649AC5EE00 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		2D046AFE2DC04C43A417CD1D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D671AD8D1C4544619B494313 /* ExpatAdapter.cpp */,
+				D928F00ED85D4D16B6F55FC6 /* ParseRDF.cpp */,
+				50779D1E89884AF0A7F9C026 /* XMPCore_Impl.cpp */,
+				01E98261D8954EE580B9A8DD /* UnicodeConversions.cpp */,
+				B896360EE22A474C98E1DCB0 /* XML_Node.cpp */,
+				C14366100EAE4D4998D27084 /* XMP_LibUtils.cpp */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		32BC0F0061EC47CCA0001AC5 /* zlib */ = {
+			isa = PBXGroup;
+			children = (
+				83DB83836D264E798AD5BB48 /* adler32.c */,
+				316C1DE550BA4EE98FA12420 /* compress.c */,
+				8A9D82A5988E4AA089EEF0EC /* crc32.c */,
+				A809FA767F434DF1BE7E456B /* deflate.c */,
+				B47189FA28B44C4A8A1E0C6E /* infback.c */,
+				1BD52DB210184F8FA07B4E17 /* inffast.c */,
+				614BE936706D4471B4CBBA29 /* inflate.c */,
+				06E22471924C417BA212D754 /* inftrees.c */,
+				985914D7B95D46A4AC7709BD /* trees.c */,
+				C2472E4307034E1DA88BB3BD /* uncompr.c */,
+				77A99823B73B4F61B2A2EF3F /* zutil.c */,
+			);
+			name = zlib;
+			sourceTree = "<group>";
+		};
+		37452E91C9B945A2A8D96157 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				F1FCA6328D12402FBC3FA698 /* xmlparse.c */,
+				5641DE5168D34559B5AE5A03 /* xmlrole.c */,
+				886659D1905B43409184F358 /* xmltok.c */,
+				2619527F024B4987B7BC8A3B /* MD5.cpp */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		389135755FB64C09B2ED5AE5 /* AIFF */ = {
+			isa = PBXGroup;
+			children = (
+				93260933B20E48A69E4A55F1 /* AIFFBehavior.cpp */,
+				D7DB386EFAFF4CD2863EE7A4 /* AIFFMetadata.cpp */,
+				463D6EDECC364DC5AB9097DF /* AIFFReconcile.cpp */,
+			);
+			name = AIFF;
+			sourceTree = "<group>";
+		};
+		4EF18A0D05C343BCAF7EA055 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		5053BC7D5A574816A522050D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		55899AC3820F48B38696F709 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				736B3A7B02D049CDA1B955D1 /* ThirdParty */,
+				EAF5E66C7F9241C2BAC41A43 /* Common Code */,
+				98C41BAEFE7A4B89BB2EEECE /* File Handlers */,
+				9EF1CF0F93154271B490CDFC /* Format Support */,
+				AB91B0C44D14490D9DE2E547 /* PluginHandler */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		5922B972C2924937BEC33309 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		597D8284B3154B2884DC6C1E /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				1D7DEC441D8844649AC5EE00 /* CMake Rules */,
+				642467A775804BE485FAB345 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		5A98D49E3724450C91CD637E /* Internal Headers */ = {
+			isa = PBXGroup;
+			children = (
+				1321E8D31E3C410186D4BD34 /* Common Code */,
+				F3120EE751294D1D89C946F9 /* File Handlers */,
+				7169693F2F244BCA99D5170F /* Format Support */,
+				ED93F384578649B887B79404 /* PluginHandler */,
+			);
+			name = "Internal Headers";
+			sourceTree = "<group>";
+		};
+		5B6DB2817A094919A8343DEF /* XMPCore */ = {
+			isa = PBXGroup;
+			children = (
+				3D116ACF93B845DCBF5569FD /* XMPCore_Impl.hpp */,
+				2ACCC285623047158F952155 /* XMPIterator.hpp */,
+				865AEFE6325C4BD091A0641A /* XMPMeta.hpp */,
+				AB0A97D7436144458E2DE7FC /* XMPUtils.hpp */,
+				14D76EA002234E9A926261C4 /* XMP_BuildInfo.h */,
+				5E6954BE8A774DD5AC5191CF /* ExpatAdapter.hpp */,
+				91C91434B3C84382A1E9BEF1 /* UnicodeConversions.hpp */,
+				E378F7BE6BE048089FDF0E7A /* UnicodeInlines.incl_cpp */,
+				9679B77252CE496CA984911E /* XMLParserAdapter.hpp */,
+			);
+			name = XMPCore;
+			sourceTree = "<group>";
+		};
+		7169693F2F244BCA99D5170F /* Format Support */ = {
+			isa = PBXGroup;
+			children = (
+				751EC2D249B145ECA7B2E444 /* AIFF */,
+				07B342F0597649CD847321FF /* IFF */,
+				8387356785F14C29BA0DDF2C /* WAVE */,
+				02196443AC854D819C7C16EE /* ASF_Support.hpp */,
+				CBECEA8D1EBD456EBD526183 /* ID3_Support.hpp */,
+				9AAE77C388264C3F916A46BE /* IPTC_Support.hpp */,
+				24426C9E87894157B5D3D87C /* ISOBaseMedia_Support.hpp */,
+				4DF51243B77444F28AF0A35A /* MOOV_Support.hpp */,
+				813B9286407542AB8BEDFD5E /* P2_Support.hpp */,
+				6B8F06DB40B64E2398B61988 /* PNG_Support.hpp */,
+				05C0540AE76441E697410CF2 /* PSIR_Support.hpp */,
+				56133239AEC3492595B4E093 /* PackageFormat_Support.hpp */,
+				29400DCE06174B1B9FCE63AC /* PostScript_Support.hpp */,
+				9C95013DA06547CEA5EC112D /* QuickTime_Support.hpp */,
+				BAAA5BF6E28A4CFFAF7BDFD1 /* RIFF.hpp */,
+				D97F987C73524E3D9F3B0C90 /* RIFF_Support.hpp */,
+				326ECFC637E44919A977BCAF /* ReconcileLegacy.hpp */,
+				10DCB283D3CD46AD80578D87 /* Reconcile_Impl.hpp */,
+				CD2C719FB1534473B9616A76 /* SWF_Support.hpp */,
+				677BF7D4366E49BDBE571AAE /* TIFF_Support.hpp */,
+				C83AAD081B6D4E45AABCA861 /* TimeConversionUtils.hpp */,
+				BF58E4B7995B4924929266BC /* XDCAM_Support.hpp */,
+				8A0D6CFD69E344E7BB345584 /* XMPScanner.hpp */,
+			);
+			name = "Format Support";
+			sourceTree = "<group>";
+		};
+		736B3A7B02D049CDA1B955D1 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				32BC0F0061EC47CCA0001AC5 /* zlib */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		736E8B18140D4136B1D2DAAC /* zlib */ = {
+			isa = PBXGroup;
+			children = (
+				5765F6290D4040BFA360125A /* crc32.h */,
+				AA07D92B48C14CDCAADA4280 /* deflate.h */,
+				789667AEDA20449CAB420ECF /* gzguts.h */,
+				2F0ABA2C30424DF5B5ABFC40 /* inffast.h */,
+				7F8ED70E133D49A8A7DA9D29 /* inffixed.h */,
+				202E4072B66B48B6A2C9BB61 /* inflate.h */,
+				480906237E464A2F858693D1 /* inftrees.h */,
+				F20F0978A5E24295B247FC81 /* trees.h */,
+				569FE547AE6844A18CC28E6A /* zconf.h */,
+				A53B6602013D41CC8C67E146 /* zlib.h */,
+				F1D66581417F43DAA6C25E95 /* zutil.h */,
+			);
+			name = zlib;
+			sourceTree = "<group>";
+		};
+		751EC2D249B145ECA7B2E444 /* AIFF */ = {
+			isa = PBXGroup;
+			children = (
+				9EBFC85AFE454FE0BC4CBDCB /* AIFFBehavior.h */,
+				3167990D138B4479B68647F3 /* AIFFMetadata.h */,
+				C47EF017EC834FE98CDEAEFA /* AIFFReconcile.h */,
+			);
+			name = AIFF;
+			sourceTree = "<group>";
+		};
+		7BA226FD1C154CDFBDA68492 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				95CED3F0956544A78434C81E /* ZERO_CHECK */,
+				597D8284B3154B2884DC6C1E /* ALL_BUILD */,
+				D648FB22638E41B69F8D41B9 /* XMPCore */,
+				97DBE3B59B3C4A009E5EAA7E /* XMPCoreInfoPlist */,
+				BC65F4F1DDA64C25B4A98F00 /* XMPFiles */,
+				D9F518ED72FE4622AC2E0A2B /* XMPFilesInfoPlist */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		8387356785F14C29BA0DDF2C /* WAVE */ = {
+			isa = PBXGroup;
+			children = (
+				1A851EF5EF9B409691259854 /* BEXTMetadata.h */,
+				33F4F074F0D742099DB108FB /* CartMetadata.h */,
+				6639F640C8044AB7BA689C66 /* Cr8rMetadata.h */,
+				BD9EB2CAE9974463AABF3929 /* DISPMetadata.h */,
+				ABBA544D5A2E46928A14D843 /* INFOMetadata.h */,
+				87640AFD62D54FFF8A35B23A /* PrmLMetadata.h */,
+				168408D3F45B40F8BB0D241C /* WAVEBehavior.h */,
+				4685AF8BEB0D4FA09264D0BE /* WAVEReconcile.h */,
+				92C49D350BC84210BF06A1E3 /* iXMLMetadata.h */,
+			);
+			name = WAVE;
+			sourceTree = "<group>";
+		};
+		8749E89D671F420894898AF8 = {
+			isa = PBXGroup;
+			children = (
+				7BA226FD1C154CDFBDA68492 /* Sources */,
+				5053BC7D5A574816A522050D /* Resources */,
+				B68180EAE9F64872ADC8C069 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95CED3F0956544A78434C81E /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				5922B972C2924937BEC33309 /* CMake Rules */,
+				2902328A64EE4F69A5011D9F /* CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		97DBE3B59B3C4A009E5EAA7E /* XMPCoreInfoPlist */ = {
+			isa = PBXGroup;
+			children = (
+				4EF18A0D05C343BCAF7EA055 /* CMake Rules */,
+				31E36453DC744E6099012713 /* CMakeLists.txt */,
+			);
+			name = XMPCoreInfoPlist;
+			sourceTree = "<group>";
+		};
+		98C41BAEFE7A4B89BB2EEECE /* File Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				4BBB411AC1A4401DB0FAF855 /* AIFF_Handler.cpp */,
+				15714F3F428444F4A0356A39 /* AIFF_Handler.hpp */,
+				B36898091E704A359FFF257C /* ASF_Handler.cpp */,
+				F3A5DD30F40E44129E61F9E8 /* AVCHD_Handler.cpp */,
+				F278940D7FFA4D0A9C54E0F0 /* Basic_Handler.cpp */,
+				C7F803FFFC4346899FA2B1B5 /* FLV_Handler.cpp */,
+				C5FE7FB9E5D441ACA68B007E /* InDesign_Handler.cpp */,
+				0D6D26D1693847DE940E3138 /* JPEG_Handler.cpp */,
+				50ED04D9E8F24A4792E3D54B /* MP3_Handler.cpp */,
+				FFFC82A2D3584DA08EDA573B /* MPEG2_Handler.cpp */,
+				4FD08B6BF06F472FB8B9F4AB /* MPEG4_Handler.cpp */,
+				192AE48D3C1B42F0864EF650 /* P2_Handler.cpp */,
+				4277E49FA75D4624A826B9AA /* PNG_Handler.cpp */,
+				8903EFE19EC246A4B722D653 /* PSD_Handler.cpp */,
+				B3871F28A3704CBCB45E66F8 /* PostScript_Handler.cpp */,
+				FCAF99170471422CBE95E549 /* RIFF_Handler.cpp */,
+				D8D75AE4988541E4B37EF4E4 /* SWF_Handler.cpp */,
+				048869D59A454A799857DC52 /* Scanner_Handler.cpp */,
+				4C53CE568EC54699AAB3801B /* SonyHDV_Handler.cpp */,
+				36CE87538BEF4D5180304490 /* TIFF_Handler.cpp */,
+				8BCDC64ECACE4A45805D67C2 /* Trivial_Handler.cpp */,
+				43503AA5F189469CB62F20F0 /* UCF_Handler.cpp */,
+				7809CC6FCE814DBEB757BE95 /* WAVE_Handler.cpp */,
+				5BCD43808B25481CB9D51AFC /* XDCAMEX_Handler.cpp */,
+				45FAAE93A4E34B5A858EACF7 /* XDCAM_Handler.cpp */,
+			);
+			name = "File Handlers";
+			sourceTree = "<group>";
+		};
+		9EF1CF0F93154271B490CDFC /* Format Support */ = {
+			isa = PBXGroup;
+			children = (
+				389135755FB64C09B2ED5AE5 /* AIFF */,
+				C0BCD3566A4A4EE49616A7A0 /* IFF */,
+				E3D5A37FA7BC46248C23FFD3 /* WAVE */,
+				EC16B6A2FC0040E88B2EBDB0 /* ASF_Support.cpp */,
+				B3A9D45BF73149478F7DB7B9 /* ID3_Support.cpp */,
+				5C24C83E5474482AA561E84F /* IPTC_Support.cpp */,
+				47FC267F91994D00A2C57DE3 /* ISOBaseMedia_Support.cpp */,
+				635864A1276F4787B835C4BA /* MOOV_Support.cpp */,
+				20F3D888FE80424681E1FE8C /* P2_Support.cpp */,
+				E6E7A857E4D64DEBA7E09E34 /* PNG_Support.cpp */,
+				6A7D618E634544DE9145FF7F /* PSIR_FileWriter.cpp */,
+				9ACB084EBD1E4E0E8EB8601C /* PSIR_MemoryReader.cpp */,
+				13F32997006F451385F8CFEE /* PackageFormat_Support.cpp */,
+				768A710EE37949C1A38BD7CF /* PostScript_Support.cpp */,
+				DDA18F0451264B25B738AFDB /* QuickTime_Support.cpp */,
+				10778DA795094690B7DF6D24 /* RIFF.cpp */,
+				30FF60C0386E435191AB6118 /* RIFF_Support.cpp */,
+				C61694E39F3B4D58B0268AB7 /* ReconcileIPTC.cpp */,
+				9396BAD913444127A2E5D530 /* ReconcileLegacy.cpp */,
+				E1BE8E269AF64A58B1396D8E /* ReconcileTIFF.cpp */,
+				0E983B7EC398495A9BEAEFAB /* Reconcile_Impl.cpp */,
+				2EF9D2897E6E4F1EB801A48F /* SWF_Support.cpp */,
+				DAB229D12B1B4E87B025F2E3 /* TIFF_FileWriter.cpp */,
+				E3D85169386A4DCCB42EAA5F /* TIFF_MemoryReader.cpp */,
+				7E2A5FE9B917403688AB538F /* TIFF_Support.cpp */,
+				EE89E82B69D64B96B61BF867 /* TimeConversionUtils.cpp */,
+				F2E9424765AD485A80356A7E /* XDCAM_Support.cpp */,
+				B1C71E871E45447FAECA5E2D /* XMPScanner.cpp */,
+			);
+			name = "Format Support";
+			sourceTree = "<group>";
+		};
+		A48EC61C80D24BE299E7C781 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				D2528BE06C0A4346A2929CFE /* Client Glue */,
+				ACC1834991154EFEBC7F976E /* TXMPIterator.hpp */,
+				0AF296E0B1DF43B583AC98BF /* TXMPMeta.hpp */,
+				4572BCA52D9349469226394B /* TXMPUtils.hpp */,
+				582923CE15D042D5A618CBD8 /* XMP.hpp */,
+				23BDDA7C33F84FE4901AB1BD /* XMP.incl_cpp */,
+				6555B125B8B44CC3813AF813 /* XMP_Const.h */,
+				CEDCB86841404BEE84A791D1 /* XMP_Environment.h */,
+				6C2776323F0C4C9C957D98D1 /* XMP_Version.h */,
+			);
+			name = Public;
+			sourceTree = "<group>";
+		};
+		A95F6B99DFE24F3BA9E1CF2F /* Core Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9411AC9619D44DDDA6616DA8 /* XMPIterator.cpp */,
+				F2AAD12352E1424490DE8942 /* XMPMeta-GetSet.cpp */,
+				0F521B31F41B4098A2EF3176 /* XMPMeta-Parse.cpp */,
+				E1409A4E661E47C1A1EC1843 /* XMPMeta-Serialize.cpp */,
+				8D3269B5F2864922B2FD182C /* XMPMeta.cpp */,
+				3EA7C4B070AF4F1F96E3A777 /* XMPUtils-FileInfo.cpp */,
+				1C73C100ECBB44858BEC72A0 /* XMPUtils.cpp */,
+			);
+			name = "Core Classes";
+			sourceTree = "<group>";
+		};
+		AB91B0C44D14490D9DE2E547 /* PluginHandler */ = {
+			isa = PBXGroup;
+			children = (
+				0EC470C285984F50B133011D /* FileHandlerInstance.cpp */,
+				902E3598298742DFAA86C426 /* HostAPIImpl.cpp */,
+				D400C20229224D5F84D32387 /* Module.cpp */,
+				97A19EA96C884F2E95CDD5B5 /* OS_Utils_Mac.cpp */,
+				54A21B604BF44E4792D304FC /* PluginManager.cpp */,
+				ACD0D532C5E34B3BB10EBFE0 /* XMPAtoms.cpp */,
+			);
+			name = PluginHandler;
+			sourceTree = "<group>";
+		};
+		AF9DB45AD66840ECA22A6657 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A48EC61C80D24BE299E7C781 /* Public */,
+				1C07C565AF7243AF9F6FDF77 /* Private */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		B68180EAE9F64872ADC8C069 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3F770218C084DBC983A5BAB /* XMPCore.framework */,
+				6A5B6ED6FA5048F5AF7549CE /* XMPFiles.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC65F4F1DDA64C25B4A98F00 /* XMPFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EB00BD3BD34941F095EA2F2C /* Header Files */,
+				55899AC3820F48B38696F709 /* Source Files */,
+				174CFBF1477B4ACD98C5BB76 /* Resource Files */,
+				BFAE00A69B604C1CB775BD48 /* CMakeLists.txt */,
+			);
+			name = XMPFiles;
+			sourceTree = "<group>";
+		};
+		C01966A2033D44BE90929DE0 /* Client Glue */ = {
+			isa = PBXGroup;
+			children = (
+				94CDFCB27FB741E191C49C87 /* TXMPFiles.incl_cpp */,
+				063AF7BC517D48C0A26E7BD1 /* WXMPFiles.hpp */,
+				89496BBC50194712995FD13A /* WXMP_Common.hpp */,
+			);
+			name = "Client Glue";
+			sourceTree = "<group>";
+		};
+		C0BCD3566A4A4EE49616A7A0 /* IFF */ = {
+			isa = PBXGroup;
+			children = (
+				051BA01DF2834BC4A2149D78 /* Chunk.cpp */,
+				1F632A59D2CE4C59A0269D4D /* ChunkController.cpp */,
+				841FB612D1C8438187FEB166 /* ChunkPath.cpp */,
+				5031A670FCCE4A209771C13A /* IChunkBehavior.cpp */,
+			);
+			name = IFF;
+			sourceTree = "<group>";
+		};
+		C9396DD248814970A9E32133 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAD64FAAFA17407B880391A4 /* ABI Wrappers */,
+				A95F6B99DFE24F3BA9E1CF2F /* Core Classes */,
+				37452E91C9B945A2A8D96157 /* Third Party */,
+				2D046AFE2DC04C43A417CD1D /* Utilities */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		CAD64FAAFA17407B880391A4 /* ABI Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				0361E5753F554D2DA85B8061 /* WXMPIterator.cpp */,
+				207A2C629F9249A4871F5A95 /* WXMPMeta.cpp */,
+				892BD4CAE5AA4CC1B21ADE8A /* WXMPUtils.cpp */,
+			);
+			name = "ABI Wrappers";
+			sourceTree = "<group>";
+		};
+		D1C5835C7F284886828F608E /* Resource Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C794C82DFEF4DBBB2B07E9F /* XMPCore.exp */,
+				192FF06EF02A429AA90C7566 /* XMPCore.plist */,
+				A0E793F120A24BC5BB443746 /* XMPCore.unexp */,
+				7409DEF05B1A40E8AF45A614 /* XMPCorePList.h */,
+				FC02FD330D974315A2E162D4 /* expat_config.h */,
+			);
+			name = "Resource Files";
+			sourceTree = "<group>";
+		};
+		D2528BE06C0A4346A2929CFE /* Client Glue */ = {
+			isa = PBXGroup;
+			children = (
+				FF85060D0EC74336A82B403F /* TXMPIterator.incl_cpp */,
+				6CB72E49C9254E1CAD951D01 /* TXMPMeta.incl_cpp */,
+				31EC30AF023A49CD94F9769E /* TXMPUtils.incl_cpp */,
+				EE3A61DD4AC44F859242442F /* WXMPIterator.hpp */,
+				FA79BA929C4E4DD0B1A281BD /* WXMPMeta.hpp */,
+				32DA235BA6B74067A4CA9A7B /* WXMPUtils.hpp */,
+				26188D58638141E69DE5DBFF /* WXMP_Common.hpp */,
+			);
+			name = "Client Glue";
+			sourceTree = "<group>";
+		};
+		D648FB22638E41B69F8D41B9 /* XMPCore */ = {
+			isa = PBXGroup;
+			children = (
+				AF9DB45AD66840ECA22A6657 /* Header Files */,
+				C9396DD248814970A9E32133 /* Source Files */,
+				D1C5835C7F284886828F608E /* Resource Files */,
+				3ADEFC1406AA4501AAA6B5B2 /* CMakeLists.txt */,
+			);
+			name = XMPCore;
+			sourceTree = "<group>";
+		};
+		D9F518ED72FE4622AC2E0A2B /* XMPFilesInfoPlist */ = {
+			isa = PBXGroup;
+			children = (
+				105BD89CE0C54876B6B033DE /* CMake Rules */,
+				9CD3729608A94AC48EA6CAEC /* CMakeLists.txt */,
+			);
+			name = XMPFilesInfoPlist;
+			sourceTree = "<group>";
+		};
+		E3D5A37FA7BC46248C23FFD3 /* WAVE */ = {
+			isa = PBXGroup;
+			children = (
+				4BBA3D35E9EB4176BA254998 /* BEXTMetadata.cpp */,
+				EC1189973A714E64BC960C7F /* CartMetadata.cpp */,
+				9922230555D443FC8B4F7783 /* Cr8rMetadata.cpp */,
+				E8016DB3B3C24D1F8C51506F /* DISPMetadata.cpp */,
+				651C3F3679A64B728BA5FACE /* INFOMetadata.cpp */,
+				80B43D4237F84D018F405460 /* PrmLMetadata.cpp */,
+				8F68D2EBB3B54F2092FCE76A /* WAVEBehavior.cpp */,
+				C7DD739E5EFC454EBC8949D9 /* WAVEReconcile.cpp */,
+				88DAFC7F61E74C1386A8C2A4 /* iXMLMetadata.cpp */,
+			);
+			name = WAVE;
+			sourceTree = "<group>";
+		};
+		EAF5E66C7F9241C2BAC41A43 /* Common Code */ = {
+			isa = PBXGroup;
+			children = (
+				0A3DCEDED6174FEBA6B29FFF /* NativeMetadataSupport */,
+				8C4C5660B9F34039A45AB4BE /* HandlerRegistry.cpp */,
+				3D0268AD04834C318F4BD087 /* WXMPFiles.cpp */,
+				D94280BEA28C4258B21F42FD /* XMPFiles.cpp */,
+				B78B411EEE73475B944D0F2A /* XMPFiles_Impl.cpp */,
+				EFD9B33456FC40EA812A3052 /* Host_IO-POSIX.cpp */,
+				45C7047B5C4748728A0B5399 /* IOUtils.cpp */,
+				41E3D0E5A4D54F80A499A7C7 /* PerfUtils.cpp */,
+				7108B946A5C14C9C88CD8F15 /* SafeStringAPIs.cpp */,
+				8397D5949BF74FB3ACA9CD6F /* UnicodeConversions.cpp */,
+				C377D65EBC6043D4BD47D1E9 /* XIO.cpp */,
+				9F97CFFA97B44B9D92D05CC4 /* XML_Node.cpp */,
+				E942D068B8E6446EB71492E1 /* XMPFiles_IO.cpp */,
+				904A42BEAF4748198EFA3501 /* XMP_LibUtils.cpp */,
+				E5D301EE9590472E97CC427C /* XMP_ProgressTracker.cpp */,
+				2B1E5CCD7856498FA3152EAC /* MD5.cpp */,
+			);
+			name = "Common Code";
+			sourceTree = "<group>";
+		};
+		EB00BD3BD34941F095EA2F2C /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A98D49E3724450C91CD637E /* Internal Headers */,
+				FDDC6121E9D94AC88381C67F /* Public Headers */,
+				17F1458548C64A23BDB42909 /* ThirdParty */,
+				53928F6F9BD2431391929349 /* Host_IO.hpp */,
+				94731B1F0FFB4227BBF91088 /* IOUtils.hpp */,
+				95AF4E3E8FC04F55B2A44FD7 /* XIO.hpp */,
+				74E6DF2B92B4470F91CA4F75 /* XMPFiles_IO.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		ED93F384578649B887B79404 /* PluginHandler */ = {
+			isa = PBXGroup;
+			children = (
+				D65FDCDCD9A546C8A40F7882 /* FileHandler.h */,
+				715AD18C55E44A2BAEAC17AA /* FileHandlerInstance.h */,
+				67D8280304994EDCBE64AC5C /* Module.h */,
+				777D422FA0AF4E8CAA980352 /* ModuleUtils.h */,
+				84F4A997CFDF423A9CDB7958 /* PluginManager.h */,
+				09942AB523B44A7E808746BE /* XMPAtoms.h */,
+			);
+			name = PluginHandler;
+			sourceTree = "<group>";
+		};
+		F3120EE751294D1D89C946F9 /* File Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				0A489F1A7DCA4848BEE281FF /* ASF_Handler.hpp */,
+				EBFC327BC4D4410F81684EE9 /* AVCHD_Handler.hpp */,
+				D350A85964334FF8A49EF108 /* Basic_Handler.hpp */,
+				48AD7151A8174D068ADEDE37 /* FLV_Handler.hpp */,
+				04D9718751D64AB98F4BFF53 /* InDesign_Handler.hpp */,
+				801481B177E8434786E9B9B7 /* JPEG_Handler.hpp */,
+				AF3492AC29554170A02558B4 /* MP3_Handler.hpp */,
+				CC4FB09BDCF941A6A40BBC9A /* MPEG2_Handler.hpp */,
+				A9B8AE3942224CD2AA297E89 /* MPEG4_Handler.hpp */,
+				FEE25BCB0C78408CB4446AAD /* P2_Handler.hpp */,
+				8FED40B8FBED4199AA268FF3 /* PNG_Handler.hpp */,
+				9F79C496E9F140BEBC83D7DB /* PSD_Handler.hpp */,
+				4BDE8F0B7AEB46C2A2C37D00 /* PostScript_Handler.hpp */,
+				BBD82287B8D84ECCBEEEF0B5 /* RIFF_Handler.hpp */,
+				D051962E101D4D0099E4BF6C /* SWF_Handler.hpp */,
+				B14622152FD847D6889B0C35 /* Scanner_Handler.hpp */,
+				CA20ADE3F10240C28A805D98 /* SonyHDV_Handler.hpp */,
+				06593683AB864BA29CE1E6DD /* TIFF_Handler.hpp */,
+				0BB11BC586304C59AE7F449D /* Trivial_Handler.hpp */,
+				1D0223CDBA424611B34CFB45 /* UCF_Handler.hpp */,
+				723BB8799AE34D769063E3D2 /* WAVE_Handler.hpp */,
+				3ECF206ED4234DE98F9F80B7 /* XDCAMEX_Handler.hpp */,
+				B06D675E4B314DECAA9CE6B1 /* XDCAM_Handler.hpp */,
+			);
+			name = "File Handlers";
+			sourceTree = "<group>";
+		};
+		FDDC6121E9D94AC88381C67F /* Public Headers */ = {
+			isa = PBXGroup;
+			children = (
+				C01966A2033D44BE90929DE0 /* Client Glue */,
+				28A3F509732941F596328275 /* TXMPFiles.hpp */,
+				6CA7EDB97D0246B4A6428184 /* TXMPIterator.hpp */,
+				7BB601011D3149DDB6C81BD7 /* TXMPMeta.hpp */,
+				EC55775144B1488AAC56FF23 /* TXMPUtils.hpp */,
+				DE2FB58F0CBD4FBFB9A27E62 /* XMP.hpp */,
+				3E94BB3A33044243983AC35F /* XMP.incl_cpp */,
+				9C8B8D6D7B1E4B53A0564468 /* XMP_Const.h */,
+				148FDC5E6FA94C7982923D7D /* XMP_Environment.h */,
+				CECB0CCB5C974DA0BF6E1CDB /* XMP_IO.hpp */,
+				670C0AC725A6457A9B244B52 /* XMP_Version.h */,
+			);
+			name = "Public Headers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A304DD0C8FC749529553F489 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA9808FC69546588C67E40E /* AIFF_Handler.hpp in Headers */,
+				FCEE5A96B6FE4D67873D2848 /* ASF_Handler.hpp in Headers */,
+				83173E12B9F849F8BDA7F82B /* AVCHD_Handler.hpp in Headers */,
+				71130124A0684BCA918DCDCB /* Basic_Handler.hpp in Headers */,
+				872D73F0A5EA40BA8685069E /* FLV_Handler.hpp in Headers */,
+				6234C62272094F8DBABC905B /* InDesign_Handler.hpp in Headers */,
+				48167BE4313F48E39C9EACCB /* JPEG_Handler.hpp in Headers */,
+				5D39F20D13C44C08B1695850 /* MP3_Handler.hpp in Headers */,
+				8C5F2987305A4A3CB30708BE /* MPEG2_Handler.hpp in Headers */,
+				5EF54B8F6D914BED824239CA /* MPEG4_Handler.hpp in Headers */,
+				83F40FDA29B94D3095F8FB8B /* P2_Handler.hpp in Headers */,
+				F5B7A4B7BDF34EABB7C11C42 /* PNG_Handler.hpp in Headers */,
+				7FD14B47AE3D487982DE2778 /* PSD_Handler.hpp in Headers */,
+				BDB7B583F8584BE2B6617F12 /* PostScript_Handler.hpp in Headers */,
+				C4B0235AADC44664A477C10F /* RIFF_Handler.hpp in Headers */,
+				4ED7472D3B524BC99BAF08B2 /* SWF_Handler.hpp in Headers */,
+				BF6221C8B8B944E6858FD5A5 /* Scanner_Handler.hpp in Headers */,
+				707BED52A9704DC58D6F5E43 /* SonyHDV_Handler.hpp in Headers */,
+				20CDA7A0A8AF4AA484CADE8A /* TIFF_Handler.hpp in Headers */,
+				0C0435EB04714D6691D7856F /* Trivial_Handler.hpp in Headers */,
+				15DE545662E44083840ECB0E /* UCF_Handler.hpp in Headers */,
+				528E8E9248E6486AB80CE4E8 /* WAVE_Handler.hpp in Headers */,
+				6C50C631BD724FFAA1BD2823 /* XDCAMEX_Handler.hpp in Headers */,
+				C78BCB656B0E4DD28B0F1115 /* XDCAM_Handler.hpp in Headers */,
+				D8A84DF09E7745CE9708BEB5 /* AIFFBehavior.h in Headers */,
+				DC2659EBA6FC4E68A08ED525 /* AIFFMetadata.h in Headers */,
+				E363EB533A604893A423EFFC /* AIFFReconcile.h in Headers */,
+				1DA7A773E5534997AA67C013 /* ASF_Support.hpp in Headers */,
+				234FC1786A0E4365AF70EFDB /* ID3_Support.hpp in Headers */,
+				8BEA3ED0679544DFA7499E6D /* Chunk.h in Headers */,
+				4A02FEDFFE4644B5A7383742 /* ChunkController.h in Headers */,
+				8A54C9D46EE346B9A0631DE1 /* ChunkPath.h in Headers */,
+				C103CC4F781843059D4187CD /* IChunkBehavior.h in Headers */,
+				9DE11EADEE2B4B6E8AC9E7F8 /* IChunkContainer.h in Headers */,
+				8931A438F2014DD1A35901B4 /* IChunkData.h in Headers */,
+				552C1C4D2E664A008743520E /* IPTC_Support.hpp in Headers */,
+				313EB8152D93401D8F98E4C0 /* ISOBaseMedia_Support.hpp in Headers */,
+				177BEF1056044FCAB27D439F /* MOOV_Support.hpp in Headers */,
+				A0B9AC0137F94F64A3C2CCD8 /* P2_Support.hpp in Headers */,
+				7A3C6CBAA5E94BB0B923B643 /* PNG_Support.hpp in Headers */,
+				D8E6B9CEF37842BBB5BF7B64 /* PSIR_Support.hpp in Headers */,
+				4CD619DEDE6B4733AC4474C7 /* PackageFormat_Support.hpp in Headers */,
+				CE3359AEA4C34E489C91A534 /* PostScript_Support.hpp in Headers */,
+				B8DAD052C8464A8C9B60287B /* QuickTime_Support.hpp in Headers */,
+				B1FF80CEE41D4EEC88969F38 /* RIFF.hpp in Headers */,
+				759A41A67FDD44949F880F8D /* RIFF_Support.hpp in Headers */,
+				6A2A2DAA14274A1B806EE5AC /* ReconcileLegacy.hpp in Headers */,
+				199133B7A1734E10AD0F673A /* Reconcile_Impl.hpp in Headers */,
+				B7386034296247E3A080A117 /* SWF_Support.hpp in Headers */,
+				F900A2FB4E1743219A7389EF /* TIFF_Support.hpp in Headers */,
+				7AB5A04C39C544129309B55A /* TimeConversionUtils.hpp in Headers */,
+				E3B134B77DF64A77AB0E1B83 /* BEXTMetadata.h in Headers */,
+				A70EDE8B846B4E58AFEED09E /* CartMetadata.h in Headers */,
+				CADC32BD8CC7455AA08607EE /* Cr8rMetadata.h in Headers */,
+				8E0EC0A32A464A73839535AA /* DISPMetadata.h in Headers */,
+				A090BC2945ED41489E2F2BF3 /* INFOMetadata.h in Headers */,
+				3C65F45ACD92431098A63030 /* PrmLMetadata.h in Headers */,
+				19DC90C85E44498E88B65A14 /* WAVEBehavior.h in Headers */,
+				6E507CDDB952414E8FE3A3D5 /* WAVEReconcile.h in Headers */,
+				28441A09BE464030A22A76F1 /* iXMLMetadata.h in Headers */,
+				CC78A9D4736F4408AE1B85CC /* XDCAM_Support.hpp in Headers */,
+				502E3666AAD04C799EB91B63 /* XMPScanner.hpp in Headers */,
+				2D22FDC70859485A89B48D51 /* FileHandler.h in Headers */,
+				62BB937D58004F318734FCE2 /* FileHandlerInstance.h in Headers */,
+				6D728ADA2204437CBD016D33 /* Module.h in Headers */,
+				24EB05D694EA43E4A9ADC165 /* ModuleUtils.h in Headers */,
+				B8A5E06BD28446BBB6B3D7DA /* PluginManager.h in Headers */,
+				A660D94D0D53486BB504316C /* XMPAtoms.h in Headers */,
+				8791C994E3594DABB824A075 /* XMPFiles.hpp in Headers */,
+				2B6855BD5D3A482AA36752E8 /* XMPFiles_Impl.hpp in Headers */,
+				E6F1E9AD369B412A90FEEF42 /* XMP_BuildInfo.h in Headers */,
+				735406B5926A420F870CAC71 /* TXMPFiles.hpp in Headers */,
+				D16F744FE3334C7EB52B946B /* TXMPIterator.hpp in Headers */,
+				955B4D268F694CA68DA3A520 /* TXMPMeta.hpp in Headers */,
+				78324AE16BD942F086F4CAD2 /* TXMPUtils.hpp in Headers */,
+				7F63E8428CCF48EE9ABAA968 /* XMP.hpp in Headers */,
+				EAF3C62478CC47C7AC8835BE /* XMP_Const.h in Headers */,
+				FD30F7A623E04037AEE5BEFF /* XMP_Environment.h in Headers */,
+				4D839B3A583145979CD545E0 /* XMP_IO.hpp in Headers */,
+				7D7F66F74FB84FD091C8E073 /* XMP_Version.h in Headers */,
+				84421D881135498F91AE21BB /* WXMPFiles.hpp in Headers */,
+				9A2B6704C4FC4BEB92BB75BD /* WXMP_Common.hpp in Headers */,
+				489EE28705624BFBB5636E0E /* Endian.h in Headers */,
+				26ECED968D6C47F3A6D62A67 /* Host_IO.hpp in Headers */,
+				977851B5D7574A229FB33C7D /* IOUtils.hpp in Headers */,
+				1C8E6083F8154057BE0798C5 /* SafeStringAPIs.h in Headers */,
+				EECE631C4D54490D853F26B6 /* SafeTypes.h in Headers */,
+				A731617BBBC5422E826535B7 /* SuppressSAL.h in Headers */,
+				0796548F39FA47188F9DEDD7 /* XIO.hpp in Headers */,
+				49E9CAA1AF914B5EAA648F1C /* XMPFiles_IO.hpp in Headers */,
+				7AD69AEDF9C64296A01E47AA /* crc32.h in Headers */,
+				4F029CDBF2504FF5BE23B168 /* deflate.h in Headers */,
+				09EC83408BEA449CB070AFA1 /* gzguts.h in Headers */,
+				1A37113535864ED6AE44A9AB /* inffast.h in Headers */,
+				56120CB4CB4E4B99BBD99156 /* inffixed.h in Headers */,
+				35A824E519EC42F8801AFF95 /* inflate.h in Headers */,
+				09346CE90E104193A5030544 /* inftrees.h in Headers */,
+				23AB575E40174BC88A45A9D6 /* trees.h in Headers */,
+				3ECFAC62E0744124B89E0EE5 /* zconf.h in Headers */,
+				2CD63DDF481341629F9FDBF0 /* zlib.h in Headers */,
+				E1D61A7FA349483BA2698166 /* zutil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4026B5FE5F44295ACB16998 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57ACB839EC74F2DA3307F4C /* XMPCorePList.h in Headers */,
+				7CCA1E2FEC8245C88C1138F8 /* expat_config.h in Headers */,
+				668E909B891A4CC5A066DE54 /* XMPCore_Impl.hpp in Headers */,
+				F912C7A2D8D5409292B54154 /* XMPIterator.hpp in Headers */,
+				9E817FD8F9F247EE82C9D909 /* XMPMeta.hpp in Headers */,
+				CF1CE8472130441A9A0E8A24 /* XMPUtils.hpp in Headers */,
+				8207959C4FA04FB280B53A8A /* XMP_BuildInfo.h in Headers */,
+				69CCF3F744DD42CABB4A5507 /* TXMPIterator.hpp in Headers */,
+				13DC9DEAFAE24A7184AF68E4 /* TXMPMeta.hpp in Headers */,
+				541041E33DF94ED99D385EFD /* TXMPUtils.hpp in Headers */,
+				36F27C0890C04EEB8FF96B62 /* XMP.hpp in Headers */,
+				F12D4791B00841B892C7B27A /* XMP_Const.h in Headers */,
+				EAA10FE95CA74EBEB5749CC2 /* XMP_Environment.h in Headers */,
+				252375BA7F424551B2FA34ED /* XMP_Version.h in Headers */,
+				116A4E07518E4B87B9CDACBF /* WXMPIterator.hpp in Headers */,
+				1D36D2F1912B40FB9B908027 /* WXMPMeta.hpp in Headers */,
+				8229716F705B430CBEFDF671 /* WXMPUtils.hpp in Headers */,
+				B818D49E1C864C94BD2BEC21 /* WXMP_Common.hpp in Headers */,
+				2D680F69C7E04684ABBDDC45 /* ExpatAdapter.hpp in Headers */,
+				1F8DD21591524C668663EDBC /* UnicodeConversions.hpp in Headers */,
+				8BCC05923F0F4175B1BD49FC /* XMLParserAdapter.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1619416375764868ABECA289 /* XMPCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4950B5B666DE44C8A99E6B26 /* Build configuration list for PBXNativeTarget "XMPCore" */;
+			buildPhases = (
+				F4026B5FE5F44295ACB16998 /* Headers */,
+				F4F7F39EFBF4433ABBC28156 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D216765A57DB47D5820A1AAC /* PBXTargetDependency */,
+			);
+			name = XMPCore;
+			productName = XMPCore;
+			productReference = B3F770218C084DBC983A5BAB /* XMPCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A449245AA8D548C4BB1C3E43 /* XMPFiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA59BC8B66A4E9982C3460A /* Build configuration list for PBXNativeTarget "XMPFiles" */;
+			buildPhases = (
+				A304DD0C8FC749529553F489 /* Headers */,
+				A15F5F1A16BB4475A83B31A7 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2621519F37574394B06F33BC /* PBXTargetDependency */,
+				AC06CC6824744FC3A7982EE8 /* PBXTargetDependency */,
+			);
+			name = XMPFiles;
+			productName = XMPFiles;
+			productReference = 6A5B6ED6FA5048F5AF7549CE /* XMPFiles.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0EC898890284FF19C31699F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 1ED48706158449A4B3BBC0FD /* Build configuration list for PBXProject "XMPToolkitSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8749E89D671F420894898AF8;
+			projectDirPath = ../../../;
+			projectRoot = "";
+			targets = (
+				F02AE3F6F38C46C3BD95BDC3 /* ALL_BUILD */,
+				BDC86DB4B41F40B388FC46A8 /* ZERO_CHECK */,
+				1619416375764868ABECA289 /* XMPCore */,
+				1867E69B034D465BA6F1272C /* XMPCoreInfoPlist */,
+				A449245AA8D548C4BB1C3E43 /* XMPFiles */,
+				87024BBC910D4F6CB5250F49 /* XMPFilesInfoPlist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24D3C98FDF9548258E0CF85B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/xcode/dynamic/intel -f /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/xcode/dynamic/intel/CMakeScripts/XMPFilesInfoPlist_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		6F94E24C1E8A4EA58D2EFE5C /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/build/xcode/dynamic/intel -f /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/build/xcode/dynamic/intel/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		E98EF4772DCD4783B0487520 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/build/xcode/dynamic/intel -f /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/build/xcode/dynamic/intel/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F3BDD7304001481AB1A06C0D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/xcode/dynamic/intel -f /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/xcode/dynamic/intel/CMakeScripts/XMPCoreInfoPlist_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A15F5F1A16BB4475A83B31A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8763B50CF5F41239D9D2B90 /* AIFF_Handler.cpp in Sources */,
+				8AF27B413B4444FA8F58D0CC /* ASF_Handler.cpp in Sources */,
+				0E26EC62E0524B8FA37D9348 /* AVCHD_Handler.cpp in Sources */,
+				B20087054C164B9193F59A07 /* Basic_Handler.cpp in Sources */,
+				A4F0337C6CFB4493BEF1152D /* FLV_Handler.cpp in Sources */,
+				9390D946413D40379BFDDF14 /* InDesign_Handler.cpp in Sources */,
+				933EE554DB7D439CBC45DFE0 /* JPEG_Handler.cpp in Sources */,
+				0A6F58C0075B4BDBB514D6A2 /* MP3_Handler.cpp in Sources */,
+				45E4ED583D2B4099B6D56F29 /* MPEG2_Handler.cpp in Sources */,
+				E706A83C6152494E84DAE586 /* MPEG4_Handler.cpp in Sources */,
+				CA1120084123495E9455032D /* P2_Handler.cpp in Sources */,
+				80D26CE48A2F4001B117D830 /* PNG_Handler.cpp in Sources */,
+				907108C99A314637886F45E1 /* PSD_Handler.cpp in Sources */,
+				0F3C54282C024D2B8B4F0120 /* PostScript_Handler.cpp in Sources */,
+				E9B241ED88F844A0ABD8FF0A /* RIFF_Handler.cpp in Sources */,
+				1C57D8C75B9A4C2E86D3ADD2 /* SWF_Handler.cpp in Sources */,
+				2A4A8BBCA81341C78378FD64 /* Scanner_Handler.cpp in Sources */,
+				1F935AF1D76E457892280778 /* SonyHDV_Handler.cpp in Sources */,
+				5BC57F0FE43549D6A532EBE3 /* TIFF_Handler.cpp in Sources */,
+				5FD93A604D5147979850C959 /* Trivial_Handler.cpp in Sources */,
+				D146162F24D248B593BA9C6D /* UCF_Handler.cpp in Sources */,
+				DB0DF82E70DD498080C01E0D /* WAVE_Handler.cpp in Sources */,
+				E9332B2045424A6EBAF79CD4 /* XDCAMEX_Handler.cpp in Sources */,
+				D30064350A9849819B6A0717 /* XDCAM_Handler.cpp in Sources */,
+				924D7B330E004264B01B4ADF /* AIFFBehavior.cpp in Sources */,
+				2118E4C8C3A74D45B45E2BE7 /* AIFFMetadata.cpp in Sources */,
+				454BF8E46C49491D8CF05452 /* AIFFReconcile.cpp in Sources */,
+				775BB245DCCA41579146DD09 /* ASF_Support.cpp in Sources */,
+				79D4D8D46E4B45D1A7676922 /* ID3_Support.cpp in Sources */,
+				F42C5338A0234103AE44C9B5 /* Chunk.cpp in Sources */,
+				04F5643727DB46F5B5C830F7 /* ChunkController.cpp in Sources */,
+				7E553E73B1874B0DABBAEF4C /* ChunkPath.cpp in Sources */,
+				8A0C77C9A3074A268C6AD309 /* IChunkBehavior.cpp in Sources */,
+				F977729AFF13445E93D289A5 /* IPTC_Support.cpp in Sources */,
+				E235077A31EB4C4B924B58B8 /* ISOBaseMedia_Support.cpp in Sources */,
+				B46D8D80D67549CAB759DB34 /* MOOV_Support.cpp in Sources */,
+				C9DB425C530E462C8F0CD46E /* P2_Support.cpp in Sources */,
+				6011A7D42D964D84970F2D20 /* PNG_Support.cpp in Sources */,
+				AD103FB8136C40A18E4F566D /* PSIR_FileWriter.cpp in Sources */,
+				E0111C0E3CA24AF6BA228CC9 /* PSIR_MemoryReader.cpp in Sources */,
+				2F97A3947DCA4B44A2B35E5E /* PackageFormat_Support.cpp in Sources */,
+				90EB0D6E9B5B49F8AF1EE47B /* PostScript_Support.cpp in Sources */,
+				80D611E6610C4BD49FAE2AAC /* QuickTime_Support.cpp in Sources */,
+				43C835442B814C9A950D25AA /* RIFF.cpp in Sources */,
+				CDE3C8800AEF466A8F14331F /* RIFF_Support.cpp in Sources */,
+				CB3ACCF05A534E109E537DA9 /* ReconcileIPTC.cpp in Sources */,
+				F06B3F8333B545D9BA916B77 /* ReconcileLegacy.cpp in Sources */,
+				062D92C45D7740AB9D1E8DC8 /* ReconcileTIFF.cpp in Sources */,
+				FD0C431CB27949AA971F43B9 /* Reconcile_Impl.cpp in Sources */,
+				84DBC1BD33B74F23A66EA5AA /* SWF_Support.cpp in Sources */,
+				E56CBF4E3A3A40AA8401F026 /* TIFF_FileWriter.cpp in Sources */,
+				F40FCF8F69574E8CBEB226DD /* TIFF_MemoryReader.cpp in Sources */,
+				8B0A1067F09E41EFBB990A68 /* TIFF_Support.cpp in Sources */,
+				438D9A4D95AE45258F8FE6B9 /* TimeConversionUtils.cpp in Sources */,
+				B734045C78C7412A955A4E0E /* BEXTMetadata.cpp in Sources */,
+				15EBFA36068149D9A0A43A6B /* CartMetadata.cpp in Sources */,
+				9466D3EB36D445659DEC581B /* Cr8rMetadata.cpp in Sources */,
+				AACA4248F32444EFA87A91ED /* DISPMetadata.cpp in Sources */,
+				2CFFAECA27934C5BA7A05571 /* INFOMetadata.cpp in Sources */,
+				697846788D0A410C8FEFBB49 /* PrmLMetadata.cpp in Sources */,
+				1DE75E7DEF3C49CEB07C9707 /* WAVEBehavior.cpp in Sources */,
+				4AFDE4DCA93E4CB78F0C5895 /* WAVEReconcile.cpp in Sources */,
+				35A312A0F431491F86B8D9F6 /* iXMLMetadata.cpp in Sources */,
+				3B54996F355A48B1B0E75867 /* XDCAM_Support.cpp in Sources */,
+				E0797C8508ED4217841E68E6 /* XMPScanner.cpp in Sources */,
+				8D5DE490EFD645B19300E1A5 /* HandlerRegistry.cpp in Sources */,
+				05FB0B8BCC4C4398BBEEB64A /* IMetadata.cpp in Sources */,
+				D9C9183A0EF34E8188D724AA /* IReconcile.cpp in Sources */,
+				1541E652104747D5BDE5F94B /* MetadataSet.cpp in Sources */,
+				9088CBF5990C40B3879A45A2 /* FileHandlerInstance.cpp in Sources */,
+				8CB71E20DF1A40BA844E7CA7 /* HostAPIImpl.cpp in Sources */,
+				655570C66C3A418797185C3A /* Module.cpp in Sources */,
+				3F68B0D6DDA24591B48CEBD1 /* OS_Utils_Mac.cpp in Sources */,
+				F7E908337D354AD7BFDF6BD4 /* PluginManager.cpp in Sources */,
+				8D9A933DA8E54084AD6D370D /* XMPAtoms.cpp in Sources */,
+				1E994D2238844AD4997F5710 /* WXMPFiles.cpp in Sources */,
+				27C02A10BDC14BBF9ED7CD65 /* XMPFiles.cpp in Sources */,
+				BC569517836A458D8C06BFF2 /* XMPFiles_Impl.cpp in Sources */,
+				B1143F3F30C74C148C3443AE /* Host_IO-POSIX.cpp in Sources */,
+				BFE541A3B71B48C39E6C5B2D /* IOUtils.cpp in Sources */,
+				66DA5D507F99499EA69D7E5C /* PerfUtils.cpp in Sources */,
+				0056F6889E974A77949ABC66 /* SafeStringAPIs.cpp in Sources */,
+				1C96F725D84444C281C4F566 /* UnicodeConversions.cpp in Sources */,
+				C89AD9256C2C4C72AD22AA4C /* XIO.cpp in Sources */,
+				0498705FFFC34769A112B685 /* XML_Node.cpp in Sources */,
+				9708D046C81F49F287A92D33 /* XMPFiles_IO.cpp in Sources */,
+				A930DA69AE7642B18D95B69B /* XMP_LibUtils.cpp in Sources */,
+				32736BF98DCE46B5B2D9E125 /* XMP_ProgressTracker.cpp in Sources */,
+				BD0059B7389C4356A716D946 /* adler32.c in Sources */,
+				7D2EA5E144D04D278131C859 /* compress.c in Sources */,
+				0ABE675507204083B60F77E9 /* crc32.c in Sources */,
+				19BAE56A98D64008A50FA1C8 /* deflate.c in Sources */,
+				7FDE3459BBF5477AB6705D10 /* infback.c in Sources */,
+				EE9FDF8BFE54472783A82445 /* inffast.c in Sources */,
+				AFCBD9358DB941EAA48AABFF /* inflate.c in Sources */,
+				B75DDBAA71B2441A9FB614D6 /* inftrees.c in Sources */,
+				424D6EC0D48340809C066FCA /* trees.c in Sources */,
+				EAD56741B358442E8E07D218 /* uncompr.c in Sources */,
+				641416DEDBCF4B29B63C963F /* zutil.c in Sources */,
+				3899AC2105FB4DEEAFFB06E7 /* MD5.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F7F39EFBF4433ABBC28156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C01419B6CE74ECBB74D7CB2 /* ExpatAdapter.cpp in Sources */,
+				233DB91967E74F4FA05D0C9A /* ParseRDF.cpp in Sources */,
+				9E5EA9D026C94BAAAED0FD0E /* WXMPIterator.cpp in Sources */,
+				A4274F25D40C4855A17C897E /* WXMPMeta.cpp in Sources */,
+				29CB59DC1A25415CA8A17360 /* WXMPUtils.cpp in Sources */,
+				8FDD25A3127346C78DF0CE2C /* XMPCore_Impl.cpp in Sources */,
+				653F04B0A1634A77A52B378F /* XMPIterator.cpp in Sources */,
+				1319DE1836A748CFB1240111 /* XMPMeta-GetSet.cpp in Sources */,
+				B86C5F00CDF84C2DA2A32A85 /* XMPMeta-Parse.cpp in Sources */,
+				DA04CDCA434B4D3BB55ABD5D /* XMPMeta-Serialize.cpp in Sources */,
+				AA2A96D045C44714942119DC /* XMPMeta.cpp in Sources */,
+				D294B1C361334AC3BAE325DA /* XMPUtils-FileInfo.cpp in Sources */,
+				E6E35113634C4E32A7C85965 /* XMPUtils.cpp in Sources */,
+				E1271CC81C104D91A84B08E7 /* UnicodeConversions.cpp in Sources */,
+				9641289B673F4EC4A7B678A2 /* XML_Node.cpp in Sources */,
+				529E9065CF6D4FD6BA860DB8 /* XMP_LibUtils.cpp in Sources */,
+				A60D932765CF4EB1B82EAA8B /* xmlparse.c in Sources */,
+				F0AF8CE507B1497D840B0777 /* xmlrole.c in Sources */,
+				5A4FEE52D1E94E719BEC3165 /* xmltok.c in Sources */,
+				C1596F601D0C4F1FBB933F50 /* MD5.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2621519F37574394B06F33BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1619416375764868ABECA289 /* XMPCore */;
+			targetProxy = 8C459B6795A2431AAF621918 /* PBXContainerItemProxy */;
+		};
+		3FFC07522E864FBFAA869BE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1619416375764868ABECA289 /* XMPCore */;
+			targetProxy = 09041951FA88456F9E1E4485 /* PBXContainerItemProxy */;
+		};
+		8C522C94BEF4497090879BD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A449245AA8D548C4BB1C3E43 /* XMPFiles */;
+			targetProxy = 07E059A00E0B4097AC496283 /* PBXContainerItemProxy */;
+		};
+		AC06CC6824744FC3A7982EE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87024BBC910D4F6CB5250F49 /* XMPFilesInfoPlist */;
+			targetProxy = 4777FF4C88FD407EA2D74389 /* PBXContainerItemProxy */;
+		};
+		B95A95E36BD142FA8ED35C80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDC86DB4B41F40B388FC46A8 /* ZERO_CHECK */;
+			targetProxy = 92B8BE38C0BC4AABB20EE1FE /* PBXContainerItemProxy */;
+		};
+		D216765A57DB47D5820A1AAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1867E69B034D465BA6F1272C /* XMPCoreInfoPlist */;
+			targetProxy = 1A3698239B78450C9E37C16C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		193E90172CC34C9E90495DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'XML_STATIC=1'",
+					"'HAVE_EXPAT_CONFIG_H=1'",
+					"'XMP_DynamicBuild=1'",
+					"'BUILDING_XMPCOMMON_LIB=1'",
+					"'XMP_64=0'",
+					"'MAC_ENV=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../..",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../../public/include",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../../third-party/expat/public/lib",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../resource/mac",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = XMPCoreInfoPlist;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/xcode/dynamic/intel";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		1F859F9C8CC74EA4AC115F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/build/xcode/dynamic/intel";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		410A58B3D0A340789ECD48E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/libraries/macintosh/intel/Debug";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					XMPFiles_EXPORTS,
+					"'XML_STATIC=1'",
+					"'HAVE_EXPAT_CONFIG_H=1'",
+					"'XMP_DynamicBuild=1'",
+					"'BUILDING_XMPCOMMON_LIB=1'",
+					"'XMP_64=0'",
+					"'MAC_ENV=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../..",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../public/include",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../third-party/expat/zlib",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../XMPFilesPlugins/api/source",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../resource/mac",
+				);
+				INFOPLIST_FILE = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/xcode/dynamic/intel/CMakeFiles/XMPFiles.dir/Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../public/libraries/macintosh/intel/$(configuration)$(effective_platform_name)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../public/libraries/macintosh/intel/$(configuration)$(effective_platform_name)",
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-missing-field-initializers",
+					"-Wno-shadow",
+					"-Wno-unused-variable",
+					"-Wno-unused-function",
+					"-Wno-unused-parameter",
+					"-fstack-protector",
+					"-D_FORTIFY_SOURCE=2",
+					"-DDEBUG=1",
+					"-D_DEBUG=1",
+					"-fPIC",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-funsigned-char",
+					"-fshort-enums",
+					"-fno-common",
+					"-Wall",
+					"-Wextra",
+					"-Wno-missing-field-initializers",
+					"-Wno-shadow",
+					"-Wno-reorder",
+					"-Wnon-virtual-dtor",
+					"-Woverloaded-virtual",
+					"-Wno-unused-variable",
+					"-Wno-unused-function",
+					"-Wno-unused-parameter",
+					"-fstack-protector",
+					"-DDEBUG=1",
+					"-D_DEBUG=1",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					CoreServices,
+					"-framework",
+					XMPCore,
+					"-exported_symbols_list",
+					"\"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../resource/mac/XMPFiles.exp\"",
+					"-Xlinker",
+					"-no_data_in_code_info",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = XMPFiles;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/xcode/dynamic/intel";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "";
+			};
+			name = Debug;
+		};
+		41A143050421449F9036F363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/build/xcode/dynamic/intel";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		42975D2A188A4F0B9E6FAC69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/libraries/macintosh/intel/Debug";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					XMPCore_EXPORTS,
+					"'XML_STATIC=1'",
+					"'HAVE_EXPAT_CONFIG_H=1'",
+					"'XMP_DynamicBuild=1'",
+					"'BUILDING_XMPCOMMON_LIB=1'",
+					"'XMP_64=0'",
+					"'MAC_ENV=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../..",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../../public/include",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../../third-party/expat/public/lib",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../resource/mac",
+				);
+				INFOPLIST_FILE = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/xcode/dynamic/intel/CMakeFiles/XMPCore.dir/Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-missing-field-initializers",
+					"-Wno-shadow",
+					"-Wno-unused-variable",
+					"-Wno-unused-function",
+					"-Wno-unused-parameter",
+					"-fstack-protector",
+					"-D_FORTIFY_SOURCE=2",
+					"-DDEBUG=1",
+					"-D_DEBUG=1",
+					"-fPIC",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-funsigned-char",
+					"-fshort-enums",
+					"-fno-common",
+					"-Wall",
+					"-Wextra",
+					"-Wno-missing-field-initializers",
+					"-Wno-shadow",
+					"-Wno-reorder",
+					"-Wnon-virtual-dtor",
+					"-Woverloaded-virtual",
+					"-Wno-unused-variable",
+					"-Wno-unused-function",
+					"-Wno-unused-parameter",
+					"-fstack-protector",
+					"-DDEBUG=1",
+					"-D_DEBUG=1",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					CoreServices,
+					"-unexported_symbols_list",
+					"\"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../resource/mac/XMPCore.unexp\"",
+					"-Xlinker",
+					"-no_data_in_code_info",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = XMPCore;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/xcode/dynamic/intel";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "";
+			};
+			name = Debug;
+		};
+		720B39D316C3444DA07A91F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'XML_STATIC=1'",
+					"'HAVE_EXPAT_CONFIG_H=1'",
+					"'XMP_DynamicBuild=1'",
+					"'BUILDING_XMPCOMMON_LIB=1'",
+					"'XMP_64=0'",
+					"'MAC_ENV=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../..",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../public/include",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../third-party/expat/zlib",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../XMPFilesPlugins/api/source",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../resource/mac",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = XMPFilesInfoPlist;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/xcode/dynamic/intel";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		72D690E72E7B41C28EBE2C40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/libraries/macintosh/intel/Release";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					XMPCore_EXPORTS,
+					"'XML_STATIC=1'",
+					"'HAVE_EXPAT_CONFIG_H=1'",
+					"'XMP_DynamicBuild=1'",
+					"'BUILDING_XMPCOMMON_LIB=1'",
+					"'XMP_64=0'",
+					"'MAC_ENV=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../..",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../../public/include",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../../third-party/expat/public/lib",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../resource/mac",
+				);
+				INFOPLIST_FILE = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/xcode/dynamic/intel/CMakeFiles/XMPCore.dir/Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-missing-field-initializers",
+					"-Wno-shadow",
+					"-Wno-unused-variable",
+					"-Wno-unused-function",
+					"-Wno-unused-parameter",
+					"-fstack-protector",
+					"-D_FORTIFY_SOURCE=2",
+					"-DNDEBUG=1",
+					"-D_NDEBUG=1",
+					"-fPIC",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-funsigned-char",
+					"-fshort-enums",
+					"-fno-common",
+					"-Wall",
+					"-Wextra",
+					"-Wno-missing-field-initializers",
+					"-Wno-shadow",
+					"-Wno-reorder",
+					"-Wnon-virtual-dtor",
+					"-Woverloaded-virtual",
+					"-Wno-unused-variable",
+					"-Wno-unused-function",
+					"-Wno-unused-parameter",
+					"-fstack-protector",
+					"-DNDEBUG=1",
+					"-D_NDEBUG=1",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					CoreServices,
+					"-unexported_symbols_list",
+					"\"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../resource/mac/XMPCore.unexp\"",
+					"-Xlinker",
+					"-no_data_in_code_info",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = XMPCore;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/xcode/dynamic/intel";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "";
+			};
+			name = Release;
+		};
+		763A13C24B43424597B604B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/libraries/macintosh/intel/Release";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					XMPFiles_EXPORTS,
+					"'XML_STATIC=1'",
+					"'HAVE_EXPAT_CONFIG_H=1'",
+					"'XMP_DynamicBuild=1'",
+					"'BUILDING_XMPCOMMON_LIB=1'",
+					"'XMP_64=0'",
+					"'MAC_ENV=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../..",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../public/include",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../third-party/expat/zlib",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../XMPFilesPlugins/api/source",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../resource/mac",
+				);
+				INFOPLIST_FILE = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/xcode/dynamic/intel/CMakeFiles/XMPFiles.dir/Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../public/libraries/macintosh/intel/$(configuration)$(effective_platform_name)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../public/libraries/macintosh/intel/$(configuration)$(effective_platform_name)",
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-missing-field-initializers",
+					"-Wno-shadow",
+					"-Wno-unused-variable",
+					"-Wno-unused-function",
+					"-Wno-unused-parameter",
+					"-fstack-protector",
+					"-D_FORTIFY_SOURCE=2",
+					"-DNDEBUG=1",
+					"-D_NDEBUG=1",
+					"-fPIC",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-funsigned-char",
+					"-fshort-enums",
+					"-fno-common",
+					"-Wall",
+					"-Wextra",
+					"-Wno-missing-field-initializers",
+					"-Wno-shadow",
+					"-Wno-reorder",
+					"-Wnon-virtual-dtor",
+					"-Woverloaded-virtual",
+					"-Wno-unused-variable",
+					"-Wno-unused-function",
+					"-Wno-unused-parameter",
+					"-fstack-protector",
+					"-DNDEBUG=1",
+					"-D_NDEBUG=1",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					CoreServices,
+					"-framework",
+					XMPCore,
+					"-exported_symbols_list",
+					"\"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../resource/mac/XMPFiles.exp\"",
+					"-Xlinker",
+					"-no_data_in_code_info",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = XMPFiles;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/xcode/dynamic/intel";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "";
+			};
+			name = Release;
+		};
+		89CE7FA7F5B54CDF9187DB1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/build/xcode/dynamic/intel";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		CA2A8A37B95F4FCF884E142A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'XML_STATIC=1'",
+					"'HAVE_EXPAT_CONFIG_H=1'",
+					"'XMP_DynamicBuild=1'",
+					"'BUILDING_XMPCOMMON_LIB=1'",
+					"'XMP_64=0'",
+					"'MAC_ENV=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../..",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../public/include",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../third-party/expat/zlib",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../../XMPFilesPlugins/api/source",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/../resource/mac",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = XMPFilesInfoPlist;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/xcode/dynamic/intel";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		D040981E2B7C4493A2802110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk;
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/build/xcode/dynamic/intel/build";
+			};
+			name = Release;
+		};
+		DB44D853B16B4CE5863896F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/build/xcode/dynamic/intel";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		EA3EA148E7B7412D92981F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'XML_STATIC=1'",
+					"'HAVE_EXPAT_CONFIG_H=1'",
+					"'XMP_DynamicBuild=1'",
+					"'BUILDING_XMPCOMMON_LIB=1'",
+					"'XMP_64=0'",
+					"'MAC_ENV=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../..",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../../public/include",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../../third-party/expat/public/lib",
+					"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../resource/mac",
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = XMPCoreInfoPlist;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/xcode/dynamic/intel";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		FD8F176FB6C14971873EB041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk;
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/build/xcode/dynamic/intel/build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F891E0B8AA44F619DABBFC0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89CE7FA7F5B54CDF9187DB1B /* Debug */,
+				DB44D853B16B4CE5863896F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1ED48706158449A4B3BBC0FD /* Build configuration list for PBXProject "XMPToolkitSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD8F176FB6C14971873EB041 /* Debug */,
+				D040981E2B7C4493A2802110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4950B5B666DE44C8A99E6B26 /* Build configuration list for PBXNativeTarget "XMPCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42975D2A188A4F0B9E6FAC69 /* Debug */,
+				72D690E72E7B41C28EBE2C40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		64FC9B297A5947179884F64F /* Build configuration list for PBXAggregateTarget "XMPFilesInfoPlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				720B39D316C3444DA07A91F0 /* Debug */,
+				CA2A8A37B95F4FCF884E142A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		78C554CE969E4798934131BA /* Build configuration list for PBXAggregateTarget "XMPCoreInfoPlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3EA148E7B7412D92981F29 /* Debug */,
+				193E90172CC34C9E90495DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8427DFDA0D3B46C197076C0E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F859F9C8CC74EA4AC115F4E /* Debug */,
+				41A143050421449F9036F363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FEA59BC8B66A4E9982C3460A /* Build configuration list for PBXNativeTarget "XMPFiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410A58B3D0A340789ECD48E0 /* Debug */,
+				763A13C24B43424597B604B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0EC898890284FF19C31699F /* Project object */;
+}

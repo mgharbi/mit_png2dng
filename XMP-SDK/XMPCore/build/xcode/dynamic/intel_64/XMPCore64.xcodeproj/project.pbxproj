@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		93072CBD4DFB4EA4A32BA8CE /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 495FC89C4EA341D486D1AB03 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				D50D62A2E4E149E69B66D003 /* CMake Rules */,
+			);
+			dependencies = (
+				0F9E9712C4BC48B98E8CA36F /* PBXTargetDependency */,
+				8E6EDF038B3F42F7BDCD6AC7 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		BF007B14F3AF43C5B0E0AEAA /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2368C73DA78E4C67920C572F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				CB68EDAC300B406B889B8757 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00E5FC63A938411882E48CE8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_Const.h */ = {isa = PBXBuildFile; fileRef = D141E57644BD4B88B27B7CCB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_Const.h */; settings = {COMPILER_FLAGS = ""; }; };
+		079D6ED8DB7F495DA9AC5FA7 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPMeta-GetSet.cpp */ = {isa = PBXBuildFile; fileRef = 558308F002594363A05EAA4C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPMeta-GetSet.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0F0A6A7397694E39AE4D2606 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/ExpatAdapter.hpp */ = {isa = PBXBuildFile; fileRef = CCE4630B010346D8BB9EEB38 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/ExpatAdapter.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0F3D50030A0143F38025FB0F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/WXMPUtils.hpp */ = {isa = PBXBuildFile; fileRef = 5E58EEF9B53A484785EA39E7 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/WXMPUtils.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		18B6A201566D4805BC974565 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/expat/lib/xmlrole.c */ = {isa = PBXBuildFile; fileRef = FF5B54DD8162495D8CEF6FA9 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/expat/lib/xmlrole.c */; settings = {COMPILER_FLAGS = ""; }; };
+		1FC332BE4B6C48E288052968 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMLParserAdapter.hpp */ = {isa = PBXBuildFile; fileRef = 396274B8881C49958CC12545 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMLParserAdapter.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		225E8913976E4F6B99C645C8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/TXMPIterator.incl_cpp */ = {isa = PBXBuildFile; fileRef = 168C75BA62884855B7AB6611 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/TXMPIterator.incl_cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		22BBFE25C84A4A3A8CC815EA /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPMeta.hpp */ = {isa = PBXBuildFile; fileRef = 83AEE60384E949F39A4365D5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPMeta.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		276638FFBBF14057911A0A50 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/TXMPMeta.incl_cpp */ = {isa = PBXBuildFile; fileRef = 93E7A6F43E314645BFE4D2E5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/TXMPMeta.incl_cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2CC28F0B1F3D4B63BBAB9748 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_Environment.h */ = {isa = PBXBuildFile; fileRef = 5927AE52468047FC977200DD /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_Environment.h */; settings = {COMPILER_FLAGS = ""; }; };
+		2E6B8FA8AC23442A8993B224 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPUtils.hpp */ = {isa = PBXBuildFile; fileRef = 1ED0CBA43E8149A2AF29BF72 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPUtils.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2F4BA3A358FD424A971BDF06 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/expat/lib/xmltok.c */ = {isa = PBXBuildFile; fileRef = 08ED9BBF1D1D469B9F29CD9A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/expat/lib/xmltok.c */; settings = {COMPILER_FLAGS = ""; }; };
+		32195933AACB4A3A86E5DBF0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/ParseRDF.cpp */ = {isa = PBXBuildFile; fileRef = 70414FB3F62A403C908682AB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/ParseRDF.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		328009CCCB0E43F292AF5D1C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPIterator.hpp */ = {isa = PBXBuildFile; fileRef = C779AEF48B024832873B43D4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPIterator.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		34FFD8A86F574D9D8012AD31 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/resource/linux/XMPCore.exp */ = {isa = PBXBuildFile; fileRef = FC43104000CC49BA858C4F80 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/resource/linux/XMPCore.exp */; settings = {COMPILER_FLAGS = ""; }; };
+		3C58D5510A4146A694FA9401 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/WXMPUtils.cpp */ = {isa = PBXBuildFile; fileRef = E58EFC7CE26D4A1EA71327F8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/WXMPUtils.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3FDCD1EDE64641B199C7F575 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPMeta-Serialize.cpp */ = {isa = PBXBuildFile; fileRef = 5CF704A664BF406485E168A2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPMeta-Serialize.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		409AE1C260F14B30BFA088A2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/resource/linux/expat_config.h */ = {isa = PBXBuildFile; fileRef = 3160706430344D24BB60FC24 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/resource/linux/expat_config.h */; settings = {COMPILER_FLAGS = ""; }; };
+		51D450C6D30D4646A5FB9406 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/UnicodeConversions.hpp */ = {isa = PBXBuildFile; fileRef = 51B8558F6EA1400A8BABF965 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/UnicodeConversions.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		51D8817E8AE84A3A84288F64 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_Version.h */ = {isa = PBXBuildFile; fileRef = F593429B583C491BA7CD5679 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_Version.h */; settings = {COMPILER_FLAGS = ""; }; };
+		686763ABDFE248379BC0E119 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XML_Node.cpp */ = {isa = PBXBuildFile; fileRef = 11D5C24462EE42B7BAAAC4F7 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XML_Node.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		68C160F7B3BA477A92F5E1F5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/WXMP_Common.hpp */ = {isa = PBXBuildFile; fileRef = 92A688FBE26347F386E5829F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/WXMP_Common.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		697D920A5CF048889E4682DA /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPMeta.cpp */ = {isa = PBXBuildFile; fileRef = 3D3E44528E4D4A76A53C902F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPMeta.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6FA0DFB03AC842068EF9352C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/TXMPUtils.incl_cpp */ = {isa = PBXBuildFile; fileRef = 7DE07BD421D4412CA219B2E1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/TXMPUtils.incl_cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		78348FE9AD784CBEB70CF8F4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPUtils.cpp */ = {isa = PBXBuildFile; fileRef = 90E0F4436CD646C5839B85A2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPUtils.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7A3C6C884780435E8DCFE44B /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP.incl_cpp */ = {isa = PBXBuildFile; fileRef = D77BBE87B1124A33AF84CEA4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP.incl_cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7D160329DF084B039E64FA6E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPUtils-FileInfo.cpp */ = {isa = PBXBuildFile; fileRef = 4510B7B7AEE9455F95A549C1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPUtils-FileInfo.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8BD49F8CCDE2424D91FDA26B /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPMeta-Parse.cpp */ = {isa = PBXBuildFile; fileRef = 307A18ED4317411C8AD65EC3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPMeta-Parse.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		901E9F6C444849E1A818351E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0EFB88D4C3494CE7AED4AB48 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		928EE25BA70444C1B44618A7 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/UnicodeInlines.incl_cpp */ = {isa = PBXBuildFile; fileRef = 119D80039A384FADBE36DC09 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/UnicodeInlines.incl_cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		94F1BFB8AFFF4E1897B3F479 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/UnicodeConversions.cpp */ = {isa = PBXBuildFile; fileRef = 162A08C1CE0C4A82A64EDB77 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/UnicodeConversions.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		96869DD941FE42F3B53D7892 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/ExpatAdapter.cpp */ = {isa = PBXBuildFile; fileRef = B45BEC4300874B49B55DD611 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/ExpatAdapter.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9A3F6018DE054C5CBA905552 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPMeta.hpp */ = {isa = PBXBuildFile; fileRef = EC5CA576C0444E83A408655D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPMeta.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A5C0B6A5E71244188FC3B3D4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPIterator.cpp */ = {isa = PBXBuildFile; fileRef = EFBE811DBB934A52931B7599 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPIterator.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A7688B90061F407EAB6D5100 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMP_LibUtils.cpp */ = {isa = PBXBuildFile; fileRef = D382385FC9D842C7962F9D38 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMP_LibUtils.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B232417F33B7494FB2B61A92 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPIterator.hpp */ = {isa = PBXBuildFile; fileRef = 2CA6B582FF1645AC97AE9B8F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPIterator.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B9395865FBCD424BB9EAFC53 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/expat/lib/xmlparse.c */ = {isa = PBXBuildFile; fileRef = CDF464A7866A4CDCB22A18DF /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/expat/lib/xmlparse.c */; settings = {COMPILER_FLAGS = ""; }; };
+		BD9800BBB02546DBB50BEE89 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/WXMPMeta.cpp */ = {isa = PBXBuildFile; fileRef = BD14CA29C4FE4231A66F24A8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/WXMPMeta.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C935550A24EA48729790214D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zuid/interfaces/MD5.cpp */ = {isa = PBXBuildFile; fileRef = C0D764B95E7E4F0F9605A8FA /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zuid/interfaces/MD5.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CA4057E5B00C44259A84A846 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPUtils.hpp */ = {isa = PBXBuildFile; fileRef = 5D27177D4688422184149E96 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPUtils.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CB7FC6B7316F42BE98AEFF88 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/WXMPMeta.hpp */ = {isa = PBXBuildFile; fileRef = ED7FFD08226543AC82D4D226 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/WXMPMeta.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E8A6AE2A5D9C4CF58D467146 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/build/XMP_BuildInfo.h */ = {isa = PBXBuildFile; fileRef = 2B6A158479774297BEB60579 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/build/XMP_BuildInfo.h */; settings = {COMPILER_FLAGS = ""; }; };
+		EB316BD4B80A4A7CBFAD1C09 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/WXMPIterator.hpp */ = {isa = PBXBuildFile; fileRef = 981A4B98CA9E44778E94F514 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/WXMPIterator.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		EEAD2BFAF85B4735A3643679 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/WXMPIterator.cpp */ = {isa = PBXBuildFile; fileRef = 98D2B8BAB0B54C849B898B53 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/WXMPIterator.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F2C118DCEFB14A68BCD7D8F5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP.hpp */ = {isa = PBXBuildFile; fileRef = 96A10CA33A634542A3A78B4D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FC837874678B473EBEB82BFC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPCore_Impl.cpp */ = {isa = PBXBuildFile; fileRef = D2C5397FDB234DB8A56FB98F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPCore_Impl.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FCA6A502206E4532B4619B6B /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPCore_Impl.hpp */ = {isa = PBXBuildFile; fileRef = B19B8501E38C4CED9BC1BC01 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPCore_Impl.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		039AD664BCC7499EB81062E6 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		0B8C87B058654746908AEFA4 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		E6C6761973FE4081A2CA6E55 = {
+			isa = PBXBuildStyle;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		8FD60E082C9342B58093735F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35755710B19C4DD4864EE87C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5F5141173B34FDB95C77714;
+			remoteInfo = XMPCore;
+		};
+		F0EF3FE756874F3DAC8B7F00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35755710B19C4DD4864EE87C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF007B14F3AF43C5B0E0AEAA;
+			remoteInfo = ZERO_CHECK;
+		};
+		FBB62B5488D24EFAA58E6D0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35755710B19C4DD4864EE87C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF007B14F3AF43C5B0E0AEAA;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08ED9BBF1D1D469B9F29CD9A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/expat/lib/xmltok.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xmltok.c; path = "../../third-party/expat/lib/xmltok.c"; sourceTree = SOURCE_ROOT; };
+		0EFB88D4C3494CE7AED4AB48 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		119D80039A384FADBE36DC09 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/UnicodeInlines.incl_cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = UnicodeInlines.incl_cpp; path = ../../source/UnicodeInlines.incl_cpp; sourceTree = SOURCE_ROOT; };
+		11D5C24462EE42B7BAAAC4F7 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XML_Node.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XML_Node.cpp; path = ../../source/XML_Node.cpp; sourceTree = SOURCE_ROOT; };
+		162A08C1CE0C4A82A64EDB77 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/UnicodeConversions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = UnicodeConversions.cpp; path = ../../source/UnicodeConversions.cpp; sourceTree = SOURCE_ROOT; };
+		168C75BA62884855B7AB6611 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/TXMPIterator.incl_cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = TXMPIterator.incl_cpp; path = "../../public/include/client-glue/TXMPIterator.incl_cpp"; sourceTree = SOURCE_ROOT; };
+		1ED0CBA43E8149A2AF29BF72 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPUtils.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = TXMPUtils.hpp; path = ../../public/include/TXMPUtils.hpp; sourceTree = SOURCE_ROOT; };
+		203DCB995F8244F4A23B50C5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2B6A158479774297BEB60579 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/build/XMP_BuildInfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XMP_BuildInfo.h; path = ../../build/XMP_BuildInfo.h; sourceTree = SOURCE_ROOT; };
+		2CA6B582FF1645AC97AE9B8F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPIterator.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMPIterator.hpp; path = ../source/XMPIterator.hpp; sourceTree = SOURCE_ROOT; };
+		307A18ED4317411C8AD65EC3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPMeta-Parse.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "XMPMeta-Parse.cpp"; path = "../source/XMPMeta-Parse.cpp"; sourceTree = SOURCE_ROOT; };
+		3160706430344D24BB60FC24 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/resource/linux/expat_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = expat_config.h; path = ../resource/linux/expat_config.h; sourceTree = SOURCE_ROOT; };
+		396274B8881C49958CC12545 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMLParserAdapter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMLParserAdapter.hpp; path = ../../source/XMLParserAdapter.hpp; sourceTree = SOURCE_ROOT; };
+		3D3E44528E4D4A76A53C902F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPMeta.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMPMeta.cpp; path = ../source/XMPMeta.cpp; sourceTree = SOURCE_ROOT; };
+		4510B7B7AEE9455F95A549C1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPUtils-FileInfo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "XMPUtils-FileInfo.cpp"; path = "../source/XMPUtils-FileInfo.cpp"; sourceTree = SOURCE_ROOT; };
+		51B8558F6EA1400A8BABF965 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/UnicodeConversions.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = UnicodeConversions.hpp; path = ../../source/UnicodeConversions.hpp; sourceTree = SOURCE_ROOT; };
+		558308F002594363A05EAA4C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPMeta-GetSet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "XMPMeta-GetSet.cpp"; path = "../source/XMPMeta-GetSet.cpp"; sourceTree = SOURCE_ROOT; };
+		5927AE52468047FC977200DD /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_Environment.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XMP_Environment.h; path = ../../public/include/XMP_Environment.h; sourceTree = SOURCE_ROOT; };
+		5C2C22859F29484399ADBEFD /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5CF704A664BF406485E168A2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPMeta-Serialize.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "XMPMeta-Serialize.cpp"; path = "../source/XMPMeta-Serialize.cpp"; sourceTree = SOURCE_ROOT; };
+		5D27177D4688422184149E96 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPUtils.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMPUtils.hpp; path = ../source/XMPUtils.hpp; sourceTree = SOURCE_ROOT; };
+		5E58EEF9B53A484785EA39E7 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/WXMPUtils.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WXMPUtils.hpp; path = "../../public/include/client-glue/WXMPUtils.hpp"; sourceTree = SOURCE_ROOT; };
+		70414FB3F62A403C908682AB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/ParseRDF.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ParseRDF.cpp; path = ../source/ParseRDF.cpp; sourceTree = SOURCE_ROOT; };
+		7DE07BD421D4412CA219B2E1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/TXMPUtils.incl_cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = TXMPUtils.incl_cpp; path = "../../public/include/client-glue/TXMPUtils.incl_cpp"; sourceTree = SOURCE_ROOT; };
+		83AEE60384E949F39A4365D5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPMeta.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = TXMPMeta.hpp; path = ../../public/include/TXMPMeta.hpp; sourceTree = SOURCE_ROOT; };
+		90E0F4436CD646C5839B85A2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMPUtils.cpp; path = ../source/XMPUtils.cpp; sourceTree = SOURCE_ROOT; };
+		92A688FBE26347F386E5829F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/WXMP_Common.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WXMP_Common.hpp; path = "../../public/include/client-glue/WXMP_Common.hpp"; sourceTree = SOURCE_ROOT; };
+		93E7A6F43E314645BFE4D2E5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/TXMPMeta.incl_cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = TXMPMeta.incl_cpp; path = "../../public/include/client-glue/TXMPMeta.incl_cpp"; sourceTree = SOURCE_ROOT; };
+		96A10CA33A634542A3A78B4D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMP.hpp; path = ../../public/include/XMP.hpp; sourceTree = SOURCE_ROOT; };
+		981A4B98CA9E44778E94F514 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/WXMPIterator.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WXMPIterator.hpp; path = "../../public/include/client-glue/WXMPIterator.hpp"; sourceTree = SOURCE_ROOT; };
+		98D2B8BAB0B54C849B898B53 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/WXMPIterator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WXMPIterator.cpp; path = ../source/WXMPIterator.cpp; sourceTree = SOURCE_ROOT; };
+		B19B8501E38C4CED9BC1BC01 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPCore_Impl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMPCore_Impl.hpp; path = ../source/XMPCore_Impl.hpp; sourceTree = SOURCE_ROOT; };
+		B45BEC4300874B49B55DD611 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/ExpatAdapter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ExpatAdapter.cpp; path = ../source/ExpatAdapter.cpp; sourceTree = SOURCE_ROOT; };
+		B714AB2995AE44FBB0C0C8F7 /* XMPCore */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = libXMPCore.so; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD14CA29C4FE4231A66F24A8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/WXMPMeta.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WXMPMeta.cpp; path = ../source/WXMPMeta.cpp; sourceTree = SOURCE_ROOT; };
+		C0D764B95E7E4F0F9605A8FA /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zuid/interfaces/MD5.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MD5.cpp; path = "../../third-party/zuid/interfaces/MD5.cpp"; sourceTree = SOURCE_ROOT; };
+		C779AEF48B024832873B43D4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPIterator.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = TXMPIterator.hpp; path = ../../public/include/TXMPIterator.hpp; sourceTree = SOURCE_ROOT; };
+		CCE4630B010346D8BB9EEB38 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/ExpatAdapter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ExpatAdapter.hpp; path = ../../source/ExpatAdapter.hpp; sourceTree = SOURCE_ROOT; };
+		CDF464A7866A4CDCB22A18DF /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/expat/lib/xmlparse.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xmlparse.c; path = "../../third-party/expat/lib/xmlparse.c"; sourceTree = SOURCE_ROOT; };
+		D141E57644BD4B88B27B7CCB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_Const.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XMP_Const.h; path = ../../public/include/XMP_Const.h; sourceTree = SOURCE_ROOT; };
+		D2C5397FDB234DB8A56FB98F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPCore_Impl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMPCore_Impl.cpp; path = ../source/XMPCore_Impl.cpp; sourceTree = SOURCE_ROOT; };
+		D382385FC9D842C7962F9D38 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMP_LibUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMP_LibUtils.cpp; path = ../../source/XMP_LibUtils.cpp; sourceTree = SOURCE_ROOT; };
+		D77BBE87B1124A33AF84CEA4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP.incl_cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = XMP.incl_cpp; path = ../../public/include/XMP.incl_cpp; sourceTree = SOURCE_ROOT; };
+		E58EFC7CE26D4A1EA71327F8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/WXMPUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WXMPUtils.cpp; path = ../source/WXMPUtils.cpp; sourceTree = SOURCE_ROOT; };
+		EC5CA576C0444E83A408655D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPMeta.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMPMeta.hpp; path = ../source/XMPMeta.hpp; sourceTree = SOURCE_ROOT; };
+		ED7FFD08226543AC82D4D226 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/WXMPMeta.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WXMPMeta.hpp; path = "../../public/include/client-glue/WXMPMeta.hpp"; sourceTree = SOURCE_ROOT; };
+		EFBE811DBB934A52931B7599 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPIterator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMPIterator.cpp; path = ../source/XMPIterator.cpp; sourceTree = SOURCE_ROOT; };
+		F593429B583C491BA7CD5679 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_Version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XMP_Version.h; path = ../../public/include/XMP_Version.h; sourceTree = SOURCE_ROOT; };
+		FC43104000CC49BA858C4F80 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/resource/linux/XMPCore.exp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = XMPCore.exp; path = ../resource/linux/XMPCore.exp; sourceTree = SOURCE_ROOT; };
+		FF5B54DD8162495D8CEF6FA9 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/expat/lib/xmlrole.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xmlrole.c; path = "../../third-party/expat/lib/xmlrole.c"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		15D296CF495F475E922D61E9 /* Core Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EFBE811DBB934A52931B7599 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPIterator.cpp */,
+				558308F002594363A05EAA4C /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPMeta-GetSet.cpp */,
+				307A18ED4317411C8AD65EC3 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPMeta-Parse.cpp */,
+				5CF704A664BF406485E168A2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPMeta-Serialize.cpp */,
+				3D3E44528E4D4A76A53C902F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPMeta.cpp */,
+				4510B7B7AEE9455F95A549C1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPUtils-FileInfo.cpp */,
+				90E0F4436CD646C5839B85A2 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPUtils.cpp */,
+			);
+			name = "Core Classes";
+			sourceTree = "<group>";
+		};
+		1664B64B37104AEEBD0FE66A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2726A32C132248E3A27D3972 /* ZERO_CHECK */,
+				E5CAE971647D42A498A49249 /* ALL_BUILD */,
+				3E0434B8395E40429A54F912 /* XMPCore */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		16C2B692679346DB86C76A0D /* Client Glue */ = {
+			isa = PBXGroup;
+			children = (
+				168C75BA62884855B7AB6611 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/TXMPIterator.incl_cpp */,
+				93E7A6F43E314645BFE4D2E5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/TXMPMeta.incl_cpp */,
+				7DE07BD421D4412CA219B2E1 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/TXMPUtils.incl_cpp */,
+				981A4B98CA9E44778E94F514 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/WXMPIterator.hpp */,
+				ED7FFD08226543AC82D4D226 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/WXMPMeta.hpp */,
+				5E58EEF9B53A484785EA39E7 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/WXMPUtils.hpp */,
+				92A688FBE26347F386E5829F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/client-glue/WXMP_Common.hpp */,
+			);
+			name = "Client Glue";
+			sourceTree = "<group>";
+		};
+		1B056F0F930245E7BB300947 /* XMPCore */ = {
+			isa = PBXGroup;
+			children = (
+				B19B8501E38C4CED9BC1BC01 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPCore_Impl.hpp */,
+				2CA6B582FF1645AC97AE9B8F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPIterator.hpp */,
+				EC5CA576C0444E83A408655D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPMeta.hpp */,
+				5D27177D4688422184149E96 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPUtils.hpp */,
+				2B6A158479774297BEB60579 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/build/XMP_BuildInfo.h */,
+				CCE4630B010346D8BB9EEB38 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/ExpatAdapter.hpp */,
+				51B8558F6EA1400A8BABF965 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/UnicodeConversions.hpp */,
+				119D80039A384FADBE36DC09 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/UnicodeInlines.incl_cpp */,
+				396274B8881C49958CC12545 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMLParserAdapter.hpp */,
+			);
+			name = XMPCore;
+			sourceTree = "<group>";
+		};
+		26868916D5024EA8ADF0772C /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				C874E1556C214A429E99177C /* Public */,
+				F77E0A24226D47F695440D11 /* Private */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		2726A32C132248E3A27D3972 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				4F6BBF207A8B4A1D99315E2B /* CMake Rules */,
+				5C2C22859F29484399ADBEFD /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		2F90FC651A8B45448DCF78F4 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3E0434B8395E40429A54F912 /* XMPCore */ = {
+			isa = PBXGroup;
+			children = (
+				26868916D5024EA8ADF0772C /* Header Files */,
+				8D5AC964365E483286C961B4 /* Source Files */,
+				B289560E0991459093F629E4 /* Resource Files */,
+				0EFB88D4C3494CE7AED4AB48 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/CMakeLists.txt */,
+			);
+			name = XMPCore;
+			sourceTree = "<group>";
+		};
+		4F6BBF207A8B4A1D99315E2B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		529789D9558B46E7B9365E66 = {
+			isa = PBXGroup;
+			children = (
+				1664B64B37104AEEBD0FE66A /* Sources */,
+				8F66AAFF30DE4A5EAAB7A8EE /* Resources */,
+				FE9913ED30AA49A9999884D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C870966DE62428A8019E20C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B45BEC4300874B49B55DD611 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/ExpatAdapter.cpp */,
+				70414FB3F62A403C908682AB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/ParseRDF.cpp */,
+				D2C5397FDB234DB8A56FB98F /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPCore_Impl.cpp */,
+				162A08C1CE0C4A82A64EDB77 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/UnicodeConversions.cpp */,
+				11D5C24462EE42B7BAAAC4F7 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XML_Node.cpp */,
+				D382385FC9D842C7962F9D38 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMP_LibUtils.cpp */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		8D5AC964365E483286C961B4 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D41B2B8EAC604D1ABF717F5C /* ABI Wrappers */,
+				15D296CF495F475E922D61E9 /* Core Classes */,
+				9E3D671FE2F64C31A48D9163 /* Third Party */,
+				8C870966DE62428A8019E20C /* Utilities */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8F66AAFF30DE4A5EAAB7A8EE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9E3D671FE2F64C31A48D9163 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				CDF464A7866A4CDCB22A18DF /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/expat/lib/xmlparse.c */,
+				FF5B54DD8162495D8CEF6FA9 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/expat/lib/xmlrole.c */,
+				08ED9BBF1D1D469B9F29CD9A /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/expat/lib/xmltok.c */,
+				C0D764B95E7E4F0F9605A8FA /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zuid/interfaces/MD5.cpp */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		B289560E0991459093F629E4 /* Resource Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC43104000CC49BA858C4F80 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/resource/linux/XMPCore.exp */,
+				3160706430344D24BB60FC24 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/resource/linux/expat_config.h */,
+			);
+			name = "Resource Files";
+			sourceTree = "<group>";
+		};
+		C874E1556C214A429E99177C /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				16C2B692679346DB86C76A0D /* Client Glue */,
+				C779AEF48B024832873B43D4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPIterator.hpp */,
+				83AEE60384E949F39A4365D5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPMeta.hpp */,
+				1ED0CBA43E8149A2AF29BF72 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/TXMPUtils.hpp */,
+				96A10CA33A634542A3A78B4D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP.hpp */,
+				D77BBE87B1124A33AF84CEA4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP.incl_cpp */,
+				D141E57644BD4B88B27B7CCB /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_Const.h */,
+				5927AE52468047FC977200DD /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_Environment.h */,
+				F593429B583C491BA7CD5679 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/include/XMP_Version.h */,
+			);
+			name = Public;
+			sourceTree = "<group>";
+		};
+		D41B2B8EAC604D1ABF717F5C /* ABI Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				98D2B8BAB0B54C849B898B53 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/WXMPIterator.cpp */,
+				BD14CA29C4FE4231A66F24A8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/WXMPMeta.cpp */,
+				E58EFC7CE26D4A1EA71327F8 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/WXMPUtils.cpp */,
+			);
+			name = "ABI Wrappers";
+			sourceTree = "<group>";
+		};
+		E5CAE971647D42A498A49249 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				2F90FC651A8B45448DCF78F4 /* CMake Rules */,
+				203DCB995F8244F4A23B50C5 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		F77E0A24226D47F695440D11 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				1B056F0F930245E7BB300947 /* XMPCore */,
+			);
+			name = Private;
+			sourceTree = "<group>";
+		};
+		FE9913ED30AA49A9999884D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B714AB2995AE44FBB0C0C8F7 /* XMPCore */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5F5141173B34FDB95C77714 /* XMPCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5819CF786A33400AAEE76497 /* Build configuration list for PBXNativeTarget "XMPCore" */;
+			buildPhases = (
+				3AA76AB127AC4A7BBF5F8A00 /* Sources */,
+				48843A3C175E4E44868FD2B5 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B635258282A344ACB6199A8A /* PBXTargetDependency */,
+			);
+			name = XMPCore;
+			productName = XMPCore;
+			productReference = B714AB2995AE44FBB0C0C8F7 /* XMPCore */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35755710B19C4DD4864EE87C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 4AB9BE84294F41EFA4EEF448 /* Build configuration list for PBXProject "XMPCore64" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				0B8C87B058654746908AEFA4 /* Debug */,
+				039AD664BCC7499EB81062E6 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 529789D9558B46E7B9365E66;
+			projectDirPath = ../../../;
+			projectRoot = "";
+			targets = (
+				93072CBD4DFB4EA4A32BA8CE /* ALL_BUILD */,
+				F5F5141173B34FDB95C77714 /* XMPCore */,
+				BF007B14F3AF43C5B0E0AEAA /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27F5B7D52BB246A580A8A776 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		48843A3C175E4E44868FD2B5 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/xcode/dynamic/intel_64 -f /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/xcode/dynamic/intel_64/CMakeScripts/XMPCore_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		5EBC4339C66F4543B9DABD18 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CB68EDAC300B406B889B8757 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/xcode/dynamic/intel_64 -f /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/xcode/dynamic/intel_64/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		D50D62A2E4E149E69B66D003 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/xcode/dynamic/intel_64 -f /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/xcode/dynamic/intel_64/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AA76AB127AC4A7BBF5F8A00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96869DD941FE42F3B53D7892 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/ExpatAdapter.cpp */,
+				32195933AACB4A3A86E5DBF0 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/ParseRDF.cpp */,
+				EEAD2BFAF85B4735A3643679 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/WXMPIterator.cpp */,
+				BD9800BBB02546DBB50BEE89 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/WXMPMeta.cpp */,
+				3C58D5510A4146A694FA9401 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/WXMPUtils.cpp */,
+				FC837874678B473EBEB82BFC /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPCore_Impl.cpp */,
+				A5C0B6A5E71244188FC3B3D4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPIterator.cpp */,
+				079D6ED8DB7F495DA9AC5FA7 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPMeta-GetSet.cpp */,
+				8BD49F8CCDE2424D91FDA26B /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPMeta-Parse.cpp */,
+				3FDCD1EDE64641B199C7F575 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPMeta-Serialize.cpp */,
+				697D920A5CF048889E4682DA /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPMeta.cpp */,
+				7D160329DF084B039E64FA6E /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPUtils-FileInfo.cpp */,
+				78348FE9AD784CBEB70CF8F4 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/source/XMPUtils.cpp */,
+				94F1BFB8AFFF4E1897B3F479 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/UnicodeConversions.cpp */,
+				686763ABDFE248379BC0E119 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XML_Node.cpp */,
+				A7688B90061F407EAB6D5100 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/source/XMP_LibUtils.cpp */,
+				B9395865FBCD424BB9EAFC53 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/expat/lib/xmlparse.c */,
+				18B6A201566D4805BC974565 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/expat/lib/xmlrole.c */,
+				2F4BA3A358FD424A971BDF06 /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/expat/lib/xmltok.c */,
+				C935550A24EA48729790214D /* /Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/third-party/zuid/interfaces/MD5.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F9E9712C4BC48B98E8CA36F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5F5141173B34FDB95C77714 /* XMPCore */;
+			targetProxy = 8FD60E082C9342B58093735F /* PBXContainerItemProxy */;
+		};
+		8E6EDF038B3F42F7BDCD6AC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF007B14F3AF43C5B0E0AEAA /* ZERO_CHECK */;
+			targetProxy = F0EF3FE756874F3DAC8B7F00 /* PBXContainerItemProxy */;
+		};
+		B635258282A344ACB6199A8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF007B14F3AF43C5B0E0AEAA /* ZERO_CHECK */;
+			targetProxy = FBB62B5488D24EFAA58E6D0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F8EE74E33714858A7D74927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/libraries/i80386linux_x64/Debug";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .so;
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", XMPCore_EXPORTS, "'XML_STATIC=1'", "'HAVE_EXPAT_CONFIG_H=1'", "'XMP_DynamicBuild=1'", "'BUILDING_XMPCOMMON_LIB=1'", "'UNIX_ENV=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../..", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../../public/include", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../../third-party/expat/public/lib", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../resource/linux", );
+				INFOPLIST_FILE = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/xcode/dynamic/intel_64/CMakeFiles/XMPCore.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = $ORIGIN;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "-fPIC  -Wno-multichar -Wno-implicit -D_FILE_OFFSET_BITS=64 -funsigned-char  -m64  -fexceptions -Wformat -Wformat-security  -Wall -fstack-protector -D_FORTIFY_SOURCE=2              -DDEBUG=1 -D_DEBUG=1 -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "-fPIC  -Wno-multichar -Wno-implicit -D_FILE_OFFSET_BITS=64 -funsigned-char  -m64  -fexceptions -Wformat -Wformat-security  -Wall -fstack-protector -D_FORTIFY_SOURCE=2             -DDEBUG=1 -D_DEBUG=1 -fPIC  ";
+				OTHER_LDFLAGS = "-z defs -Xlinker -Bsymbolic -Wl,--no-undefined -m64  -lrt -ldl -luuid -lpthread /user/unicore/i80386linux_x64/compiler/gcc4.4.4/linux2.6_64/lib64/libssp.a -Xlinker --version-script -Xlinker \"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../resource/linux/XMPCore.exp\" -install_name libXMPCore.so  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = XMPCore;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/xcode/dynamic/intel_64";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		28A6DF178AE14677811BFEFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../..", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../../public/include", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../../third-party/expat/public/lib", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../resource/linux", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/xcode/dynamic/intel_64";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		5D1BC3101C0D44D3AEBA7F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../..", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../../public/include", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../../third-party/expat/public/lib", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../resource/linux", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/xcode/dynamic/intel_64";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		9422481F1B7A44DBBCCA6EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../..", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../../public/include", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../../third-party/expat/public/lib", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../resource/linux", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/xcode/dynamic/intel_64";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		A7AD5ED1ABE74CE39881C337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../..", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../../public/include", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../../third-party/expat/public/lib", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../resource/linux", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/xcode/dynamic/intel_64";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		B7CB87681A8F423DB698DEE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/xcode/dynamic/intel_64/build";
+			};
+			name = Debug;
+		};
+		F0567A67741F4944B9545CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/public/libraries/i80386linux_x64/Release";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .so;
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", XMPCore_EXPORTS, "'XML_STATIC=1'", "'HAVE_EXPAT_CONFIG_H=1'", "'XMP_DynamicBuild=1'", "'BUILDING_XMPCOMMON_LIB=1'", "'UNIX_ENV=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../..", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../../public/include", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../../third-party/expat/public/lib", "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../resource/linux", );
+				INFOPLIST_FILE = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/xcode/dynamic/intel_64/CMakeFiles/XMPCore.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = $ORIGIN;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "-fPIC  -Wno-multichar -Wno-implicit -D_FILE_OFFSET_BITS=64 -funsigned-char  -m64  -fexceptions -Wformat -Wformat-security  -Wall -fstack-protector -D_FORTIFY_SOURCE=2        -fwrapv  -DNDEBUG=1 -D_NDEBUG=1 -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "-fPIC  -Wno-multichar -Wno-implicit -D_FILE_OFFSET_BITS=64 -funsigned-char  -m64  -fexceptions -Wformat -Wformat-security  -Wall -fstack-protector -D_FORTIFY_SOURCE=2       -fwrapv  -DNDEBUG=1 -D_NDEBUG=1 -fPIC  ";
+				OTHER_LDFLAGS = "-z defs -Xlinker -Bsymbolic -Wl,--no-undefined -m64  -lrt -ldl -luuid -lpthread /user/unicore/i80386linux_x64/compiler/gcc4.4.4/linux2.6_64/lib64/libssp.a -Xlinker --version-script -Xlinker \"/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/../resource/linux/XMPCore.exp\" -install_name libXMPCore.so  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = XMPCore;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/xcode/dynamic/intel_64";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		F08975E24820469092FDBC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SYMROOT = "/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/xcode/dynamic/intel_64/build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2368C73DA78E4C67920C572F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D1BC3101C0D44D3AEBA7F30 /* Debug */,
+				A7AD5ED1ABE74CE39881C337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		495FC89C4EA341D486D1AB03 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9422481F1B7A44DBBCCA6EAA /* Debug */,
+				28A6DF178AE14677811BFEFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4AB9BE84294F41EFA4EEF448 /* Build configuration list for PBXProject "XMPCore64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7CB87681A8F423DB698DEE5 /* Debug */,
+				F08975E24820469092FDBC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5819CF786A33400AAEE76497 /* Build configuration list for PBXNativeTarget "XMPCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F8EE74E33714858A7D74927 /* Debug */,
+				F0567A67741F4944B9545CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35755710B19C4DD4864EE87C /* Project object */;
+}

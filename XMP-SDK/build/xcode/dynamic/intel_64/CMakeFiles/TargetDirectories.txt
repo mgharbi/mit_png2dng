@@ -1,0 +1,4 @@
+/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/build/xcode/dynamic/intel_64/CMakeFiles/ZERO_CHECK.dir
+/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/build/xcode/dynamic/intel_64/CMakeFiles/ALL_BUILD.dir
+/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPFiles/build/xcode/dynamic/intel_64/CMakeFiles/XMPFiles.dir
+/Users/mgharbi/Downloads/dng_sdk_1_3/XMP-SDK/XMPCore/build/xcode/dynamic/intel_64/CMakeFiles/XMPCore.dir
